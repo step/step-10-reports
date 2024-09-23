@@ -9,74 +9,140 @@ const fetchAssignments = async () => {
   return await Promise.all(responses.map((r) => r.json()));
 };
 
-const createRow = (result) => {
-  const tr = document.createElement('tr');
-  const td1 = document.createElement('td');
-  td1.classList.add('px-4', 'py-2', 'border', 'border-gray-400');
-  td1.textContent = result.name.split('@')[0];
-  tr.appendChild(td1);
+const isNumber = (x) => !isNaN(x);
 
-  const td2 = document.createElement('td');
-  td2.classList.add('px-4', 'py-2', 'border', 'border-gray-400');
-  td2.textContent = result.passing;
-  tr.appendChild(td2);
+const createRowData = (assignmentNames, [name, results]) => {
+  const internName = name.split('@')[0];
+  return [
+    internName,
+    ...assignmentNames.flatMap((assignmentName) => {
+      const id = createAssignmentId(assignmentName);
+      const assignmentResult = results[id];
 
-  const td3 = document.createElement('td');
-  td3.classList.add('px-4', 'py-2', 'border', 'border-gray-400');
-  td3.textContent = result.failing;
-  tr.appendChild(td3);
+      if (!assignmentResult) {
+        return ['-', '-', '-'];
+      }
 
-  const td4 = document.createElement('td');
-  td4.classList.add('px-4', 'py-2', 'border', 'border-gray-400');
-  td4.textContent = result.bombed;
-  tr.appendChild(td4);
-
-  return tr;
+      const { passing, failing, bombed } = assignmentResult;
+      return [passing, failing, bombed];
+    }),
+  ];
 };
 
-const renderTableBody = (table, results) => {
+const renderTableBody = (table, internResults, assignmentNames) => {
   const tbody = document.createElement('tbody');
-  results.map(createRow).forEach((tr) => tbody.appendChild(tr));
+  const rowEntries = Object.entries(internResults).map(
+    createRowData.bind(null, assignmentNames)
+  );
+
+  rowEntries.forEach((rd) => {
+    const tr = document.createElement('tr');
+    rd.forEach((cellData, index) => {
+      const cell = document.createElement('td');
+      const isBoundary = index % 3 === 0;
+      const cellClasses = [
+        'px-4',
+        'py-2',
+        'border',
+        'border-gray-400',
+        'text-sm',
+      ];
+
+      if (isBoundary) {
+        cellClasses.push('border-r-black');
+        cellClasses.push('border-r-2');
+      }
+
+      if (isNumber(cellData) || cellData === '-') {
+        cellClasses.push('text-right');
+      }
+
+      cell.classList.add(...cellClasses);
+      cell.textContent = cellData;
+      tr.appendChild(cell);
+    });
+
+    tbody.append(tr);
+  });
+
   table.appendChild(tbody);
 };
 
-const renderTableHead = (table) => {
+const createHeaderCell = (content, attrs = {}, classes = []) => {
+  const headerClasses = ['px-4', 'py-2', 'border', 'border-gray-400'];
+  const cell = document.createElement('th');
+
+  cell.classList.add(...headerClasses, ...classes);
+  Object.entries(attrs).forEach(([name, value]) => {
+    cell.setAttribute(name, value);
+  });
+
+  cell.textContent = content;
+
+  return cell;
+};
+
+const renderTableHead = (table, assinmentNames) => {
   const thead = document.createElement('thead');
-  const tr = document.createElement('tr');
-  const th1 = document.createElement('th');
-  th1.classList.add('px-4', 'py-2', 'border', 'border-gray-400');
-  th1.textContent = 'Name';
-  tr.appendChild(th1);
+  const superHead = document.createElement('tr');
+  const subHead = document.createElement('tr');
 
-  const th2 = document.createElement('th');
-  th2.classList.add('px-4', 'py-2', 'border', 'border-gray-400');
-  th2.textContent = 'Passing';
-  tr.appendChild(th2);
+  const nameCell = createHeaderCell('Name', { rowspan: '2' });
+  superHead.appendChild(nameCell);
 
-  const th3 = document.createElement('th');
-  th3.classList.add('px-4', 'py-2', 'border', 'border-gray-400');
-  th3.textContent = 'Failing';
-  tr.appendChild(th3);
+  assinmentNames.forEach((name) => {
+    const superHeadCell = createHeaderCell(name, { colspan: 3 }, [
+      'border-x-black',
+      'border-x-2',
+    ]);
 
-  const th4 = document.createElement('th');
-  th4.classList.add('px-4', 'py-2', 'border', 'border-gray-400');
-  th4.textContent = 'Bombed';
-  tr.appendChild(th4);
+    const subHeadCellClasses = ['text-sm', 'text-right'];
+    const passingCell = createHeaderCell('P', {}, [
+      ...subHeadCellClasses,
+      'border-l-black',
+      'border-l-2',
+    ]);
+    const failingCell = createHeaderCell('F', {}, subHeadCellClasses);
+    const bombedCell = createHeaderCell('B', {}, [
+      ...subHeadCellClasses,
+      'border-r-black',
+      'border-r-2',
+    ]);
 
-  thead.appendChild(tr);
+    superHead.appendChild(superHeadCell);
+
+    subHead.appendChild(passingCell);
+    subHead.appendChild(failingCell);
+    subHead.appendChild(bombedCell);
+  });
+
+  thead.appendChild(superHead);
+  thead.appendChild(subHead);
   table.appendChild(thead);
 };
 
-const renderSection = (assignmentContainer, assignmentData) => {
-  const section = document.createElement('section');
-  section.classList.add('mb-8');
-  section.setAttribute('id', createAssignmentId(assignmentData.assignment));
+const createAssignmentId = (name) => {
+  return name.toLowerCase().replace(' ', '_');
+};
 
-  const h2 = document.createElement('h2');
-  h2.classList.add('text-2xl', 'font-bold', 'mb-4');
-  h2.textContent = assignmentData.assignment;
+const classifyByInterns = (assignments) => {
+  const classified = {};
+  for (const assignment of assignments) {
+    const assignmentId = createAssignmentId(assignment.name);
+    for (const result of assignment.results) {
+      const intern = classified[result.name] ?? {};
+      intern[assignmentId] = { ...result };
+      classified[result.name] = intern;
+    }
+  }
 
-  section.appendChild(h2);
+  return classified;
+};
+
+const showReports = async () => {
+  const assignments = await fetchAssignments();
+  const assignmentNames = assignments.map(({ name }) => name);
+  const assignmentContainer = document.getElementById('assignment-container');
 
   const table = document.createElement('table');
   table.classList.add(
@@ -87,45 +153,10 @@ const renderSection = (assignmentContainer, assignmentData) => {
     'border-gray-400'
   );
 
-  renderTableHead(table);
-  renderTableBody(table, assignmentData.results);
+  renderTableHead(table, assignmentNames);
+  renderTableBody(table, classifyByInterns(assignments), assignmentNames);
 
-  section.appendChild(table);
-  assignmentContainer.appendChild(section);
-};
-
-const createAssignmentId = (name) => {
-  return name.toLowerCase().replace(' ', '_');
-};
-
-const renderQuickLinks = (assignments) => {
-  const container = document.getElementById('q-links');
-  const listItems = assignments.map(({ assignment }) => {
-    const item = document.createElement('li');
-    item.classList.add('cursor-pointer', 'hover:text-slate-400');
-
-    const link = document.createElement('a');
-    const id = createAssignmentId(assignment);
-
-    link.setAttribute('href', `#${id}`);
-    link.textContent = assignment;
-
-    item.appendChild(link);
-    return item;
-  });
-
-  listItems.forEach((item) => container.appendChild(item));
-
-  return;
-};
-
-const showReports = async () => {
-  const assignments = await fetchAssignments();
-  const assignmentContainer = document.getElementById('assignment-container');
-
-  assignments.forEach(renderSection.bind(null, assignmentContainer));
-
-  renderQuickLinks(assignments);
+  assignmentContainer.appendChild(table);
 };
 
 window.onload = showReports;
