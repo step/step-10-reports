@@ -1,9 +1,13 @@
+const fetchWithBase = (url) => {
+  return fetch(`${document.baseURI}${url}`);
+};
+
 const fetchAssignments = async () => {
-  const masterData = await fetch('/data/master.json').then((response) =>
+  const masterData = await fetchWithBase('/data/master.json').then((response) =>
     response.json()
   );
 
-  const promises = masterData.files.map((f) => fetch(f));
+  const promises = masterData.files.map((f) => fetchWithBase(f));
 
   const responses = await Promise.all(promises);
   return await Promise.all(responses.map((r) => r.json()));
