@@ -236,6 +236,66 @@
       "bombed": 0
     },
     {
+      "name": "charankumar.sarlani@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "vineet.jain1@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "kamana.saivenkat@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "dindeswari.jagana@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "sivaji.sai@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "deepanshu.tiwari@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "rohini.priyamvada@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "varra.pavani@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "gour.ad@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "aman.shabbas@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
       "name": "siddhardha.gunupuru@thoughtworks.com",
       "passing": 5,
       "failing": 0,
@@ -246,6 +306,18 @@
       "passing": 5,
       "failing": 1,
       "bombed": 0
+    },
+    {
+      "name": "anushri.phadatare@thoughtworks.com",
+      "passing": 4,
+      "failing": 2,
+      "bombed": 0
+    },
+    {
+      "name": "gullipalli.h@thoughtworks.com",
+      "passing": 4,
+      "failing": 0,
+      "bombed": 2
     },
     {
       "name": "mohammad.siddique@thoughtworks.com",
@@ -291,6 +363,12 @@
     },
     {
       "name": "kogantipalem.k@thoughtworks.com",
+      "passing": 2,
+      "failing": 4,
+      "bombed": 0
+    },
+    {
+      "name": "mallika.hajra@thoughtworks.com",
       "passing": 2,
       "failing": 4,
       "bombed": 0
