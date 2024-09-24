@@ -1,5 +1,6 @@
 {
   "files": [
+    "/data/find_number.json",
     "/data/square_root.json",
     "/data/simple_interest.json",
     "/data/leap_year.json",
