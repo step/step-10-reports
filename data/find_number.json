@@ -68,6 +68,30 @@
       "bombed": 0
     },
     {
+      "name": "ankita.karn@thoughtworks.com",
+      "passing": 16,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "neeraj.singh1@thoughtworks.com",
+      "passing": 16,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "shalu.jha@thoughtworks.com",
+      "passing": 16,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "praneeth.andukuri@thoughtworks.com",
+      "passing": 16,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
       "name": "likhitha.g@thoughtworks.com",
       "passing": 15,
       "failing": 0,
@@ -320,6 +344,18 @@
       "bombed": 0
     },
     {
+      "name": "kogantipalem.k@thoughtworks.com",
+      "passing": 7,
+      "failing": 9,
+      "bombed": 0
+    },
+    {
+      "name": "ram.vanumu@thoughtworks.com",
+      "passing": 7,
+      "failing": 9,
+      "bombed": 0
+    },
+    {
       "name": "mounika.kolliboyina@thoughtworks.com",
       "passing": 6,
       "failing": 9,
@@ -396,6 +432,12 @@
       "passing": 5,
       "failing": 1,
       "bombed": 10
+    },
+    {
+      "name": "sahaj.singhal@thoughtworks.com",
+      "passing": 1,
+      "failing": 15,
+      "bombed": 0
     }
   ]
 }
