@@ -1,5 +1,5 @@
 const fetchWithBase = (url) => {
-  return fetch(`${document.baseURI}${url}`);
+  return fetch(`${document.baseURI}${url}`, { cache: "no-cache" });
 };
 
 const fetchAssignments = async () => {
