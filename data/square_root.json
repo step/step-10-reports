@@ -422,6 +422,12 @@
       "bombed": 0
     },
     {
+      "name": "beauti.sui@thoughtworks.com",
+      "passing": 15,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
       "name": "shrutika.bhosale@thoughtworks.com",
       "passing": 14,
       "failing": 1,
