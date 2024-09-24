@@ -314,6 +314,108 @@
       "bombed": 0
     },
     {
+      "name": "praneeth.andukuri@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "asma.bi@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "sravanam.h@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "siddhi.garg@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "sudheer.kamisetty@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "dindeswari.jagana@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "mounika.kolliboyina@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "adil.ali@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "anushri.phadatare@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "kogantipalem.k@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "kamana.saivenkat@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "adhithyan.mr@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "krishna.dileep@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "sanika.powar@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "beauti.sui@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "sameera.bhanu@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
+      "name": "meenuga.madhavi@thoughtworks.com",
+      "passing": 6,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
       "name": "batta.malleswari@thoughtworks.com",
       "passing": 5,
       "failing": 1,
@@ -326,10 +428,22 @@
       "bombed": 1
     },
     {
+      "name": "shalu.jha@thoughtworks.com",
+      "passing": 5,
+      "failing": 0,
+      "bombed": 1
+    },
+    {
       "name": "amit.laitbar@thoughtworks.com",
       "passing": 4,
       "failing": 0,
       "bombed": 2
+    },
+    {
+      "name": "sivaji.sai@thoughtworks.com",
+      "passing": 3,
+      "failing": 3,
+      "bombed": 0
     },
     {
       "name": "aboobacker.siddieq@thoughtworks.com",
