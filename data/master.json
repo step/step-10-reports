@@ -1,5 +1,6 @@
 {
   "files": [
+    "/data/reverse_list.json",
     "/data/find_number.json",
     "/data/square_root.json",
     "/data/simple_interest.json",
