@@ -92,6 +92,12 @@
       "bombed": 0
     },
     {
+      "name": "shikha.singh@thoughtworks.com",
+      "passing": 16,
+      "failing": 0,
+      "bombed": 0
+    },
+    {
       "name": "likhitha.g@thoughtworks.com",
       "passing": 15,
       "failing": 0,
@@ -356,6 +362,12 @@
       "bombed": 0
     },
     {
+      "name": "likhita.dangeti@thoughtworks.com",
+      "passing": 7,
+      "failing": 9,
+      "bombed": 0
+    },
+    {
       "name": "mounika.kolliboyina@thoughtworks.com",
       "passing": 6,
       "failing": 9,
@@ -432,6 +444,12 @@
       "passing": 5,
       "failing": 1,
       "bombed": 10
+    },
+    {
+      "name": "inkeet.c@thoughtworks.com",
+      "passing": 3,
+      "failing": 0,
+      "bombed": 13
     },
     {
       "name": "sahaj.singhal@thoughtworks.com",
