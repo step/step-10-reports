@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Basics - Reports</title>
+    <base href="/step-10-reports/js-basics" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      const fetchWithBase = (url) => {
+        return fetch(`${document.baseURI}${url}`, { cache: 'no-cache' });
+      };
+
+      const generateRow = (result) => {
+        return `<tr>
+                <td class="border border-gray-300 px-4 py-2">${result.internName}</td>
+                <td class="border border-gray-300 px-4 py-2 text-right">${result.passing}</td>
+                <td class="border border-gray-300 px-4 py-2 text-right">${result.failing}</td>
+              </tr>`;
+      };
+
+      // DON'T GENERATE HTML LIKE THIS
+      const generateReport = (assignment) => {
+        return `<section class="bg-white p-4 rounded shadow">
+          <h2 class="text-xl font-semibold mb-4">${
+            assignment.assignmentName
+          }</h2>
+          <table class="min-w-full border border-gray-300">
+            <thead class="bg-gray-200">
+              <tr>
+                <th class="border border-gray-300 px-4 py-2">Name</th>
+                <th class="border border-gray-300 px-4 py-2 text-right">
+                  Passing
+                </th>
+                <th class="border border-gray-300 px-4 py-2 text-right">
+                  Failing
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              ${assignment.results.map(generateRow).join('\n')}
+            </tbody>
+          </table>
+        </section>`;
+      };
+
+      const showResults = async () => {
+        const response = await fetchWithBase('/summary.json');
+        const assignments = await response.json();
+
+        const assignmentSections = assignments.map(generateReport).join('\n');
+        const container = document.getElementById('assignments-container');
+        container.innerHTML = assignmentSections;
+      };
+
+      window.onload = showResults;
+    </script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6">
+      <div class="flex items-baseline space-x-4">
+        <h1 class="text-3xl text-center text-black mb-6">Assignment Reports</h1>
+        <p class="text-sm">
+          <!-- Change the below LAST_UPDATED_TIME before pushing -->
+          Last Updated:
+          <span id="last_updated">Tue 8 Oct 2024 15:30:04 IST</span>
+        </p>
+      </div>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-6"
+        id="assignments-container"
+      ></div>
+    </div>
+  </body>
+</html>
