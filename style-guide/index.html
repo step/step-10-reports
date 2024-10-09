@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Style Guide</title>
+    <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <h1>JavaScript Style Guide</h1>
+
+    <h2>1. Spaces between LHS and RHS of an assignment</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  let x = 5;
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  let x=5;
+  </code></pre>
+
+    <h2>2. Appropriate spaces between parts of an expression</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  if (x === 5) {
+    console.log("x is 5");
+  }
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  if(x===5){
+    console.log("x is 5");
+  }
+  </code></pre>
+
+    <h2>3. Curly braces on the same line as if</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  if (x === 5) {
+    console.log("x is 5");
+  }
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  if (x === 5)
+  {
+    console.log("x is 5");
+  }
+  </code></pre>
+
+    <h2>4. Close and open curly brace surrounding an else</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  if (x === 5) {
+    console.log("x is 5");
+  } else {
+    console.log("x is not 5");
+  }
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  if (x === 5) {
+    console.log("x is 5");
+  } else
+  {
+    console.log("x is not 5");
+  }
+  </code></pre>
+
+    <h2>5. Indentation of 4 spaces</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  if (x === 5) {
+    console.log("x is 5");
+  }
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  if (x === 5)
+  {
+    console.log("x is 5");
+  }
+  </code></pre>
+
+    <h2>6. Semi colons at the end of statements</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  let x = 5;
+  console.log(x);
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  let x = 5
+  console.log(x)
+  </code></pre>
+
+    <h2>7. Remove unnecessary else, for example max of a number</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  let max = x;
+  if (y > x) {
+    max = y;
+  }
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  if (x > y) {
+    max = x;
+  } else {
+    max = y;
+  }
+  </code></pre>
+
+    <h2>8. Single declaration per line</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  let x = 5;
+  let y = 10;
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  let x = 5, y = 10;
+  </code></pre>
+
+    <h2>9. Variable names that are longer than a single alphabet</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  let customerName = "John Doe";
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  let n = "John Doe";
+  </code></pre>
+
+    <h2>
+      10. Declaration closer to usage and in the right scope instead of at the
+      beginning of a file
+    </h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  if (x === 5) {
+    let greeting = "Hello";
+    console.log(greeting);
+  }
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  let greeting;
+
+  if (x === 5) {
+    greeting = "Hello";
+    console.log(greeting);
+  }
+  </code></pre>
+
+    <h2>11. Providing gaps between blocks of code</h2>
+    <h4>Good</h4>
+
+    <pre><code>
+  // Block 1
+  if (x === 5) {
+    console.log("x is 5");
+  }
+
+  // Block 2
+  console.log("This is another block");
+  </code></pre>
+    <h4>Bad</h4>
+    <pre><code>
+  if (x === 5) {console.log("x is 5");}console.log("This is another block");
+  </code></pre>
+
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
