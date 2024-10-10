@@ -12,7 +12,10 @@
       };
 
       const generateRow = (result) => {
-        return `<tr>
+        const backgroundClass = result.failing > 0 ? 'bg-orange-300' : '';
+
+        return `
+              <tr class="${backgroundClass}">
                 <td class="border border-gray-300 px-4 py-2">${result.internName}</td>
                 <td class="border border-gray-300 px-4 py-2 text-right">${result.passing}</td>
                 <td class="border border-gray-300 px-4 py-2 text-right">${result.failing}</td>
