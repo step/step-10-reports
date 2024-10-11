@@ -25,7 +25,7 @@
       // DON'T GENERATE HTML LIKE THIS
       const generateReport = (assignment) => {
         return `<section class="bg-white p-4 rounded shadow">
-          <h2 class="text-xl font-semibold p-4 bg-white sticky top-0 w-full">${
+          <h2 class="text-xl font-semibold p-4 bg-white sticky top-10 w-full">${
             assignment.assignmentName
           }</h2>
           <table class="min-w-full border border-gray-300">
@@ -69,7 +69,10 @@
           <span id="last_updated">Thu 10 Oct 2024 17:16:59 IST</span>
         </p>
       </div>
-
+      <p class="p-4 bg-white sticky top-0">
+        If your name is not in the list, most likely your program is broken or
+        you have infinite loop in some program.
+      </p>
       <div
         class="grid grid-cols-1 md:grid-cols-2 gap-6"
         id="assignments-container"
