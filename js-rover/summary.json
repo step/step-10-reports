@@ -1,7 +1,7 @@
 [
   {
     "internName": "garimiddisuman",
-    "lintIssues": ["no-extra-parens"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -17,7 +17,7 @@
   },
   {
     "internName": "ShrutikaBhosale",
-    "lintIssues": ["semi", "no-extra-parens"],
+    "lintIssues": ["semi"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -119,7 +119,7 @@
   },
   {
     "internName": "pradeep1402",
-    "lintIssues": ["prefer-const", "no-extra-parens"],
+    "lintIssues": ["prefer-const"],
     "tests": {
       "failingTests": [
         "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
@@ -134,7 +134,7 @@
   },
   {
     "internName": "favas-kp",
-    "lintIssues": ["no-extra-parens", "indent", "keyword-spacing"],
+    "lintIssues": ["indent", "keyword-spacing"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -142,7 +142,7 @@
   },
   {
     "internName": "Amitlaitbar",
-    "lintIssues": ["prefer-const", "no-extra-parens", "no-unused-expressions"],
+    "lintIssues": ["prefer-const", "no-unused-expressions", "no-extra-parens"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -179,7 +179,7 @@
   },
   {
     "internName": "likhithag0328",
-    "lintIssues": ["no-mixed-operators", "id-length", "no-extra-parens"],
+    "lintIssues": ["no-mixed-operators", "id-length"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -210,7 +210,6 @@
     "internName": "RamVanumu",
     "lintIssues": [
       "indent",
-      "no-extra-parens",
       "prefer-const",
       "eqeqeq",
       "no-multiple-empty-lines"
@@ -222,7 +221,7 @@
   },
   {
     "internName": "PragnaMarisa",
-    "lintIssues": ["id-length", "no-extra-parens"],
+    "lintIssues": ["id-length"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -280,12 +279,7 @@
   },
   {
     "internName": "PruthviLahare",
-    "lintIssues": [
-      "no-unused-vars",
-      "prefer-const",
-      "no-extra-parens",
-      "comma-spacing"
-    ],
+    "lintIssues": ["no-unused-vars", "prefer-const", "comma-spacing"],
     "tests": {
       "failingTests": [
         "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
@@ -466,7 +460,7 @@
   },
   {
     "internName": "kamisettysudheer",
-    "lintIssues": ["no-extra-parens"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -474,7 +468,7 @@
   },
   {
     "internName": "Mohammadsiddiqueps",
-    "lintIssues": ["no-extra-parens", "semi"],
+    "lintIssues": ["semi"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -503,7 +497,7 @@
   },
   {
     "internName": "pradeepmoganti1307",
-    "lintIssues": ["no-extra-parens"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -511,7 +505,7 @@
   },
   {
     "internName": "Adil8081",
-    "lintIssues": ["no-extra-parens", "comma-spacing"],
+    "lintIssues": ["comma-spacing"],
     "tests": {
       "failingTests": [
         "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
@@ -704,7 +698,7 @@
   },
   {
     "internName": "AnaghPaul",
-    "lintIssues": ["no-extra-parens"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -867,7 +861,7 @@
   },
   {
     "internName": "Meghashyam12",
-    "lintIssues": ["no-extra-parens"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -878,7 +872,6 @@
     "lintIssues": [
       "space-infix-ops",
       "prefer-const",
-      "no-extra-parens",
       "no-mixed-operators",
       "keyword-spacing",
       "comma-spacing"
@@ -913,7 +906,6 @@
     "internName": "atulrwt23",
     "lintIssues": [
       "prefer-const",
-      "no-extra-parens",
       "max-depth",
       "keyword-spacing",
       "semi",
@@ -968,7 +960,7 @@
   },
   {
     "internName": "devdattadhage",
-    "lintIssues": ["no-extra-parens"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
