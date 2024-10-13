@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rover Assignment Reports</title>
+    <base href="/step-10-reports/js-rover" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      const lintMessages = {
+        'id-length':
+          'Identifier/variable names must be long enough to be readable.',
+        'no-extra-parens': 'Avoid unnecessary parentheses.',
+        eqeqeq: 'Use strict equality (===) instead of loose equality (==).',
+        yoda: 'Avoid using literals on LHS of conditions/comparisons (e.g., `if (5 === x)`).',
+        'space-infix-ops': 'Add spaces around infix operators.',
+        'semi-spacing': 'Ensure proper spacing around semicolons.',
+        'keyword-spacing':
+          'Enforce consistent spacing before and after keywords like `if`, `for`, `while` etc.',
+        indent: 'Incorrect indentation: indent code with 4 spaces.',
+        'prefer-const': 'Use `const` for variables that are never reassigned.',
+        'no-mixed-operators':
+          'Avoid mixing different types of operators without parentheses.',
+        'no-multiple-empty-lines':
+          'Avoid multiple empty lines; allow only one.',
+        camelcase: 'Variable names should be in camelCase.',
+        'comma-spacing': 'Enforce consistent spacing before and after commas.',
+        'no-var': 'Use `let` or `const` instead of `var`.',
+        curly: 'Always use curly braces for control statements.',
+        'brace-style': 'Enforce consistent brace style for blocks.',
+        'no-eval': 'Avoid using `eval()`.',
+        'no-implicit-globals':
+          'Avoid creating global variables unintentionally.',
+        'no-process-exit':
+          'Avoid using `process.exit()` to terminate the process.',
+        'no-process-env':
+          'Avoid using `process.env` to access environment variables directly.',
+        'max-depth': 'Limit the depth of nested blocks to a maximum of 3.',
+        complexity: 'Limit the complexity of functions to a maximum of 4.',
+        'no-lone-blocks': 'Avoid unnecessary blocks.',
+        'no-shadow':
+          'Avoid variable declarations that shadow outer scope variables.',
+        'no-unused-expressions': 'Avoid unused expressions in your code.',
+        'one-var-declaration-per-line':
+          'Limit variable declarations to one per line.',
+        'no-undefined': 'Avoid using `undefined` for variable declarations.',
+        'no-lonely-if':
+          'Avoid `if` statements that are the only statement in a block.',
+        'no-unused-vars':
+          'Warn about variables that are declared but not used.',
+        'no-nested-ternary': 'Avoid using nested ternary operators.',
+        'no-multi-spaces': 'Avoid multiple spaces in your code.',
+        semi: 'Always end statements with semi-colons',
+      };
+
+      const fetchWithBase = (url) => {
+        return fetch(`${document.baseURI}${url}`, { cache: 'no-cache' });
+      };
+
+      const showResults = async () => {
+        const response = await fetchWithBase('/summary.json');
+        const reports = await response.json();
+
+        reports.forEach((report) => {
+          const internCard = document.createElement('div');
+          internCard.className = 'bg-white rounded-lg shadow-md p-6';
+          const reportsContainer = document.getElementById('reports-container');
+
+          const { failingTests } = report.tests;
+          const passing = report.tests.total - failingTests.length;
+          const errorHTML = `<p>${report.tests.error}</p>`;
+
+          const failingTestsHTML = `
+                <h4 class="font-semibold mt-2">Failing Tests:</h4>
+                <ul class="list-disc list-inside">
+                    ${failingTests.map((test) => `<li>${test}</li>`).join('')}
+                </ul>`;
+
+          internCard.innerHTML = `
+                <h2 class="text-2xl font-semibold mb-4">${
+                  report.internName
+                }</h2>
+                <h3 class="text-xl font-semibold mb-2">Code Hygiene</h3>
+                <ul class="list-disc list-inside mb-4">
+                    ${report.lintIssues
+                      .map((issue) => `<li>${lintMessages[issue]}</li>`)
+                      .join('')}
+                </ul>
+                <h3 class="text-xl font-semibold mb-2">Test Results</h3>
+                <div class="flex space-x-8">
+                  <p>Passing: <strong>${passing}</strong></p>
+                  <p>Failing: <strong>${failingTests.length}</strong></p>
+                </div>
+                ${report.tests.error ? errorHTML : ''}
+                ${failingTests.length > 0 ? failingTestsHTML : ''}
+            `;
+
+          reportsContainer.appendChild(internCard);
+        });
+      };
+
+      window.onload = showResults;
+    </script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <div class="container mx-auto px-4 py-8">
+      <div class="flex space-x-8 items-baseline">
+        <h1 class="text-3xl font-bold text-center mb-6">
+          Rover Assignment Reports
+        </h1>
+        <p class="text-sm">
+          <!-- Change the below LAST_UPDATED_TIME before pushing -->
+          Last Updated:
+          <span id="last_updated">Fri 11 Oct 2024 16:21:06 IST</span>
+        </p>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-6"
+        id="reports-container"
+      ></div>
+    </div>
+  </body>
+</html>
