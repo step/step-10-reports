@@ -29,16 +29,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -103,14 +96,9 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -166,7 +154,12 @@
   },
   {
     "internName": "ShrutikaBhosale",
-    "lintIssues": ["indent", "no-multiple-empty-lines", "no-unused-vars"],
+    "lintIssues": [
+      "indent",
+      "no-multiple-empty-lines",
+      "no-extra-parens",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -182,18 +175,9 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [
-          "should print false for string not palindrome",
-          "should print true for string abcba",
-          "should print true for string 123 321",
-          "should print true for string Abc cbA",
-          "should print false for string abc cbA",
-          "should print true for string @bc cb@",
-          "should print true for string a saw was a",
-          "should print true for string "
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "04_reverse_string_test.js",
@@ -432,7 +416,7 @@
   },
   {
     "internName": "fadedblack",
-    "lintIssues": ["prefer-const", "eqeqeq", "no-unused-vars"],
+    "lintIssues": ["prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -654,14 +638,9 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -739,14 +718,9 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -888,13 +862,21 @@
   },
   {
     "internName": "pradeep1402",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["curly", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print 2 as the index of 2 in string 01244",
+          "should print 3 as the index of I in string capItal",
+          "should print -1 as the index of i in string capItal",
+          "should print 10 as the index of c in string multiple occurences of char",
+          "should print 25 as the index of g in string index at the end of string",
+          "should print 17 as the index of & in string special chars $%^&",
+          "should print -1 as the index of & in string char not in string"
+        ],
         "total": 8,
-        "failing": 0
+        "failing": 7
       },
       {
         "name": "02_count_vowels_test.js",
@@ -904,18 +886,9 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [
-          "should print false for string not palindrome",
-          "should print true for string abcba",
-          "should print true for string 123 321",
-          "should print true for string Abc cbA",
-          "should print false for string abc cbA",
-          "should print true for string @bc cb@",
-          "should print true for string a saw was a",
-          "should print true for string "
-        ],
+        "failingTests": ["should print false for string abc cbA"],
         "total": 8,
-        "failing": 8
+        "failing": 1
       },
       {
         "name": "04_reverse_string_test.js",
@@ -984,6 +957,7 @@
     "internName": "asmamulla786",
     "lintIssues": [
       "keyword-spacing",
+      "semi",
       "semi-spacing",
       "indent",
       "no-extra-parens",
@@ -992,9 +966,18 @@
     "tests": [
       {
         "name": "01_find_index_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print 0 as the index of c in string char at start of the string",
+          "should print 2 as the index of 2 in string 01244",
+          "should print 3 as the index of I in string capItal",
+          "should print -1 as the index of i in string capItal",
+          "should print 10 as the index of c in string multiple occurences of char",
+          "should print 25 as the index of g in string index at the end of string",
+          "should print 17 as the index of & in string special chars $%^&",
+          "should print -1 as the index of & in string char not in string"
+        ],
         "total": 8,
-        "failing": 0
+        "failing": 8
       },
       {
         "name": "02_count_vowels_test.js",
@@ -1102,15 +1085,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -1175,16 +1152,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -1232,6 +1202,7 @@
       "eqeqeq",
       "space-infix-ops",
       "no-extra-parens",
+      "keyword-spacing",
       "no-unused-vars"
     ],
     "tests": [
@@ -1261,16 +1232,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -1313,7 +1277,7 @@
   },
   {
     "internName": "krishnanandgithub",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["indent", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1348,14 +1312,11 @@
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
         "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
           "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
+          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         "
         ],
         "total": 5,
-        "failing": 5
+        "failing": 2
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -1419,16 +1380,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -1477,6 +1431,7 @@
       "semi-spacing",
       "space-infix-ops",
       "no-unused-expressions",
+      "no-extra-parens",
       "no-unused-vars"
     ],
     "tests": [
@@ -1515,16 +1470,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -1739,7 +1687,13 @@
   },
   {
     "internName": "PragnaMarisa",
-    "lintIssues": ["no-extra-parens", "indent", "no-unused-vars"],
+    "lintIssues": [
+      "no-extra-parens",
+      "indent",
+      "semi-spacing",
+      "semi",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1761,14 +1715,9 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -2482,7 +2431,7 @@
   },
   {
     "internName": "dinesh-kuniyal",
-    "lintIssues": ["keyword-spacing", "no-unused-vars"],
+    "lintIssues": ["keyword-spacing", "curly", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2516,15 +2465,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -2577,14 +2520,9 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -2640,7 +2578,7 @@
   },
   {
     "internName": "sushanthj674",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": ["no-extra-parens", "eqeqeq", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2668,16 +2606,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -3010,7 +2941,7 @@
   },
   {
     "internName": "beautisui",
-    "lintIssues": ["no-multi-spaces", "no-unused-vars"],
+    "lintIssues": ["no-multi-spaces", "indent", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3020,14 +2951,9 @@
       },
       {
         "name": "02_count_vowels_test.js",
-        "failingTests": [
-          "should print 6 for string duplicate vowels",
-          "should print 0 for string bcdfghjkl",
-          "should print 10 for string aeiouAEIOU",
-          "should print 9 for string You Are Having All Vowels"
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "03_is_palindrome_test.js",
@@ -3131,14 +3057,9 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -3328,15 +3249,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -3367,7 +3282,7 @@
   },
   {
     "internName": "malleswaribatta",
-    "lintIssues": ["indent", "yoda", "no-unused-vars"],
+    "lintIssues": ["indent", "yoda", "semi", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3395,16 +3310,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -3580,14 +3488,9 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -3643,7 +3546,12 @@
   },
   {
     "internName": "baby-anjali",
-    "lintIssues": ["no-extra-parens", "indent", "no-unused-vars"],
+    "lintIssues": [
+      "no-extra-parens",
+      "indent",
+      "no-multiple-empty-lines",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3665,27 +3573,15 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -3713,22 +3609,20 @@
       },
       {
         "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string",
-          "should print 0 for string  ",
-          "should print 0 for string ",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       }
     ]
   },
   {
     "internName": "vanamalajayanth",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": [
+      "no-extra-parens",
+      "semi-spacing",
+      "space-infix-ops",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3738,14 +3632,9 @@
       },
       {
         "name": "02_count_vowels_test.js",
-        "failingTests": [
-          "should print 6 for string duplicate vowels",
-          "should print 0 for string bcdfghjkl",
-          "should print 10 for string aeiouAEIOU",
-          "should print 9 for string You Are Having All Vowels"
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "03_is_palindrome_test.js",
@@ -3857,16 +3746,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -4335,16 +4217,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -4403,29 +4278,15 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [
-          "should print false for string not palindrome",
-          "should print true for string abcba",
-          "should print true for string 123 321",
-          "should print true for string Abc cbA",
-          "should print false for string abc cbA",
-          "should print true for string @bc cb@",
-          "should print true for string a saw was a",
-          "should print true for string "
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -4562,7 +4423,7 @@
   },
   {
     "internName": "Maxsilver46",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["semi", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4590,16 +4451,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -4642,7 +4496,12 @@
   },
   {
     "internName": "hajramallika1176",
-    "lintIssues": ["no-extra-parens", "semi", "no-unused-vars"],
+    "lintIssues": [
+      "no-extra-parens",
+      "semi",
+      "space-infix-ops",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4664,14 +4523,9 @@
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -4727,7 +4581,14 @@
   },
   {
     "internName": "mounikakolliboyina",
-    "lintIssues": ["prefer-const", "no-extra-parens", "no-unused-vars"],
+    "lintIssues": [
+      "prefer-const",
+      "no-extra-parens",
+      "keyword-spacing",
+      "space-infix-ops",
+      "semi",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4755,16 +4616,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -4917,18 +4771,9 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [
-          "should print false for string not palindrome",
-          "should print true for string abcba",
-          "should print true for string 123 321",
-          "should print true for string Abc cbA",
-          "should print false for string abc cbA",
-          "should print true for string @bc cb@",
-          "should print true for string a saw was a",
-          "should print true for string "
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "04_reverse_string_test.js",
@@ -5023,16 +4868,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -5103,16 +4941,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -5365,16 +5196,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -5436,18 +5260,9 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [
-          "should print false for string not palindrome",
-          "should print true for string abcba",
-          "should print true for string 123 321",
-          "should print true for string Abc cbA",
-          "should print false for string abc cbA",
-          "should print true for string @bc cb@",
-          "should print true for string a saw was a",
-          "should print true for string "
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "04_reverse_string_test.js",
@@ -6083,7 +5898,7 @@
   },
   {
     "internName": "Bhanuteja74",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["no-extra-parens", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -6111,16 +5926,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -6371,29 +6179,15 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [
-          "should print false for string not palindrome",
-          "should print true for string abcba",
-          "should print true for string 123 321",
-          "should print true for string Abc cbA",
-          "should print false for string abc cbA",
-          "should print true for string @bc cb@",
-          "should print true for string a saw was a",
-          "should print true for string "
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [
-          "should print desserts for string stressed",
-          "should print })][({ for string {([])}",
-          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
-          "should print  for string "
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -6606,7 +6400,7 @@
   },
   {
     "internName": "devdattadhage",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -6637,16 +6431,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
