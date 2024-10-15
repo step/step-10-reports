@@ -1,7 +1,7 @@
 [
   {
     "internName": "garimiddisuman",
-    "lintIssues": [],
+    "lintIssues": ["indent", "camelcase"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -9,7 +9,7 @@
   },
   {
     "internName": "PalPriyankush",
-    "lintIssues": ["brace-style"],
+    "lintIssues": ["no-mixed-operators"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -17,7 +17,7 @@
   },
   {
     "internName": "ShrutikaBhosale",
-    "lintIssues": ["curly"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -41,9 +41,13 @@
   },
   {
     "internName": "fadedblack",
-    "lintIssues": [],
+    "lintIssues": ["indent", "prefer-const", "no-extra-parens"],
     "tests": {
-      "failingTests": [],
+      "failingTests": [
+        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
+        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
+        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0"
+      ],
       "total": 12
     }
   },
@@ -56,13 +60,62 @@
     }
   },
   {
+    "internName": "sarupmoni",
+    "lintIssues": ["indent", "semi"],
+    "tests": {
+      "failingTests": [],
+      "total": 12
+    }
+  },
+  {
     "internName": "varrapavani",
     "lintIssues": [
-      "no-unused-vars",
-      "eqeqeq",
       "prefer-const",
-      "no-multiple-empty-lines"
+      "no-mixed-operators",
+      "indent",
+      "no-extra-parens",
+      "space-infix-ops"
     ],
+    "tests": {
+      "failingTests": [],
+      "total": 12
+    }
+  },
+  {
+    "internName": "snehakarada",
+    "lintIssues": ["prefer-const", "no-mixed-operators"],
+    "tests": {
+      "failingTests": [],
+      "total": 12
+    }
+  },
+  {
+    "internName": "pradeep1402",
+    "lintIssues": ["indent"],
+    "tests": {
+      "failingTests": [],
+      "total": 12
+    }
+  },
+  {
+    "internName": "asmamulla786",
+    "lintIssues": ["no-mixed-operators", "indent"],
+    "tests": {
+      "failingTests": [],
+      "total": 12
+    }
+  },
+  {
+    "internName": "favas-kp",
+    "lintIssues": [],
+    "tests": {
+      "failingTests": [],
+      "total": 12
+    }
+  },
+  {
+    "internName": "Amitlaitbar",
+    "lintIssues": ["indent", "no-mixed-operators", "no-unused-vars"],
     "tests": {
       "failingTests": [
         "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
@@ -78,62 +131,6 @@
         "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
         "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
       ],
-      "total": 12
-    }
-  },
-  {
-    "internName": "snehakarada",
-    "lintIssues": [
-      "prefer-const",
-      "no-mixed-operators",
-      "eqeqeq",
-      "brace-style",
-      "semi"
-    ],
-    "tests": {
-      "failingTests": [],
-      "total": 12
-    }
-  },
-  {
-    "internName": "pradeep1402",
-    "lintIssues": ["keyword-spacing", "no-lonely-if"],
-    "tests": {
-      "failingTests": [],
-      "total": 12
-    }
-  },
-  {
-    "internName": "asmamulla786",
-    "lintIssues": [
-      "semi",
-      "prefer-const",
-      "no-mixed-operators",
-      "keyword-spacing"
-    ],
-    "tests": {
-      "failingTests": [
-        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
-        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
-        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
-      ],
-      "total": 12
-    }
-  },
-  {
-    "internName": "favas-kp",
-    "lintIssues": [],
-    "tests": {
-      "failingTests": [],
-      "total": 12
-    }
-  },
-  {
-    "internName": "Amitlaitbar",
-    "lintIssues": ["no-unused-expressions", "keyword-spacing"],
-    "tests": {
-      "failingTests": [],
       "total": 12
     }
   },
@@ -160,7 +157,7 @@
   },
   {
     "internName": "krishnanandgithub",
-    "lintIssues": ["no-mixed-operators"],
+    "lintIssues": ["prefer-const", "no-extra-parens", "indent"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -168,7 +165,15 @@
   },
   {
     "internName": "SiyaShikha",
-    "lintIssues": ["prefer-const", "space-infix-ops"],
+    "lintIssues": [
+      "prefer-const",
+      "id-length",
+      "no-extra-parens",
+      "no-multi-spaces",
+      "indent",
+      "space-infix-ops",
+      "no-multiple-empty-lines"
+    ],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -176,7 +181,7 @@
   },
   {
     "internName": "likhithag0328",
-    "lintIssues": ["no-mixed-operators"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -184,28 +189,15 @@
   },
   {
     "internName": "divyaramsaran",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["no-multiple-empty-lines"],
     "tests": {
-      "failingTests": [
-        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
-        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
-        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
-        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
-        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
-        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
-        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
-      ],
+      "failingTests": [],
       "total": 12
     }
   },
   {
     "internName": "RamVanumu",
-    "lintIssues": ["prefer-const"],
+    "lintIssues": ["prefer-const", "curly"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -213,7 +205,7 @@
   },
   {
     "internName": "PragnaMarisa",
-    "lintIssues": ["indent"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -237,7 +229,7 @@
   },
   {
     "internName": "Karnankita04",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [
         "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
@@ -258,15 +250,22 @@
   },
   {
     "internName": "PruthviLahare",
-    "lintIssues": [
-      "prefer-const",
-      "max-depth",
-      "no-lonely-if",
-      "indent",
-      "comma-spacing"
-    ],
+    "lintIssues": ["indent", "comma-spacing"],
     "tests": {
-      "failingTests": [],
+      "failingTests": [
+        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
+        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
+        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
+        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
+        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
+        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
+        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
+        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
+      ],
       "total": 12
     }
   },
@@ -348,22 +347,9 @@
   },
   {
     "internName": "Shalujha0907",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["no-mixed-operators", "brace-style"],
     "tests": {
-      "failingTests": [
-        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
-        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
-        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
-        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
-        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
-        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
-        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
-      ],
+      "failingTests": [],
       "total": 12
     }
   },
@@ -377,7 +363,7 @@
   },
   {
     "internName": "beautisui",
-    "lintIssues": ["no-multi-spaces", "semi-spacing"],
+    "lintIssues": ["prefer-const", "id-length", "indent"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -393,28 +379,21 @@
   },
   {
     "internName": "Akash-2006",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [
+      "prefer-const",
+      "no-extra-parens",
+      "space-infix-ops",
+      "keyword-spacing",
+      "indent"
+    ],
     "tests": {
-      "failingTests": [
-        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
-        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
-        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
-        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
-        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
-        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
-        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
-      ],
+      "failingTests": [],
       "total": 12
     }
   },
   {
     "internName": "Mohammadsiddiqueps",
-    "lintIssues": [],
+    "lintIssues": ["no-lonely-if"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -422,7 +401,7 @@
   },
   {
     "internName": "malleswaribatta",
-    "lintIssues": ["eqeqeq", "no-mixed-operators", "semi", "brace-style"],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -446,35 +425,6 @@
   },
   {
     "internName": "baby-anjali",
-    "lintIssues": ["semi", "brace-style"],
-    "tests": {
-      "failingTests": [],
-      "total": 12
-    }
-  },
-  {
-    "internName": "vanamalajayanth",
-    "lintIssues": ["no-unused-vars"],
-    "tests": {
-      "failingTests": [
-        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
-        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
-        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
-        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
-        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
-        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
-        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
-      ],
-      "total": 12
-    }
-  },
-  {
-    "internName": "Adil8081",
     "lintIssues": [],
     "tests": {
       "failingTests": [],
@@ -482,23 +432,32 @@
     }
   },
   {
-    "internName": "karthikeya9900",
-    "lintIssues": ["no-unused-vars"],
+    "internName": "vanamalajayanth",
+    "lintIssues": [
+      "prefer-const",
+      "semi",
+      "no-multiple-empty-lines",
+      "no-extra-parens",
+      "indent"
+    ],
     "tests": {
-      "failingTests": [
-        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
-        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
-        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
-        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
-        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
-        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
-        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
-      ],
+      "failingTests": [],
+      "total": 12
+    }
+  },
+  {
+    "internName": "Adil8081",
+    "lintIssues": ["no-multiple-empty-lines", "prefer-const", "indent"],
+    "tests": {
+      "failingTests": [],
+      "total": 12
+    }
+  },
+  {
+    "internName": "karthikeya9900",
+    "lintIssues": ["no-multiple-empty-lines", "indent"],
+    "tests": {
+      "failingTests": [],
       "total": 12
     }
   },
@@ -520,13 +479,7 @@
   },
   {
     "internName": "Mohamad-sakib",
-    "lintIssues": [
-      "no-extra-parens",
-      "no-mixed-operators",
-      "keyword-spacing",
-      "semi",
-      "comma-spacing"
-    ],
+    "lintIssues": ["no-extra-parens", "comma-spacing"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -534,13 +487,7 @@
   },
   {
     "internName": "rwtneeraj",
-    "lintIssues": [
-      "no-mixed-operators",
-      "eqeqeq",
-      "brace-style",
-      "semi",
-      "comma-spacing"
-    ],
+    "lintIssues": [],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -568,47 +515,7 @@
   },
   {
     "internName": "Maxsilver46",
-    "lintIssues": [],
-    "tests": {
-      "failingTests": [
-        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
-        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
-        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
-        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
-        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
-      ],
-      "total": 12
-    }
-  },
-  {
-    "internName": "hajramallika1176",
-    "lintIssues": ["space-infix-ops", "no-extra-parens", "indent"],
-    "tests": {
-      "failingTests": [],
-      "total": 12
-    }
-  },
-  {
-    "internName": "mounikakolliboyina",
-    "lintIssues": [
-      "no-multiple-empty-lines",
-      "eqeqeq",
-      "prefer-const",
-      "no-lonely-if",
-      "brace-style"
-    ],
-    "tests": {
-      "failingTests": [],
-      "total": 12
-    }
-  },
-  {
-    "internName": "praveenpkv",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["id-length", "indent"],
     "tests": {
       "failingTests": [
         "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
@@ -628,18 +535,81 @@
     }
   },
   {
-    "internName": "Aman-shabbas",
-    "lintIssues": ["id-length", "no-unused-vars", "keyword-spacing"],
+    "internName": "hajramallika1176",
+    "lintIssues": ["no-extra-parens", "prefer-const"],
+    "tests": {
+      "failingTests": [
+        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
+        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
+        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
+        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
+        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
+        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
+        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
+        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
+      ],
+      "total": 12
+    }
+  },
+  {
+    "internName": "mounikakolliboyina",
+    "lintIssues": ["eqeqeq", "indent"],
     "tests": {
       "failingTests": [],
       "total": 12
     }
   },
   {
-    "internName": "sanikaP16",
-    "lintIssues": ["keyword-spacing", "space-infix-ops"],
+    "internName": "praveenpkv",
+    "lintIssues": ["keyword-spacing", "eqeqeq", "prefer-const"],
     "tests": {
       "failingTests": [],
+      "total": 12
+    }
+  },
+  {
+    "internName": "Aman-shabbas",
+    "lintIssues": ["indent", "no-multi-spaces"],
+    "tests": {
+      "failingTests": [
+        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
+        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
+        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
+        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
+        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
+        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
+        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
+        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
+      ],
+      "total": 12
+    }
+  },
+  {
+    "internName": "sanikaP16",
+    "lintIssues": ["prefer-const", "indent", "comma-spacing"],
+    "tests": {
+      "failingTests": [
+        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
+        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
+        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
+        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
+        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
+        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
+        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
+        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
+        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
+      ],
       "total": 12
     }
   },
@@ -668,7 +638,7 @@
   },
   {
     "internName": "rohinipriyamvada",
-    "lintIssues": ["no-mixed-operators"],
+    "lintIssues": ["prefer-const", "indent"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -711,22 +681,16 @@
   },
   {
     "internName": "AbhinavKaippa",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [
+      "eqeqeq",
+      "no-mixed-operators",
+      "indent",
+      "prefer-const",
+      "space-infix-ops",
+      "max-depth"
+    ],
     "tests": {
-      "failingTests": [
-        "Rover at 0 0 0 after following instructions 332331 should be at 2,2,0",
-        "Rover at 0 0 0 after following instructions 1 should be at 0,0,3",
-        "Rover at 0 0 0 after following instructions 2 should be at 0,0,1",
-        "Rover at 0 0 0 after following instructions 3 should be at 0,1,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 12 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 21 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 32 should be at 0,1,1",
-        "Rover at 0 0 0 after following instructions 23 should be at 1,0,1",
-        "Rover at 0 0 0 after following instructions 32323232 should be at 0,0,0",
-        "Rover at 0 0 0 after following instructions 323132313211 should be at 2,3,3",
-        "Rover at 5 5 1 after following instructions 31312333113 should be at 6,8,2"
-      ],
+      "failingTests": [],
       "total": 12
     }
   },
@@ -788,14 +752,7 @@
   },
   {
     "internName": "atulrwt23",
-    "lintIssues": [
-      "prefer-const",
-      "max-depth",
-      "indent",
-      "semi",
-      "no-multiple-empty-lines",
-      "comma-spacing"
-    ],
+    "lintIssues": ["prefer-const", "indent", "semi", "comma-spacing"],
     "tests": {
       "failingTests": [],
       "total": 12
@@ -812,13 +769,13 @@
   {
     "internName": "meenugamadhavi",
     "lintIssues": [
-      "id-length",
       "no-multiple-empty-lines",
       "eqeqeq",
       "no-mixed-operators",
-      "indent",
       "semi",
-      "comma-spacing"
+      "indent",
+      "prefer-const",
+      "no-extra-parens"
     ],
     "tests": {
       "failingTests": [],
@@ -835,7 +792,7 @@
   },
   {
     "internName": "deepanshutiwari16",
-    "lintIssues": [],
+    "lintIssues": ["indent"],
     "tests": {
       "failingTests": [],
       "total": 12
