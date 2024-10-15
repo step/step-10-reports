@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>String Assignment 1</title>
-    <base href="/step-10-reports/string-assignments-1" />
+    <base href="/step-10-reports/string-assignment-1" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       const fetchWithBase = (url) => {
@@ -12,10 +12,10 @@
       };
 
       const generateRow = (result) => {
-        const backgroundClass = result.failing > 0 ? 'bg-orange-300' : '';
+        // const backgroundClass = result.failing > 0 ? 'bg-orange-300' : '';
 
         return `
-              <tr class="${backgroundClass}">
+              <tr>
                 <td class="border border-gray-300 px-4 py-2">${result.internName}</td>
                 <td class="border border-gray-300 px-4 py-2 text-right">${result.passing}</td>
                 <td class="border border-gray-300 px-4 py-2 text-right">${result.failing}</td>
