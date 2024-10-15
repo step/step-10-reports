@@ -1,7 +1,13 @@
 [
   {
     "internName": "garimiddisuman",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": [
+      "no-unused-expressions",
+      "keyword-spacing",
+      "yoda",
+      "space-infix-ops",
+      "semi"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -35,15 +41,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -58,14 +58,10 @@
         "name": "08_count_words_test.js",
         "failingTests": [
           "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string",
-          "should print 0 for string  ",
-          "should print 0 for string ",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
+          "should print 6 for string multiple words in a single string"
         ],
         "total": 6,
-        "failing": 6
+        "failing": 2
       }
     ]
   },
@@ -105,27 +101,15 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -144,7 +128,7 @@
   },
   {
     "internName": "ShrutikaBhosale",
-    "lintIssues": ["eqeqeq", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -178,15 +162,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": ["should print  for string           "],
         "total": 5,
-        "failing": 5
+        "failing": 1
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -271,7 +249,7 @@
   },
   {
     "internName": "AjayReddy-18",
-    "lintIssues": ["no-extra-parens", "space-infix-ops", "no-undefined"],
+    "lintIssues": ["no-extra-parens", "space-infix-ops"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -439,15 +417,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -585,15 +557,9 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -717,15 +683,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -796,15 +756,9 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -877,7 +831,7 @@
   },
   {
     "internName": "Amitlaitbar",
-    "lintIssues": ["no-extra-parens", "eqeqeq"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -925,12 +879,10 @@
         "name": "08_count_words_test.js",
         "failingTests": [
           "should print 0 for string  ",
-          "should print 0 for string ",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
+          "should print 0 for string "
         ],
         "total": 6,
-        "failing": 4
+        "failing": 2
       }
     ]
   },
@@ -1072,7 +1024,7 @@
   },
   {
     "internName": "SiyaShikha",
-    "lintIssues": ["space-infix-ops", "no-unused-vars"],
+    "lintIssues": ["space-infix-ops"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1116,15 +1068,9 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -1141,7 +1087,7 @@
   },
   {
     "internName": "likhithag0328",
-    "lintIssues": ["no-extra-parens", "no-unused-vars", "semi"],
+    "lintIssues": ["no-extra-parens"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1181,15 +1127,9 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -1201,7 +1141,7 @@
   },
   {
     "internName": "divyaramsaran",
-    "lintIssues": ["indent", "no-unused-vars"],
+    "lintIssues": ["indent", "semi-spacing", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1229,16 +1169,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -1281,7 +1214,13 @@
   },
   {
     "internName": "RamVanumu",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": [
+      "no-extra-parens",
+      "id-length",
+      "indent",
+      "prefer-const",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1324,15 +1263,9 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -1463,15 +1396,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -1572,7 +1499,6 @@
     "lintIssues": [
       "space-infix-ops",
       "prefer-const",
-      "keyword-spacing",
       "no-unused-vars",
       "no-shadow"
     ],
@@ -1648,7 +1574,7 @@
   },
   {
     "internName": "PruthviLahare",
-    "lintIssues": ["no-extra-parens", "indent", "no-unused-vars"],
+    "lintIssues": ["no-extra-parens", "prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2043,7 +1969,7 @@
   },
   {
     "internName": "Akash0Dey",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": ["no-extra-parens"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2096,22 +2022,15 @@
       },
       {
         "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string",
-          "should print 0 for string  ",
-          "should print 0 for string ",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       }
     ]
   },
   {
     "internName": "sushanthj674",
-    "lintIssues": ["semi", "no-unused-vars"],
+    "lintIssues": ["keyword-spacing", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2145,26 +2064,15 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -2183,7 +2091,7 @@
   },
   {
     "internName": "saivenkat444",
-    "lintIssues": ["semi-spacing", "keyword-spacing", "no-unused-vars"],
+    "lintIssues": ["keyword-spacing", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2217,15 +2125,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -2256,7 +2158,7 @@
   },
   {
     "internName": "Shalujha0907",
-    "lintIssues": ["no-extra-parens", "eqeqeq", "no-unused-vars"],
+    "lintIssues": ["no-extra-parens", "eqeqeq", "indent", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2272,18 +2174,9 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [
-          "should print false for string not palindrome",
-          "should print true for string abcba",
-          "should print true for string 123 321",
-          "should print true for string Abc cbA",
-          "should print false for string abc cbA",
-          "should print true for string @bc cb@",
-          "should print true for string a saw was a",
-          "should print true for string "
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "04_reverse_string_test.js",
@@ -2807,7 +2700,7 @@
   },
   {
     "internName": "rajbhosale96",
-    "lintIssues": ["keyword-spacing", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2841,15 +2734,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -2963,7 +2850,7 @@
   },
   {
     "internName": "baby-anjali",
-    "lintIssues": [],
+    "lintIssues": ["prefer-const"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2997,11 +2884,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print spaces at the begining of the string for string  spaces at the begining of the string"
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -3020,10 +2905,9 @@
   {
     "internName": "vanamalajayanth",
     "lintIssues": [
-      "no-extra-parens",
       "no-mixed-operators",
-      "eqeqeq",
       "prefer-const",
+      "no-extra-parens",
       "no-unused-vars"
     ],
     "tests": [
@@ -3059,15 +2943,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -3098,7 +2976,7 @@
   },
   {
     "internName": "Adil8081",
-    "lintIssues": ["prefer-const", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3133,14 +3011,11 @@
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
         "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
           "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
+          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         "
         ],
         "total": 5,
-        "failing": 5
+        "failing": 2
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -3353,7 +3228,7 @@
   },
   {
     "internName": "Dhanoj0810",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3499,8 +3374,7 @@
     "internName": "rwtneeraj",
     "lintIssues": [
       "brace-style",
-      "no-multiple-empty-lines",
-      "prefer-const",
+      "no-extra-parens",
       "indent",
       "no-unused-vars"
     ],
@@ -3538,14 +3412,11 @@
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
         "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
           "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
+          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         "
         ],
         "total": 5,
-        "failing": 5
+        "failing": 2
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -3850,13 +3721,7 @@
   },
   {
     "internName": "mounikakolliboyina",
-    "lintIssues": [
-      "prefer-const",
-      "no-extra-parens",
-      "keyword-spacing",
-      "space-infix-ops",
-      "semi"
-    ],
+    "lintIssues": ["prefer-const", "no-extra-parens", "semi"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3950,15 +3815,9 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -3977,7 +3836,7 @@
   },
   {
     "internName": "Aman-shabbas",
-    "lintIssues": ["no-multi-spaces", "keyword-spacing", "no-unused-vars"],
+    "lintIssues": ["no-multi-spaces", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4011,15 +3870,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -4085,14 +3938,11 @@
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
         "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
           "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
+          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         "
         ],
         "total": 5,
-        "failing": 5
+        "failing": 2
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -4228,28 +4078,15 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string",
-          "should print 0 for string  ",
-          "should print 0 for string ",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       }
     ]
   },
@@ -4398,12 +4235,7 @@
   },
   {
     "internName": "sahajsinghal13",
-    "lintIssues": [
-      "no-multi-spaces",
-      "no-extra-parens",
-      "no-shadow",
-      "no-unused-vars"
-    ],
+    "lintIssues": ["no-multi-spaces", "no-extra-parens", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4470,7 +4302,13 @@
   },
   {
     "internName": "AbhinavKaippa",
-    "lintIssues": ["keyword-spacing", "indent", "no-unused-vars"],
+    "lintIssues": [
+      "keyword-spacing",
+      "indent",
+      "eqeqeq",
+      "space-infix-ops",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4511,27 +4349,15 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -4584,27 +4410,15 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -4623,7 +4437,7 @@
   },
   {
     "internName": "CharankumarSarlani",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": ["no-extra-parens", "prefer-const", "eqeqeq", "semi"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4667,28 +4481,19 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
         "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string",
-          "should print 0 for string  ",
           "should print 0 for string ",
           "should print 7 for string  multiple words with spaces at the ends ",
           "should print 5 for string  multiple  words     with   multiple spaces  "
         ],
         "total": 6,
-        "failing": 6
+        "failing": 3
       }
     ]
   },
@@ -4767,7 +4572,7 @@
   },
   {
     "internName": "sameerabhanu",
-    "lintIssues": ["keyword-spacing", "semi-spacing", "no-unused-vars"],
+    "lintIssues": ["prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4801,27 +4606,15 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -4840,7 +4633,7 @@
   },
   {
     "internName": "Meghashyam12",
-    "lintIssues": ["no-multi-spaces", "no-extra-parens"],
+    "lintIssues": ["no-extra-parens"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4874,14 +4667,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -4902,7 +4690,7 @@
   },
   {
     "internName": "Aman-bhart",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["no-unused-vars", "brace-style"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4975,7 +4763,7 @@
   },
   {
     "internName": "Bhanuteja74",
-    "lintIssues": ["no-extra-parens", "space-infix-ops", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -5042,7 +4830,7 @@
   },
   {
     "internName": "atulrwt23",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": ["no-multiple-empty-lines"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -5088,16 +4876,9 @@
       },
       {
         "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string",
-          "should print 0 for string  ",
-          "should print 0 for string ",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       }
     ]
   },
@@ -5237,27 +5018,15 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -5276,7 +5045,7 @@
   },
   {
     "internName": "Shubhabrata0811",
-    "lintIssues": ["no-multiple-empty-lines", "no-extra-parens"],
+    "lintIssues": ["no-extra-parens"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -5358,16 +5127,9 @@
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print with_space for string with space",
-          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
-          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
-          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
-          "should print __________ for string           "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
@@ -5456,12 +5218,9 @@
       },
       {
         "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string"
-        ],
+        "failingTests": ["should print 0 for string "],
         "total": 6,
-        "failing": 2
+        "failing": 1
       }
     ]
   }
