@@ -1,18 +1,13 @@
 [
   {
     "internName": "garimiddisuman",
-    "lintIssues": ["keyword-spacing", "no-unused-vars"],
+    "lintIssues": ["prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -198,35 +193,15 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -332,7 +307,7 @@
   },
   {
     "internName": "sarupmoni",
-    "lintIssues": ["no-extra-parens", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -418,21 +393,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -464,25 +427,13 @@
   },
   {
     "internName": "pradeep1402",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["semi", "prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -934,25 +885,13 @@
   },
   {
     "internName": "Mr-Vineet",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["no-extra-parens", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -984,7 +923,7 @@
   },
   {
     "internName": "dindeswarijagana",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["no-multiple-empty-lines", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -993,16 +932,13 @@
           "should print middle till the end for string from middle till the end, start 5 and end 23",
           "should print middle part for string take middle part of me, start 5 and end 15",
           "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
           "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
           "should print e for string start and end are same, start 10 and end 10",
           "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
+          "should print start range for string start range is negative index, start -2 and end 10"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 8
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1127,20 +1063,14 @@
       {
         "name": "01_create_substring_test.js",
         "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
           "should print range for string end is out of range, start 14 and end 100",
           "should print  for string start is out of range, start 50 and end 100",
           "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
           "should print start range for string start range is negative index, start -2 and end 10",
           "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 5
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1176,21 +1106,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1258,7 +1176,7 @@
   },
   {
     "internName": "Akash0Dey",
-    "lintIssues": ["prefer-const", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1300,21 +1218,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1350,21 +1256,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1397,52 +1291,8 @@
   {
     "internName": "Shalujha0907",
     "lintIssues": ["no-unused-vars"],
-    "tests": [
-      {
-        "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
-        "total": 11,
-        "failing": 11
-      },
-      {
-        "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
-        "total": 7,
-        "failing": 7
-      },
-      {
-        "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
-        ],
-        "total": 5,
-        "failing": 5
-      }
-    ]
+    "tests": [],
+    "testError": "Potential infinite loop or broken code!"
   },
   {
     "internName": "aadithyanmr",
@@ -1534,25 +1384,13 @@
   },
   {
     "internName": "kamisettysudheer",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["keyword-spacing", "yoda", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1629,25 +1467,15 @@
   },
   {
     "internName": "malleswaribatta",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["keyword-spacing", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
         "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
+          "should print e for string start and end are same, start 10 and end 10"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 1
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1771,21 +1599,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1871,21 +1687,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -1921,21 +1725,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -2067,25 +1859,19 @@
   },
   {
     "internName": "Mohamad-sakib",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [
+      "prefer-const",
+      "no-extra-parens",
+      "no-multiple-empty-lines",
+      "indent",
+      "no-unused-vars"
+    ],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -2221,35 +2007,15 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -2267,7 +2033,7 @@
   },
   {
     "internName": "Maxsilver46",
-    "lintIssues": ["prefer-const", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -2309,21 +2075,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -2397,35 +2151,15 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -2447,21 +2181,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -2493,25 +2215,13 @@
   },
   {
     "internName": "sanikaP16",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -2581,25 +2291,13 @@
   },
   {
     "internName": "KrishnaDileepG",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["no-extra-parens", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -2675,25 +2373,13 @@
   },
   {
     "internName": "anushri23p",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["no-multiple-empty-lines", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -3095,21 +2781,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -3141,25 +2815,13 @@
   },
   {
     "internName": "sireeshaudamala",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["space-infix-ops", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print range for string end is out of range, start 14 and end 100",
-          "should print  for string start is out of range, start 50 and end 100",
-          "should print  for string , start 1 and end 2",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print  for string start range greater than end range, start 100 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10",
-          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -3241,7 +2903,7 @@
   },
   {
     "internName": "Shubhabrata0811",
-    "lintIssues": ["no-undefined", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
