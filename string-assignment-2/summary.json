@@ -33,9 +33,13 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print range for string end is out of range, start 14 and end 100",
+          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100",
+          "should print  is equal to length for string end is equal to length, start 3 and end 22"
+        ],
         "total": 12,
-        "failing": 0
+        "failing": 3
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -159,20 +163,13 @@
   },
   {
     "internName": "fadedblack",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["space-infix-ops", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print this for string this is a statement, start 0 and end 3",
-          "should print middle till the end for string from middle till the end, start 5 and end 23",
-          "should print middle part for string take middle part of me, start 5 and end 15",
-          "should print print me fully for string print me fully, start 0 and end 13",
-          "should print e for string start and end are same, start 10 and end 10",
-          "should print start range for string start range is negative index, start -2 and end 10"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -204,7 +201,7 @@
   },
   {
     "internName": "haripriyagullipalli",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -454,11 +451,7 @@
   },
   {
     "internName": "HimaSaiCharan",
-    "lintIssues": [
-      "space-infix-ops",
-      "no-multiple-empty-lines",
-      "no-unused-vars"
-    ],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -518,7 +511,7 @@
   },
   {
     "internName": "SiyaShikha",
-    "lintIssues": ["prefer-const", "no-extra-parens", "no-unused-vars"],
+    "lintIssues": ["prefer-const", "no-extra-parens"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -691,10 +684,16 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [
-          "should print 3 for string hahahaha and subString haha"
+          "should print 5 for string This is a rising issue in istanbul and subString is",
+          "should print 7 for string This is a rising issue in istanbul and subString i",
+          "should print 1 for string single occurence of substring and subString of",
+          "should print 0 for string I don't have expected substring and subString is",
+          "should print 3 for string hahahaha and subString haha",
+          "should print 1 for string I contain case sensitive subString and subString ubS",
+          "should print 0 for string I don't have case sensitive substring and subString ubS"
         ],
         "total": 7,
-        "failing": 1
+        "failing": 7
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -860,17 +859,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -936,7 +927,11 @@
   },
   {
     "internName": "sushanthj674",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [
+      "no-multi-spaces",
+      "semi-spacing",
+      "no-multiple-empty-lines"
+    ],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -952,15 +947,9 @@
       },
       {
         "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       }
     ]
   },
@@ -976,17 +965,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1090,17 +1071,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1442,7 +1415,7 @@
   },
   {
     "internName": "Dhanoj0810",
-    "lintIssues": ["semi-spacing", "space-infix-ops", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1575,7 +1548,7 @@
   },
   {
     "internName": "rajasurendrag",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1591,21 +1564,15 @@
       },
       {
         "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       }
     ]
   },
   {
     "internName": "Maxsilver46",
-    "lintIssues": ["comma-spacing", "no-unused-vars"],
+    "lintIssues": ["no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1615,17 +1582,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1681,41 +1640,9 @@
   },
   {
     "internName": "mounikakolliboyina",
-    "lintIssues": ["no-unused-vars"],
-    "tests": [
-      {
-        "name": "01_create_substring_test.js",
-        "failingTests": [],
-        "total": 12,
-        "failing": 0
-      },
-      {
-        "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
-        "total": 7,
-        "failing": 7
-      },
-      {
-        "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
-        ],
-        "total": 5,
-        "failing": 5
-      }
-    ]
+    "lintIssues": ["prefer-const", "no-shadow"],
+    "tests": [],
+    "testError": "Potential infinite loop or broken code!"
   },
   {
     "internName": "praveenpkv",
@@ -1748,7 +1675,7 @@
   },
   {
     "internName": "Aman-shabbas",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1764,15 +1691,9 @@
       },
       {
         "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       }
     ]
   },
@@ -1816,7 +1737,7 @@
   },
   {
     "internName": "AnaghPaul",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1832,15 +1753,9 @@
       },
       {
         "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       }
     ]
   },
@@ -1924,11 +1839,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 3 for string hahahaha and subString haha"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -2040,11 +1953,9 @@
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [
-          "should print  is equal to length for string end is equal to length, start 3 and end 22"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -2120,7 +2031,7 @@
   },
   {
     "internName": "Meghashyam12",
-    "lintIssues": ["eqeqeq"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -2144,7 +2055,7 @@
   },
   {
     "internName": "Aman-bhart",
-    "lintIssues": ["prefer-const"],
+    "lintIssues": ["semi", "indent"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -2270,17 +2181,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -2298,7 +2201,7 @@
   },
   {
     "internName": "Shubhabrata0811",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": ["semi", "keyword-spacing"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -2314,15 +2217,9 @@
       },
       {
         "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       }
     ]
   },
