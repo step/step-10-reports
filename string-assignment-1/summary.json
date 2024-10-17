@@ -1,7 +1,7 @@
 [
   {
     "internName": "garimiddisuman",
-    "lintIssues": [],
+    "lintIssues": ["semi"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -41,9 +41,15 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print noSpaces for string noSpaces",
+          "should print no duplicate spaces for string no duplicate spaces",
+          "should print with duplicate spaces for string with    duplicate   spaces",
+          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
+          "should print   for string           "
+        ],
         "total": 5,
-        "failing": 0
+        "failing": 5
       },
       {
         "name": "08_count_words_test.js",
@@ -109,7 +115,7 @@
   },
   {
     "internName": "ShrutikaBhosale",
-    "lintIssues": ["space-infix-ops"],
+    "lintIssues": ["semi-spacing", "space-infix-ops"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -271,7 +277,7 @@
   },
   {
     "internName": "fadedblack",
-    "lintIssues": ["prefer-const", "no-extra-parens"],
+    "lintIssues": ["no-extra-parens", "prefer-const"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -333,8 +339,6 @@
   {
     "internName": "haripriyagullipalli",
     "lintIssues": [
-      "indent",
-      "keyword-spacing",
       "id-length",
       "prefer-const",
       "no-multiple-empty-lines",
@@ -399,7 +403,7 @@
   },
   {
     "internName": "varrapavani",
-    "lintIssues": [],
+    "lintIssues": ["indent"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -507,57 +511,9 @@
   },
   {
     "internName": "pradeep1402",
-    "lintIssues": ["semi", "yoda"],
-    "tests": [
-      {
-        "name": "01_find_index_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "02_count_vowels_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "03_is_palindrome_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "04_reverse_string_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      },
-      {
-        "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [],
-        "total": 5,
-        "failing": 0
-      },
-      {
-        "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [],
-        "total": 5,
-        "failing": 0
-      },
-      {
-        "name": "08_count_words_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      }
-    ]
+    "lintIssues": ["prefer-const", "semi", "yoda"],
+    "tests": [],
+    "testError": "Potential infinite loop or broken code!"
   },
   {
     "internName": "asmamulla786",
@@ -728,7 +684,7 @@
   },
   {
     "internName": "HimaSaiCharan",
-    "lintIssues": ["no-extra-parens"],
+    "lintIssues": ["indent", "brace-style"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1058,7 +1014,7 @@
   },
   {
     "internName": "PragnaMarisa",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1104,18 +1060,15 @@
       },
       {
         "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string"
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
   {
     "internName": "Mr-Vineet",
-    "lintIssues": [],
+    "lintIssues": ["prefer-const"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1149,21 +1102,20 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print no spaces at the ends for string no spaces at the ends",
+          "should print spaces at the begining of the string for string  spaces at the begining of the string",
+          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
+          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         "
+        ],
         "total": 5,
-        "failing": 0
+        "failing": 4
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -1175,7 +1127,7 @@
   },
   {
     "internName": "dindeswarijagana",
-    "lintIssues": [],
+    "lintIssues": ["semi"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1229,13 +1181,7 @@
   },
   {
     "internName": "Karnankita04",
-    "lintIssues": [
-      "no-multiple-empty-lines",
-      "no-unused-vars",
-      "space-infix-ops",
-      "eqeqeq",
-      "no-extra-parens"
-    ],
+    "lintIssues": ["no-unused-vars", "no-extra-parens", "space-infix-ops"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1251,15 +1197,29 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print false for string not palindrome",
+          "should print true for string abcba",
+          "should print true for string 123 321",
+          "should print true for string Abc cbA",
+          "should print false for string abc cbA",
+          "should print true for string @bc cb@",
+          "should print true for string a saw was a",
+          "should print true for string "
+        ],
         "total": 8,
-        "failing": 0
+        "failing": 8
       },
       {
         "name": "04_reverse_string_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print desserts for string stressed",
+          "should print })][({ for string {([])}",
+          "should print seCAlp modnAR Ta sretteL latipac evah I for string I have capital Letters aT RAndom plACes",
+          "should print  for string "
+        ],
         "total": 4,
-        "failing": 0
+        "failing": 4
       },
       {
         "name": "05_replace_space_with_underscore_test.js",
@@ -1269,15 +1229,27 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print no spaces at the ends for string no spaces at the ends",
+          "should print spaces at the begining of the string for string  spaces at the begining of the string",
+          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
+          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
+          "should print  for string           "
+        ],
         "total": 5,
-        "failing": 0
+        "failing": 5
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print noSpaces for string noSpaces",
+          "should print no duplicate spaces for string no duplicate spaces",
+          "should print with duplicate spaces for string with    duplicate   spaces",
+          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
+          "should print   for string           "
+        ],
         "total": 5,
-        "failing": 0
+        "failing": 5
       },
       {
         "name": "08_count_words_test.js",
@@ -1290,10 +1262,9 @@
   {
     "internName": "PruthviLahare",
     "lintIssues": [
-      "no-extra-parens",
       "prefer-const",
-      "no-unused-vars",
       "semi",
+      "no-extra-parens",
       "eqeqeq",
       "space-infix-ops",
       "semi-spacing",
@@ -1353,16 +1324,73 @@
   {
     "internName": "siddhi-gargs",
     "lintIssues": [
+      "no-multiple-empty-lines",
       "id-length",
-      "prefer-const",
       "indent",
       "semi",
       "semi-spacing",
       "no-multi-spaces",
-      "no-multiple-empty-lines"
+      "no-extra-parens"
     ],
-    "tests": [],
-    "testError": "Potential infinite loop or broken code!"
+    "tests": [
+      {
+        "name": "01_find_index_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "02_count_vowels_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "03_is_palindrome_test.js",
+        "failingTests": [
+          "should print false for string not palindrome",
+          "should print true for string abcba",
+          "should print true for string 123 321",
+          "should print true for string Abc cbA",
+          "should print false for string abc cbA",
+          "should print true for string @bc cb@",
+          "should print true for string a saw was a",
+          "should print true for string "
+        ],
+        "total": 8,
+        "failing": 8
+      },
+      {
+        "name": "04_reverse_string_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "05_replace_space_with_underscore_test.js",
+        "failingTests": [],
+        "total": 6,
+        "failing": 0
+      },
+      {
+        "name": "06_remove_leading_trailing_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "07_replace_duplicate_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "08_count_words_test.js",
+        "failingTests": [],
+        "total": 6,
+        "failing": 0
+      }
+    ]
   },
   {
     "internName": "LikhitaDangeti",
@@ -1690,7 +1718,7 @@
   },
   {
     "internName": "Shalujha0907",
-    "lintIssues": ["no-extra-parens", "no-multi-spaces", "no-unused-vars"],
+    "lintIssues": ["semi", "no-multi-spaces", "no-unused-vars"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1730,15 +1758,9 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -1758,7 +1780,6 @@
   {
     "internName": "aadithyanmr",
     "lintIssues": [
-      "no-multiple-empty-lines",
       "keyword-spacing",
       "semi",
       "semi-spacing",
@@ -1779,9 +1800,18 @@
       },
       {
         "name": "03_is_palindrome_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print false for string not palindrome",
+          "should print true for string abcba",
+          "should print true for string 123 321",
+          "should print true for string Abc cbA",
+          "should print false for string abc cbA",
+          "should print true for string @bc cb@",
+          "should print true for string a saw was a",
+          "should print true for string "
+        ],
         "total": 8,
-        "failing": 0
+        "failing": 8
       },
       {
         "name": "04_reverse_string_test.js",
@@ -1817,7 +1847,7 @@
   },
   {
     "internName": "beautisui",
-    "lintIssues": [],
+    "lintIssues": ["prefer-const"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -1905,15 +1935,9 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -2063,7 +2087,7 @@
   },
   {
     "internName": "malleswaribatta",
-    "lintIssues": ["no-multiple-empty-lines", "prefer-const", "semi-spacing"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2171,66 +2195,6 @@
   },
   {
     "internName": "pradeepmoganti1307",
-    "lintIssues": ["indent"],
-    "tests": [
-      {
-        "name": "01_find_index_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "02_count_vowels_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "03_is_palindrome_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "04_reverse_string_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      },
-      {
-        "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [],
-        "total": 5,
-        "failing": 0
-      },
-      {
-        "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [],
-        "total": 5,
-        "failing": 0
-      },
-      {
-        "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 0 for string  ",
-          "should print 0 for string ",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
-        ],
-        "total": 6,
-        "failing": 5
-      }
-    ]
-  },
-  {
-    "internName": "baby-anjali",
     "lintIssues": [],
     "tests": [
       {
@@ -2284,8 +2248,8 @@
     ]
   },
   {
-    "internName": "vanamalajayanth",
-    "lintIssues": ["no-extra-parens", "prefer-const"],
+    "internName": "baby-anjali",
+    "lintIssues": ["prefer-const", "no-extra-parens", "semi"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2331,14 +2295,63 @@
       },
       {
         "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 4
+        "failing": 0
+      }
+    ]
+  },
+  {
+    "internName": "vanamalajayanth",
+    "lintIssues": [],
+    "tests": [
+      {
+        "name": "01_find_index_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "02_count_vowels_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "03_is_palindrome_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "04_reverse_string_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "05_replace_space_with_underscore_test.js",
+        "failingTests": [],
+        "total": 6,
+        "failing": 0
+      },
+      {
+        "name": "06_remove_leading_trailing_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "07_replace_duplicate_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "08_count_words_test.js",
+        "failingTests": [],
+        "total": 6,
+        "failing": 0
       }
     ]
   },
@@ -2398,7 +2411,7 @@
   },
   {
     "internName": "karthikeya9900",
-    "lintIssues": ["no-extra-parens"],
+    "lintIssues": ["keyword-spacing", "indent", "no-extra-parens"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2452,7 +2465,7 @@
   },
   {
     "internName": "PrasadThatipudi",
-    "lintIssues": ["no-unused-vars"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2503,16 +2516,9 @@
       },
       {
         "name": "08_count_words_test.js",
-        "failingTests": [
-          "should print 1 for string singleWord",
-          "should print 6 for string multiple words in a single string",
-          "should print 0 for string  ",
-          "should print 0 for string ",
-          "should print 7 for string  multiple words with spaces at the ends ",
-          "should print 5 for string  multiple  words     with   multiple spaces  "
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       }
     ]
   },
@@ -2522,9 +2528,17 @@
     "tests": [
       {
         "name": "01_find_index_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print 2 as the index of 2 in string 01244",
+          "should print 3 as the index of I in string capItal",
+          "should print -1 as the index of i in string capItal",
+          "should print 10 as the index of c in string multiple occurences of char",
+          "should print 25 as the index of g in string index at the end of string",
+          "should print 17 as the index of & in string special chars $%^&",
+          "should print -1 as the index of & in string char not in string"
+        ],
         "total": 8,
-        "failing": 0
+        "failing": 7
       },
       {
         "name": "02_count_vowels_test.js",
@@ -2578,7 +2592,7 @@
   },
   {
     "internName": "Mohamad-sakib",
-    "lintIssues": ["semi"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2632,7 +2646,12 @@
   },
   {
     "internName": "rwtneeraj",
-    "lintIssues": ["indent", "no-multiple-empty-lines"],
+    "lintIssues": [
+      "indent",
+      "no-extra-parens",
+      "no-multiple-empty-lines",
+      "brace-style"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2740,7 +2759,7 @@
   },
   {
     "internName": "rajasurendrag",
-    "lintIssues": ["prefer-const"],
+    "lintIssues": ["prefer-const", "semi-spacing"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2774,9 +2793,14 @@
       },
       {
         "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print no spaces at the ends for string no spaces at the ends",
+          "should print spaces at the begining of the string for string  spaces at the begining of the string",
+          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
+          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         "
+        ],
         "total": 5,
-        "failing": 0
+        "failing": 4
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
@@ -2848,7 +2872,13 @@
   },
   {
     "internName": "hajramallika1176",
-    "lintIssues": ["space-infix-ops", "no-undefined", "curly"],
+    "lintIssues": [
+      "no-extra-parens",
+      "semi",
+      "space-infix-ops",
+      "no-undefined",
+      "curly"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -2942,15 +2972,9 @@
       },
       {
         "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print noSpaces for string noSpaces",
-          "should print no duplicate spaces for string no duplicate spaces",
-          "should print with duplicate spaces for string with    duplicate   spaces",
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
+        "failingTests": [],
         "total": 5,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "08_count_words_test.js",
@@ -3178,7 +3202,7 @@
   },
   {
     "internName": "KrishnaDileepG",
-    "lintIssues": [],
+    "lintIssues": ["prefer-const", "no-extra-parens"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3286,7 +3310,7 @@
   },
   {
     "internName": "anushri23p",
-    "lintIssues": ["semi"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3502,7 +3526,13 @@
   },
   {
     "internName": "CharankumarSarlani",
-    "lintIssues": [],
+    "lintIssues": [
+      "no-multi-spaces",
+      "prefer-const",
+      "keyword-spacing",
+      "indent",
+      "no-shadow"
+    ],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3556,7 +3586,7 @@
   },
   {
     "internName": "usujoy",
-    "lintIssues": [],
+    "lintIssues": ["indent"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3664,7 +3694,7 @@
   },
   {
     "internName": "Meghashyam12",
-    "lintIssues": [],
+    "lintIssues": ["semi", "semi-spacing"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3718,7 +3748,7 @@
   },
   {
     "internName": "Aman-bhart",
-    "lintIssues": [],
+    "lintIssues": ["semi"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -3778,184 +3808,6 @@
   },
   {
     "internName": "Bhanuteja74",
-    "lintIssues": ["no-multiple-empty-lines"],
-    "tests": [
-      {
-        "name": "01_find_index_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "02_count_vowels_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "03_is_palindrome_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "04_reverse_string_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      },
-      {
-        "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [],
-        "total": 5,
-        "failing": 0
-      },
-      {
-        "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [],
-        "total": 5,
-        "failing": 0
-      },
-      {
-        "name": "08_count_words_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      }
-    ]
-  },
-  {
-    "internName": "atulrwt23",
-    "lintIssues": ["yoda"],
-    "tests": [
-      {
-        "name": "01_find_index_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "02_count_vowels_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "03_is_palindrome_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "04_reverse_string_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      },
-      {
-        "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [],
-        "total": 5,
-        "failing": 0
-      },
-      {
-        "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [],
-        "total": 5,
-        "failing": 0
-      },
-      {
-        "name": "08_count_words_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      }
-    ]
-  },
-  {
-    "internName": "sireeshaudamala",
-    "lintIssues": [
-      "space-infix-ops",
-      "no-multiple-empty-lines",
-      "semi",
-      "eqeqeq",
-      "prefer-const",
-      "no-undefined"
-    ],
-    "tests": [
-      {
-        "name": "01_find_index_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "02_count_vowels_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "03_is_palindrome_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "04_reverse_string_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "05_replace_space_with_underscore_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      },
-      {
-        "name": "06_remove_leading_trailing_spaces_test.js",
-        "failingTests": [
-          "should print no spaces at the ends for string no spaces at the ends",
-          "should print spaces at the begining of the string for string  spaces at the begining of the string",
-          "should print multiple spaces at the end of the string for string multiple spaces at the end of the string    ",
-          "should print multiple spaces at both the ends of the string for string      multiple spaces at both the ends of the string         ",
-          "should print  for string           "
-        ],
-        "total": 5,
-        "failing": 5
-      },
-      {
-        "name": "07_replace_duplicate_spaces_test.js",
-        "failingTests": [
-          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
-          "should print   for string           "
-        ],
-        "total": 5,
-        "failing": 2
-      },
-      {
-        "name": "08_count_words_test.js",
-        "failingTests": [],
-        "total": 6,
-        "failing": 0
-      }
-    ]
-  },
-  {
-    "internName": "meenugamadhavi",
     "lintIssues": [],
     "tests": [
       {
@@ -4002,9 +3854,195 @@
       },
       {
         "name": "08_count_words_test.js",
+        "failingTests": [
+          "should print 1 for string singleWord",
+          "should print 6 for string multiple words in a single string",
+          "should print 0 for string  ",
+          "should print 0 for string ",
+          "should print 7 for string  multiple words with spaces at the ends ",
+          "should print 5 for string  multiple  words     with   multiple spaces  "
+        ],
+        "total": 6,
+        "failing": 6
+      }
+    ]
+  },
+  {
+    "internName": "atulrwt23",
+    "lintIssues": ["no-unused-vars", "no-extra-parens"],
+    "tests": [
+      {
+        "name": "01_find_index_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "02_count_vowels_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "03_is_palindrome_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "04_reverse_string_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "05_replace_space_with_underscore_test.js",
+        "failingTests": [
+          "should print with_space for string with space",
+          "should print with_multiple_spaces_in_a_single_string for string with multiple spaces in a single string",
+          "should print with__more__than___one____space_in_between for string with  more  than   one    space in between",
+          "should print _with_space_at_both_ends_and_multiple_spaces_____ for string  with space at both ends and multiple spaces     ",
+          "should print __________ for string           "
+        ],
+        "total": 6,
+        "failing": 5
+      },
+      {
+        "name": "06_remove_leading_trailing_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "07_replace_duplicate_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "08_count_words_test.js",
         "failingTests": [],
         "total": 6,
         "failing": 0
+      }
+    ]
+  },
+  {
+    "internName": "sireeshaudamala",
+    "lintIssues": [
+      "no-multiple-empty-lines",
+      "semi",
+      "prefer-const",
+      "no-undefined"
+    ],
+    "tests": [
+      {
+        "name": "01_find_index_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "02_count_vowels_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "03_is_palindrome_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "04_reverse_string_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "05_replace_space_with_underscore_test.js",
+        "failingTests": [],
+        "total": 6,
+        "failing": 0
+      },
+      {
+        "name": "06_remove_leading_trailing_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "07_replace_duplicate_spaces_test.js",
+        "failingTests": [
+          "should print  with duplicate spaces at both ends and in between  for string    with  duplicate   spaces   at both ends and in between    ",
+          "should print   for string           "
+        ],
+        "total": 5,
+        "failing": 2
+      },
+      {
+        "name": "08_count_words_test.js",
+        "failingTests": [],
+        "total": 6,
+        "failing": 0
+      }
+    ]
+  },
+  {
+    "internName": "meenugamadhavi",
+    "lintIssues": ["keyword-spacing"],
+    "tests": [
+      {
+        "name": "01_find_index_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "02_count_vowels_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "03_is_palindrome_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "04_reverse_string_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "05_replace_space_with_underscore_test.js",
+        "failingTests": [],
+        "total": 6,
+        "failing": 0
+      },
+      {
+        "name": "06_remove_leading_trailing_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "07_replace_duplicate_spaces_test.js",
+        "failingTests": [],
+        "total": 5,
+        "failing": 0
+      },
+      {
+        "name": "08_count_words_test.js",
+        "failingTests": [
+          "should print 1 for string singleWord",
+          "should print 6 for string multiple words in a single string"
+        ],
+        "total": 6,
+        "failing": 2
       }
     ]
   },
@@ -4064,7 +4102,7 @@
   },
   {
     "internName": "deepanshutiwari16",
-    "lintIssues": ["no-multi-spaces"],
+    "lintIssues": ["no-multi-spaces", "prefer-const", "no-extra-parens"],
     "tests": [
       {
         "name": "01_find_index_test.js",
@@ -4118,7 +4156,7 @@
   },
   {
     "internName": "devdattadhage",
-    "lintIssues": ["no-multiple-empty-lines"],
+    "lintIssues": [],
     "tests": [
       {
         "name": "01_find_index_test.js",
