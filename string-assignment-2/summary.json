@@ -11,14 +11,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -36,13 +36,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -60,13 +60,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -84,7 +84,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -94,10 +94,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -113,14 +114,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -138,13 +139,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -162,7 +163,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -172,10 +173,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -192,13 +194,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -216,7 +218,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -226,10 +228,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -245,14 +248,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -269,14 +272,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -294,13 +297,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -318,13 +321,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -342,13 +345,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -366,13 +369,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -390,13 +393,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -414,13 +417,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -438,13 +441,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -462,13 +465,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -485,14 +488,17 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": [
+          "should print 0 for string count and subString ",
+          "should print 0 for string  and subString "
+        ],
+        "total": 9,
+        "failing": 2
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -510,13 +516,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -534,13 +540,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -557,14 +563,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -582,7 +588,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -592,10 +598,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -612,7 +619,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -622,10 +629,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -654,10 +662,12 @@
           "should print 0 for string I don't have expected substring and subString is",
           "should print 3 for string hahahaha and subString haha",
           "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
+          "should print 0 for string I don't have case sensitive substring and subString ubS",
+          "should print 0 for string count and subString ",
+          "should print 0 for string  and subString "
         ],
-        "total": 7,
-        "failing": 7
+        "total": 9,
+        "failing": 9
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -666,10 +676,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -685,9 +696,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -696,10 +707,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -716,13 +728,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -740,13 +752,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -764,13 +776,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -788,13 +800,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -812,13 +824,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -842,7 +854,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -852,10 +864,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -878,10 +891,12 @@
           "should print 0 for string I don't have expected substring and subString is",
           "should print 3 for string hahahaha and subString haha",
           "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
+          "should print 0 for string I don't have case sensitive substring and subString ubS",
+          "should print 0 for string count and subString ",
+          "should print 0 for string  and subString "
         ],
-        "total": 7,
-        "failing": 7
+        "total": 9,
+        "failing": 9
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -890,10 +905,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -910,7 +926,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -918,10 +934,11 @@
         "failingTests": [
           "should print sentence the reverse for string reverse the sentence",
           "should print singleWord for string singleWord",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 3
+        "total": 6,
+        "failing": 4
       }
     ]
   },
@@ -940,13 +957,13 @@
         "failingTests": [
           "should print 3 for string hahahaha and subString haha"
         ],
-        "total": 7,
+        "total": 9,
         "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -964,7 +981,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -974,10 +991,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -994,13 +1012,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1024,10 +1042,12 @@
           "should print 0 for string I don't have expected substring and subString is",
           "should print 3 for string hahahaha and subString haha",
           "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
+          "should print 0 for string I don't have case sensitive substring and subString ubS",
+          "should print 0 for string count and subString ",
+          "should print 0 for string  and subString "
         ],
-        "total": 7,
-        "failing": 7
+        "total": 9,
+        "failing": 9
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1036,10 +1056,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -1056,13 +1077,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1080,13 +1101,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1104,13 +1125,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1127,14 +1148,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1152,7 +1173,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -1162,10 +1183,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -1181,9 +1203,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1192,10 +1214,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -1212,13 +1235,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1236,13 +1259,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1260,13 +1283,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1284,13 +1307,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1308,13 +1331,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1332,13 +1355,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1356,13 +1379,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1379,14 +1402,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1404,13 +1427,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1428,13 +1451,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1464,10 +1487,11 @@
           "should print 0 for string I don't have expected substring and subString is",
           "should print 3 for string hahahaha and subString haha",
           "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
+          "should print 0 for string I don't have case sensitive substring and subString ubS",
+          "should print 0 for string count and subString "
         ],
-        "total": 7,
-        "failing": 7
+        "total": 9,
+        "failing": 8
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1476,10 +1500,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -1496,13 +1521,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1524,13 +1549,13 @@
           "should print 7 for string This is a rising issue in istanbul and subString i",
           "should print 0 for string I don't have expected substring and subString is"
         ],
-        "total": 7,
+        "total": 9,
         "failing": 3
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1548,13 +1573,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1572,7 +1597,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -1580,10 +1605,11 @@
         "failingTests": [
           "should print sentence the reverse for string reverse the sentence",
           "should print singleWord for string singleWord",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 3
+        "total": 6,
+        "failing": 4
       }
     ]
   },
@@ -1600,13 +1626,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1630,15 +1656,17 @@
           "should print 0 for string I don't have expected substring and subString is",
           "should print 3 for string hahahaha and subString haha",
           "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS"
+          "should print 0 for string I don't have case sensitive substring and subString ubS",
+          "should print 0 for string count and subString ",
+          "should print 0 for string  and subString "
         ],
-        "total": 7,
-        "failing": 7
+        "total": 9,
+        "failing": 9
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1655,14 +1683,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1680,13 +1708,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1704,13 +1732,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1728,7 +1756,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -1738,10 +1766,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -1758,13 +1787,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1781,14 +1810,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
+        "failingTests": ["should print 0 for string count and subString "],
+        "total": 9,
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1806,13 +1835,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1830,7 +1859,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -1840,10 +1869,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -1860,13 +1890,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1884,13 +1914,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1908,13 +1938,13 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
         "failingTests": [],
-        "total": 5,
+        "total": 6,
         "failing": 0
       }
     ]
@@ -1932,7 +1962,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -1942,10 +1972,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   },
@@ -1962,7 +1993,7 @@
       {
         "name": "02_count_substring_occurences_test.js",
         "failingTests": [],
-        "total": 7,
+        "total": 9,
         "failing": 0
       },
       {
@@ -1972,10 +2003,11 @@
           "should print singleWord for string singleWord",
           "should print  for string ",
           "should print   for string  ",
-          "should print words 2 have I for string I have 2 words"
+          "should print words 4 have I for string I have 4 words",
+          "should print words 4 have   I for string I   have 4 words"
         ],
-        "total": 5,
-        "failing": 5
+        "total": 6,
+        "failing": 6
       }
     ]
   }
