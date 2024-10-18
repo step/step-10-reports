@@ -11,9 +11,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": ["should print 0 for string count and subString "],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -49,7 +49,7 @@
   },
   {
     "internName": "ShrutikaBhosale",
-    "lintIssues": ["max-len", "semi-spacing"],
+    "lintIssues": ["max-len", "prefer-const"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -73,7 +73,7 @@
   },
   {
     "internName": "akshay-011",
-    "lintIssues": ["max-len", "no-extra-parens", "no-unused-vars"],
+    "lintIssues": ["max-len", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -114,9 +114,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": ["should print 0 for string count and subString "],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -207,7 +207,7 @@
   },
   {
     "internName": "varrapavani",
-    "lintIssues": ["max-len", "prefer-const", "no-multi-spaces"],
+    "lintIssues": ["max-len", "space-infix-ops", "keyword-spacing"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -226,19 +226,17 @@
         "failingTests": [
           "should print sentence the reverse for string reverse the sentence",
           "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
           "should print words 4 have I for string I have 4 words",
           "should print words 4 have   I for string I   have 4 words"
         ],
         "total": 6,
-        "failing": 6
+        "failing": 4
       }
     ]
   },
   {
     "internName": "snehakarada",
-    "lintIssues": ["max-len"],
+    "lintIssues": ["max-len", "prefer-const", "semi"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -248,9 +246,12 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": ["should print 0 for string count and subString "],
+        "failingTests": [
+          "should print 0 for string count and subString ",
+          "should print 0 for string  and subString "
+        ],
         "total": 9,
-        "failing": 1
+        "failing": 2
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -262,7 +263,7 @@
   },
   {
     "internName": "pradeep1402",
-    "lintIssues": ["max-len", "prefer-const"],
+    "lintIssues": ["max-len", "semi", "prefer-const"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -272,9 +273,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": ["should print 0 for string count and subString "],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -286,7 +287,7 @@
   },
   {
     "internName": "asmamulla786",
-    "lintIssues": ["max-len", "space-infix-ops"],
+    "lintIssues": ["max-len"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -310,13 +311,15 @@
   },
   {
     "internName": "favas-kp",
-    "lintIssues": ["max-len"],
+    "lintIssues": ["max-len", "no-extra-parens"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print  is equal to length for string end is equal to length, start 3 and end 22"
+        ],
         "total": 12,
-        "failing": 0
+        "failing": 1
       },
       {
         "name": "02_count_substring_occurences_test.js",
@@ -334,7 +337,7 @@
   },
   {
     "internName": "Amitlaitbar",
-    "lintIssues": ["max-len", "prefer-const", "eqeqeq"],
+    "lintIssues": ["max-len"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -392,9 +395,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
+        "failingTests": ["should print 0 for string count and subString "],
         "total": 9,
-        "failing": 0
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -416,9 +419,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
+        "failingTests": ["should print 0 for string count and subString "],
         "total": 9,
-        "failing": 0
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -440,9 +443,13 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print 5 for string This is a rising issue in istanbul and subString is",
+          "should print 7 for string This is a rising issue in istanbul and subString i",
+          "should print 3 for string hahahaha and subString haha"
+        ],
         "total": 9,
-        "failing": 0
+        "failing": 3
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -488,12 +495,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 0 for string count and subString ",
-          "should print 0 for string  and subString "
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 2
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -505,7 +509,7 @@
   },
   {
     "internName": "PragnaMarisa",
-    "lintIssues": ["max-len", "indent", "no-multi-spaces"],
+    "lintIssues": ["max-len", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -563,9 +567,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": ["should print 0 for string count and subString "],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -577,7 +581,7 @@
   },
   {
     "internName": "Karnankita04",
-    "lintIssues": ["max-len", "semi-spacing", "no-unused-vars"],
+    "lintIssues": ["max-len", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -717,7 +721,7 @@
   },
   {
     "internName": "siddhardha07",
-    "lintIssues": ["max-len"],
+    "lintIssues": ["max-len", "space-infix-ops"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -765,7 +769,7 @@
   },
   {
     "internName": "Akash0Dey",
-    "lintIssues": ["max-len"],
+    "lintIssues": ["max-len", "prefer-const", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -775,9 +779,12 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print 0 for string count and subString ",
+          "should print 0 for string  and subString "
+        ],
         "total": 9,
-        "failing": 0
+        "failing": 2
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -823,9 +830,14 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print 5 for string This is a rising issue in istanbul and subString is",
+          "should print 1 for string single occurence of substring and subString of",
+          "should print 3 for string hahahaha and subString haha",
+          "should print 1 for string I contain case sensitive subString and subString ubS"
+        ],
         "total": 9,
-        "failing": 0
+        "failing": 4
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -884,19 +896,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS",
-          "should print 0 for string count and subString ",
-          "should print 0 for string  and subString "
-        ],
+        "failingTests": ["should print 0 for string count and subString "],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -931,14 +933,9 @@
       },
       {
         "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print words 4 have I for string I have 4 words",
-          "should print words 4 have   I for string I   have 4 words"
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 4
+        "failing": 0
       }
     ]
   },
@@ -954,11 +951,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 3 for string hahahaha and subString haha"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1001,7 +996,7 @@
   },
   {
     "internName": "malleswaribatta",
-    "lintIssues": ["max-len", "no-multi-spaces", "prefer-const"],
+    "lintIssues": ["max-len"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1025,7 +1020,7 @@
   },
   {
     "internName": "rajbhosale96",
-    "lintIssues": ["max-len", "no-unused-vars"],
+    "lintIssues": ["max-len"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1035,32 +1030,15 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS",
-          "should print 0 for string count and subString ",
-          "should print 0 for string  and subString "
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print  for string ",
-          "should print   for string  ",
-          "should print words 4 have I for string I have 4 words",
-          "should print words 4 have   I for string I   have 4 words"
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 6
+        "failing": 0
       }
     ]
   },
@@ -1320,19 +1298,30 @@
   },
   {
     "internName": "rajasurendrag",
-    "lintIssues": ["max-len"],
+    "lintIssues": [
+      "max-len",
+      "no-unused-vars",
+      "indent",
+      "no-multiple-empty-lines"
+    ],
     "tests": [
       {
         "name": "01_create_substring_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print range for string end is out of range, start 14 and end 100",
+          "should print  for string start is out of range, start 50 and end 100",
+          "should print  for string , start 1 and end 2",
+          "should print start range is negative index and end is greater than length for string start range is negative index and end is greater than length, start -2 and end 100",
+          "should print  is equal to length for string end is equal to length, start 3 and end 22"
+        ],
         "total": 12,
-        "failing": 0
+        "failing": 5
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
+        "failingTests": ["should print 0 for string count and subString "],
         "total": 9,
-        "failing": 0
+        "failing": 1
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1344,7 +1333,7 @@
   },
   {
     "internName": "Maxsilver46",
-    "lintIssues": ["max-len", "no-multiple-empty-lines"],
+    "lintIssues": ["max-len"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1392,7 +1381,7 @@
   },
   {
     "internName": "mounikakolliboyina",
-    "lintIssues": ["max-len"],
+    "lintIssues": ["max-len", "max-depth"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1402,9 +1391,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": ["should print 0 for string count and subString "],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1464,13 +1453,7 @@
   },
   {
     "internName": "sanikaP16",
-    "lintIssues": [
-      "max-len",
-      "no-unused-vars",
-      "semi-spacing",
-      "max-depth",
-      "keyword-spacing"
-    ],
+    "lintIssues": ["max-len", "max-depth", "no-unused-vars"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1480,18 +1463,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 1 for string single occurence of substring and subString of",
-          "should print 0 for string I don't have expected substring and subString is",
-          "should print 3 for string hahahaha and subString haha",
-          "should print 1 for string I contain case sensitive subString and subString ubS",
-          "should print 0 for string I don't have case sensitive substring and subString ubS",
-          "should print 0 for string count and subString "
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1534,7 +1508,7 @@
   },
   {
     "internName": "KrishnaDileepG",
-    "lintIssues": ["max-len", "prefer-const"],
+    "lintIssues": ["max-len", "no-multiple-empty-lines"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1544,13 +1518,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [
-          "should print 5 for string This is a rising issue in istanbul and subString is",
-          "should print 7 for string This is a rising issue in istanbul and subString i",
-          "should print 0 for string I don't have expected substring and subString is"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1602,20 +1572,15 @@
       },
       {
         "name": "03_reverse_the_sentence_test.js",
-        "failingTests": [
-          "should print sentence the reverse for string reverse the sentence",
-          "should print singleWord for string singleWord",
-          "should print words 4 have I for string I have 4 words",
-          "should print words 4 have   I for string I   have 4 words"
-        ],
+        "failingTests": [],
         "total": 6,
-        "failing": 4
+        "failing": 0
       }
     ]
   },
   {
     "internName": "sahajsinghal13",
-    "lintIssues": ["max-len", "keyword-spacing"],
+    "lintIssues": ["max-len"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1625,9 +1590,12 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should print 5 for string This is a rising issue in istanbul and subString is",
+          "should print 0 for string I don't have expected substring and subString is"
+        ],
         "total": 9,
-        "failing": 0
+        "failing": 2
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1639,7 +1607,12 @@
   },
   {
     "internName": "AbhinavKaippa",
-    "lintIssues": ["max-len"],
+    "lintIssues": [
+      "max-len",
+      "no-extra-parens",
+      "no-unused-expressions",
+      "semi"
+    ],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1683,9 +1656,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": ["should print 0 for string count and subString "],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
@@ -1721,7 +1694,7 @@
   },
   {
     "internName": "usujoy",
-    "lintIssues": ["max-len"],
+    "lintIssues": ["max-len", "no-extra-parens"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1800,7 +1773,7 @@
   },
   {
     "internName": "Aman-bhart",
-    "lintIssues": ["max-len", "indent"],
+    "lintIssues": ["max-len", "indent", "max-depth"],
     "tests": [
       {
         "name": "01_create_substring_test.js",
@@ -1810,9 +1783,9 @@
       },
       {
         "name": "02_count_substring_occurences_test.js",
-        "failingTests": ["should print 0 for string count and subString "],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "03_reverse_the_sentence_test.js",
