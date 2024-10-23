@@ -3,29 +3,23 @@
     "internName": "garimiddisuman",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
       "no-extra-parens",
       "no-mixed-operators",
-      "max-len",
-      "complexity",
-      "id-length"
+      "max-lines-per-function",
+      "indent",
+      "id-length",
+      "semi",
+      "brace-style",
+      "space-infix-ops"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -41,17 +35,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -61,9 +47,21 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [
+          "Basic substring",
+          "Substring not found",
+          "Substring at beginning",
+          "Substring at end",
+          "Substring in the middle",
+          "Substring is empty string",
+          "Text is empty string",
+          "Substring is longer than text",
+          "Substring is same as text",
+          "Case-insensitive substring",
+          "Substring with special characters"
+        ],
         "total": 11,
-        "failing": 1
+        "failing": 11
       },
       {
         "name": "leap_year_test.js",
@@ -73,18 +71,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -107,31 +96,19 @@
           "for string 'I don't have expected substring'",
           "for string 'hahahaha'",
           "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
+          "for string 'I don't have case sensitive substring'"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 7
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
-          "Invalid from unit",
-          "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 2
       }
     ]
   },
@@ -139,12 +116,11 @@
     "internName": "PalPriyankush",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "prefer-const",
       "no-extra-parens",
-      "semi",
-      "no-multiple-empty-lines",
       "max-len",
-      "indent",
+      "max-lines-per-function",
       "id-length"
     ],
     "tests": [
@@ -208,21 +184,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -253,16 +217,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'this is a statement' from 0 to 3",
-          "should slice 'from middle till the end' from 5 to 23",
-          "should slice 'take middle part of me' from 5 to 15",
-          "should slice 'print me fully' from 0 to 13",
-          "should slice 'start and end are same' from 10 to 10",
-          "should slice 'start range is negative index' from -2 to 10"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 6
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -307,26 +264,18 @@
       "no-unused-vars",
       "indent",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
+      "prefer-const",
       "id-length",
-      "semi"
+      "semi-spacing",
+      "no-extra-parens"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -342,17 +291,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -363,20 +304,10 @@
       {
         "name": "is_substring_test.js",
         "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
+          "Substring in the middle"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 1
       },
       {
         "name": "leap_year_test.js",
@@ -404,19 +335,9 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -434,11 +355,12 @@
     "internName": "akshay-011",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-shadow",
       "prefer-const",
       "max-len",
-      "complexity",
-      "indent",
+      "max-lines-per-function",
+      "no-multiple-empty-lines",
       "id-length"
     ],
     "tests": [
@@ -472,17 +394,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -504,18 +418,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -572,9 +477,8 @@
       "no-unused-vars",
       "indent",
       "max-len",
-      "no-extra-parens",
-      "complexity",
-      "keyword-spacing",
+      "max-lines-per-function",
+      "no-mixed-operators",
       "id-length"
     ],
     "tests": [
@@ -610,9 +514,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -640,55 +544,49 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": ["for string 'count'", "for string ''"],
+        "failingTests": [],
         "total": 9,
-        "failing": 2
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 4
+        "failing": 3
       }
     ]
   },
   {
     "internName": "fadedblack",
     "lintIssues": [
-      "no-unused-vars",
-      "space-infix-ops",
-      "complexity",
       "max-len",
+      "no-shadow",
+      "max-lines-per-function",
+      "no-unused-vars",
+      "indent",
       "keyword-spacing",
-      "no-multi-spaces",
       "no-extra-parens",
       "camelcase",
       "eqeqeq",
       "id-length",
       "prefer-const",
-      "indent"
+      "no-mixed-operators",
+      "space-infix-ops",
+      "semi",
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -759,38 +657,20 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 4
       }
     ]
   },
@@ -798,15 +678,15 @@
     "internName": "haripriyagullipalli",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-shadow",
       "keyword-spacing",
       "no-multiple-empty-lines",
-      "indent",
       "no-multi-spaces",
       "max-len",
-      "complexity",
-      "semi",
-      "id-length"
+      "max-lines-per-function",
+      "id-length",
+      "prefer-const"
     ],
     "tests": [
       {
@@ -833,14 +713,9 @@
       },
       {
         "name": "find_index_test.js",
-        "failingTests": [
-          "Basic find",
-          "Multiple occurrences",
-          "Large string",
-          "Multiple occurrences with special characters"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "first_prime_above_test.js",
@@ -858,13 +733,9 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Not a multiple of 3 or 5",
-          "Edge case: 1",
-          "Edge case: 2"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -892,18 +763,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -913,13 +775,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'end is out of range' from 14 to 100",
-          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
-          "should slice 'end is equal to length' from 3 to 22"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -962,10 +820,10 @@
     "internName": "sarupmoni",
     "lintIssues": [
       "no-unused-vars",
-      "no-extra-parens",
-      "no-mixed-operators",
-      "max-len",
       "indent",
+      "max-lines-per-function",
+      "max-len",
+      "prefer-const",
       "id-length"
     ],
     "tests": [
@@ -1030,20 +888,10 @@
       {
         "name": "is_substring_test.js",
         "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
+          "Substring is empty string"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 1
       },
       {
         "name": "leap_year_test.js",
@@ -1119,13 +967,13 @@
     "internName": "varrapavani",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "eqeqeq",
       "semi-spacing",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
       "keyword-spacing",
       "prefer-const",
-      "indent",
       "id-length"
     ],
     "tests": [
@@ -1159,27 +1007,15 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Not a multiple of 3 or 5",
-          "Edge case: 1",
-          "Edge case: 2"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -1195,18 +1031,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -1262,30 +1089,25 @@
     "lintIssues": [
       "no-unused-vars",
       "brace-style",
-      "comma-spacing",
-      "indent",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
+      "indent",
       "prefer-const",
+      "id-length",
+      "no-extra-parens",
+      "space-infix-ops",
       "semi",
-      "id-length"
+      "no-mixed-operators",
+      "comma-spacing"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -1301,17 +1123,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -1333,18 +1147,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -1354,44 +1159,25 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
           "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
-          "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
-          "Non-numeric value"
+          "Invalid to unit"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -1400,17 +1186,18 @@
     "lintIssues": [
       "no-unused-vars",
       "indent",
-      "no-shadow",
       "prefer-const",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
       "id-length",
-      "no-mixed-operators"
+      "semi"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": ["Empty substring"],
+        "failingTests": [
+          "Empty substring"
+        ],
         "total": 9,
         "failing": 1
       },
@@ -1428,9 +1215,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": ["next prime after 0 should be 2"],
+        "failingTests": [],
         "total": 7,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -1491,10 +1278,10 @@
     "internName": "asmamulla786",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-multiple-empty-lines",
       "max-len",
-      "complexity",
-      "indent",
+      "keyword-spacing",
       "id-length"
     ],
     "tests": [
@@ -1528,17 +1315,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -1548,38 +1327,23 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [
+          "Substring in the middle"
+        ],
         "total": 11,
         "failing": 1
       },
       {
         "name": "leap_year_test.js",
-        "failingTests": [
-          "should be true for year 4",
-          "should be true for year 400",
-          "should be true for year 2000",
-          "should be true for year 1968",
-          "should be false for year 1900",
-          "should be false for year 1234",
-          "should be false for year 395"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -1636,8 +1400,7 @@
       "indent",
       "no-extra-parens",
       "max-len",
-      "complexity",
-      "id-length",
+      "max-lines-per-function",
       "no-unused-vars"
     ],
     "tests": [
@@ -1730,21 +1493,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
-          "Invalid from unit",
-          "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 2
       }
     ]
   },
@@ -1752,12 +1505,11 @@
     "internName": "Amitlaitbar",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-shadow",
       "max-len",
       "no-extra-parens",
-      "no-mixed-operators",
-      "complexity",
-      "indent",
+      "max-lines-per-function",
       "id-length"
     ],
     "tests": [
@@ -1791,33 +1543,15 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -1833,18 +1567,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -1899,11 +1624,12 @@
     "internName": "HimaSaiCharan",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
       "no-shadow",
+      "indent",
       "max-len",
-      "complexity",
-      "id-length"
+      "max-lines-per-function",
+      "id-length",
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -1948,7 +1674,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring in the middle"],
+        "failingTests": [
+          "Substring in the middle"
+        ],
         "total": 11,
         "failing": 1
       },
@@ -1960,18 +1688,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -1981,7 +1700,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
         "failing": 1
       },
@@ -2004,8 +1725,6 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
           "Fahrenheit to Kelvin",
           "Fahrenheit to Celsius for -40",
           "Kelvin to Celsius",
@@ -2013,46 +1732,33 @@
           "Invalid from unit",
           "Invalid to unit",
           "Same units",
-          "Negative temperature",
           "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 9
       }
     ]
   },
   {
     "internName": "krishnanandgithub",
     "lintIssues": [
-      "no-shadow",
-      "id-length",
-      "no-extra-parens",
-      "space-infix-ops",
-      "max-len",
-      "semi",
-      "no-unused-vars",
       "indent",
-      "complexity",
+      "prefer-const",
+      "max-len",
+      "max-lines-per-function",
+      "semi",
+      "id-length",
       "no-mixed-operators",
-      "keyword-spacing"
+      "keyword-spacing",
+      "semi-spacing"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -2074,25 +1780,15 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -2121,29 +1817,20 @@
       {
         "name": "substring_count_test.js",
         "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
           "for string 'count'",
           "for string ''"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 2
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Invalid from unit",
-          "Invalid to unit",
           "Same units",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 4
+        "failing": 2
       }
     ]
   },
@@ -2151,10 +1838,9 @@
     "internName": "SiyaShikha",
     "lintIssues": [
       "no-unused-vars",
-      "keyword-spacing",
-      "max-len",
-      "complexity",
       "indent",
+      "max-len",
+      "max-lines-per-function",
       "id-length"
     ],
     "tests": [
@@ -2188,17 +1874,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -2208,9 +1886,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -2247,19 +1925,9 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -2287,30 +1955,19 @@
     "lintIssues": [
       "no-unused-vars",
       "no-shadow",
-      "no-extra-parens",
+      "indent",
       "eqeqeq",
       "max-len",
-      "complexity",
-      "indent",
+      "max-lines-per-function",
       "semi-spacing",
       "id-length"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -2332,9 +1989,9 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": ["Edge case: 1", "Edge case: 2"],
+        "failingTests": [],
         "total": 9,
-        "failing": 2
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -2362,44 +2019,25 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -2407,11 +2045,13 @@
     "internName": "divyaramsaran",
     "lintIssues": [
       "no-unused-vars",
-      "no-shadow",
-      "prefer-const",
-      "complexity",
-      "max-len",
       "indent",
+      "no-shadow",
+      "max-lines-per-function",
+      "prefer-const",
+      "max-len",
+      "eqeqeq",
+      "no-unused-expressions",
       "id-length"
     ],
     "tests": [
@@ -2445,72 +2085,33 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
-        "failingTests": ["should be false for year 1900"],
+        "failingTests": [],
         "total": 7,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -2564,11 +2165,13 @@
   {
     "internName": "RamVanumu",
     "lintIssues": [
+      "indent",
       "no-undefined",
       "max-len",
       "no-extra-parens",
       "no-multiple-empty-lines",
-      "complexity",
+      "curly",
+      "max-lines-per-function",
       "id-length",
       "no-mixed-operators"
     ],
@@ -2605,9 +2208,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -2637,7 +2240,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
         "failing": 1
       },
@@ -2663,27 +2268,19 @@
     "internName": "PragnaMarisa",
     "lintIssues": [
       "no-unused-vars",
-      "complexity",
-      "max-len",
       "indent",
-      "id-length"
+      "max-len",
+      "max-lines-per-function",
+      "semi",
+      "id-length",
+      "no-mixed-operators"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -2699,39 +2296,26 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [
+          "Basic substring",
+          "Substring at end",
+          "Substring in the middle",
+          "Substring with special characters"
+        ],
         "total": 11,
-        "failing": 1
+        "failing": 4
       },
       {
         "name": "leap_year_test.js",
@@ -2741,18 +2325,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -2768,38 +2343,19 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -2808,28 +2364,20 @@
     "lintIssues": [
       "indent",
       "no-unused-vars",
-      "max-len",
-      "no-mixed-operators",
       "semi",
-      "no-extra-parens",
-      "id-length"
+      "max-len",
+      "max-lines-per-function",
+      "id-length",
+      "comma-spacing"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -2845,51 +2393,21 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -2899,18 +2417,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -2965,10 +2474,10 @@
     "internName": "dindeswarijagana",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
       "no-shadow",
       "max-len",
-      "no-multiple-empty-lines",
+      "semi",
+      "max-lines-per-function",
       "id-length"
     ],
     "tests": [
@@ -3002,33 +2511,15 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -3056,18 +2547,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -3121,170 +2603,12 @@
   {
     "internName": "Karnankita04",
     "lintIssues": [
-      "no-multiple-empty-lines",
-      "prefer-const",
-      "id-length",
-      "no-unused-vars",
       "indent",
       "comma-spacing",
-      "max-len"
-    ],
-    "tests": [
-      {
-        "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
-        "total": 9,
-        "failing": 9
-      },
-      {
-        "name": "factorial_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "find_index_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
-        "total": 7,
-        "failing": 7
-      },
-      {
-        "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
-        "total": 9,
-        "failing": 9
-      },
-      {
-        "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
-        "total": 11,
-        "failing": 11
-      },
-      {
-        "name": "leap_year_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
-        "total": 8,
-        "failing": 8
-      },
-      {
-        "name": "string_replace_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
-        "total": 12,
-        "failing": 1
-      },
-      {
-        "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
-        "total": 9,
-        "failing": 9
-      },
-      {
-        "name": "temperature_test.js",
-        "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
-          "Invalid from unit",
-          "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
-          "Non-numeric value"
-        ],
-        "total": 12,
-        "failing": 12
-      }
-    ]
-  },
-  {
-    "internName": "PruthviLahare",
-    "lintIssues": [
-      "no-unused-vars",
-      "no-extra-parens",
-      "keyword-spacing",
+      "no-multiple-empty-lines",
       "max-len",
-      "complexity",
-      "indent",
+      "max-lines-per-function",
+      "no-unused-vars",
       "id-length"
     ],
     "tests": [
@@ -3348,9 +2672,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is longer than text"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -3375,18 +2699,144 @@
       },
       {
         "name": "string_replace_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_slice_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      },
+      {
+        "name": "substring_count_test.js",
         "failingTests": [
-          "Basic replacement",
-          "Multiple replacements",
-          "No matches",
-          "Empty string",
-          "Match character is replacement character",
-          "Match character is empty string",
-          "Replacement character is empty string",
-          "Large string"
+          "for string 'This is a rising issue in istanbul'",
+          "for string 'This is a rising issue in istanbul'",
+          "for string 'single occurence of substring'",
+          "for string 'I don't have expected substring'",
+          "for string 'hahahaha'",
+          "for string 'I contain case sensitive subString'",
+          "for string 'I don't have case sensitive substring'",
+          "for string 'count'",
+          "for string ''"
+        ],
+        "total": 9,
+        "failing": 9
+      },
+      {
+        "name": "temperature_test.js",
+        "failingTests": [
+          "Celsius to Kelvin",
+          "Celsius to Fahrenheit",
+          "Fahrenheit to Kelvin",
+          "Fahrenheit to Celsius for -40",
+          "Kelvin to Celsius",
+          "Kelvin to Fahrenheit",
+          "Invalid from unit",
+          "Invalid to unit",
+          "Same units",
+          "Negative temperature",
+          "Absolute zero",
+          "Non-numeric value"
+        ],
+        "total": 12,
+        "failing": 12
+      }
+    ]
+  },
+  {
+    "internName": "PruthviLahare",
+    "lintIssues": [
+      "indent",
+      "no-extra-parens",
+      "keyword-spacing",
+      "max-len",
+      "max-lines-per-function",
+      "eqeqeq",
+      "no-unused-vars",
+      "id-length"
+    ],
+    "tests": [
+      {
+        "name": "ends_with_test.js",
+        "failingTests": [
+          "Basic ends with",
+          "Does not end with",
+          "Empty substring",
+          "Empty text",
+          "Substring longer than text",
+          "Case-sensitive ends with",
+          "Ends with special characters",
+          "Ends with multiple characters",
+          "Ends with single character"
+        ],
+        "total": 9,
+        "failing": 9
+      },
+      {
+        "name": "factorial_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "find_index_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "first_prime_above_test.js",
+        "failingTests": [
+          "next prime after 113 should be 127",
+          "next prime after 4943 should be 4951"
+        ],
+        "total": 7,
+        "failing": 2
+      },
+      {
+        "name": "fizz_buzz_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "is_substring_test.js",
+        "failingTests": [
+          "Substring in the middle",
+          "Substring is longer than text"
+        ],
+        "total": 11,
+        "failing": 2
+      },
+      {
+        "name": "leap_year_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "nth_fibonacci_test.js",
+        "failingTests": [
+          "1th fibonacci term should be 0",
+          "2th fibonacci term should be 1",
+          "3th fibonacci term should be 1",
+          "4th fibonacci term should be 2",
+          "5th fibonacci term should be 3",
+          "6th fibonacci term should be 5",
+          "11th fibonacci term should be 55",
+          "31th fibonacci term should be 832040"
         ],
         "total": 8,
         "failing": 8
+      },
+      {
+        "name": "string_replace_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
       },
       {
         "name": "string_slice_test.js",
@@ -3434,13 +2884,14 @@
   {
     "internName": "siddhi-gargs",
     "lintIssues": [
+      "indent",
       "no-shadow",
       "space-infix-ops",
       "no-extra-parens",
       "semi",
-      "max-len",
+      "max-lines-per-function",
+      "semi-spacing",
       "no-unused-vars",
-      "indent",
       "id-length"
     ],
     "tests": [
@@ -3488,37 +2939,15 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -3595,13 +3024,11 @@
     "lintIssues": [
       "no-unused-vars",
       "indent",
-      "camelcase",
       "space-infix-ops",
-      "complexity",
-      "id-length",
+      "max-lines-per-function",
       "prefer-const",
-      "eqeqeq",
-      "no-shadow"
+      "no-shadow",
+      "id-length"
     ],
     "tests": [
       {
@@ -3634,17 +3061,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -3697,18 +3116,10 @@
       {
         "name": "substring_count_test.js",
         "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
+          "for string 'count'"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "temperature_test.js",
@@ -3735,15 +3146,17 @@
     "internName": "siddhardha07",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-extra-parens",
       "no-mixed-operators",
       "semi",
       "space-infix-ops",
-      "complexity",
-      "indent",
       "max-len",
+      "max-lines-per-function",
       "brace-style",
-      "id-length"
+      "id-length",
+      "curly",
+      "prefer-const"
     ],
     "tests": [
       {
@@ -3776,7 +3189,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": ["next prime after 2 should be 3"],
+        "failingTests": [
+          "next prime after 2 should be 3"
+        ],
         "total": 7,
         "failing": 1
       },
@@ -3819,7 +3234,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
         "failing": 1
       },
@@ -3842,21 +3259,12 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -3864,12 +3272,11 @@
     "internName": "dinesh-kuniyal",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
+      "max-lines-per-function",
       "max-len",
-      "complexity",
-      "no-shadow",
-      "prefer-const",
-      "id-length"
+      "id-length",
+      "no-multiple-empty-lines",
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -3928,12 +3335,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'take middle part of me' from 5 to 15",
-          "should slice 'start and end are same' from 10 to 10"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -3944,21 +3348,12 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -3968,28 +3363,19 @@
       "no-unused-vars",
       "indent",
       "space-infix-ops",
-      "max-len",
-      "complexity",
-      "semi",
-      "no-multi-spaces",
-      "id-length"
+      "max-lines-per-function",
+      "id-length",
+      "no-mixed-operators",
+      "no-extra-parens"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -4017,9 +3403,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -4029,18 +3415,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -4056,68 +3433,41 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
   {
     "internName": "sushanthj674",
     "lintIssues": [
+      "indent",
+      "space-infix-ops",
       "no-unused-vars",
       "max-len",
-      "complexity",
-      "no-mixed-operators",
-      "prefer-const",
       "id-length",
-      "indent"
+      "max-lines-per-function",
+      "eqeqeq"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -4139,9 +3489,9 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": ["Zero"],
+        "failingTests": [],
         "total": 9,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -4175,19 +3525,9 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -4210,8 +3550,11 @@
       "no-shadow",
       "eqeqeq",
       "no-extra-parens",
-      "complexity",
-      "id-length"
+      "max-len",
+      "max-lines-per-function",
+      "id-length",
+      "space-infix-ops",
+      "prefer-const"
     ],
     "tests": [
       {
@@ -4251,30 +3594,32 @@
       {
         "name": "fizz_buzz_test.js",
         "failingTests": [
+          "Multiple of 3 and 5",
+          "Multiple of 3",
+          "Multiple of 5",
           "Not a multiple of 3 or 5",
+          "Zero",
+          "Large number",
           "Edge case: 1",
-          "Edge case: 2"
+          "Edge case: 2",
+          "Edge case: 3"
         ],
         "total": 9,
-        "failing": 3
+        "failing": 9
       },
       {
         "name": "is_substring_test.js",
         "failingTests": [
           "Basic substring",
-          "Substring not found",
           "Substring at beginning",
           "Substring at end",
           "Substring in the middle",
           "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
           "Substring is same as text",
-          "Case-insensitive substring",
           "Substring with special characters"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 7
       },
       {
         "name": "leap_year_test.js",
@@ -4302,38 +3647,19 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -4346,7 +3672,8 @@
       "no-extra-parens",
       "max-len",
       "no-shadow",
-      "complexity",
+      "max-lines-per-function",
+      "prefer-const",
       "id-length"
     ],
     "tests": [
@@ -4410,21 +3737,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -4512,11 +3827,15 @@
     "internName": "aadithyanmr",
     "lintIssues": [
       "no-unused-vars",
-      "semi-spacing",
       "indent",
+      "semi-spacing",
       "no-multi-spaces",
       "no-mixed-operators",
       "max-len",
+      "max-lines-per-function",
+      "no-multiple-empty-lines",
+      "prefer-const",
+      "semi",
       "id-length"
     ],
     "tests": [
@@ -4565,36 +3884,18 @@
       {
         "name": "fizz_buzz_test.js",
         "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
           "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
           "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
+          "Edge case: 2"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 3
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -4668,23 +3969,21 @@
   },
   {
     "internName": "beautisui",
-    "lintIssues": ["no-unused-vars", "max-len", "indent", "id-length"],
+    "lintIssues": [
+      "no-unused-vars",
+      "indent",
+      "max-len",
+      "max-lines-per-function",
+      "prefer-const",
+      "semi",
+      "id-length"
+    ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -4700,51 +3999,26 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
         "failingTests": [
           "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
+          "Zero"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 2
       },
       {
         "name": "is_substring_test.js",
         "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
+          "Substring is empty string"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 1
       },
       {
         "name": "leap_year_test.js",
@@ -4754,18 +4028,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -4782,18 +4047,10 @@
       {
         "name": "substring_count_test.js",
         "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
+          "for string 'count'"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "temperature_test.js",
@@ -4819,12 +4076,13 @@
   {
     "internName": "kamisettysudheer",
     "lintIssues": [
-      "no-unused-vars",
       "indent",
+      "no-unused-vars",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
       "keyword-spacing",
-      "id-length"
+      "id-length",
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -4893,9 +4151,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -4916,53 +4174,38 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
-          "Invalid from unit",
-          "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 2
       }
     ]
   },
   {
     "internName": "Akash-2006",
     "lintIssues": [
+      "indent",
       "no-unused-vars",
-      "semi-spacing",
       "prefer-const",
-      "space-infix-ops",
       "eqeqeq",
+      "no-extra-parens",
       "max-len",
-      "complexity",
+      "no-multiple-empty-lines",
+      "max-lines-per-function",
+      "semi",
       "id-length",
-      "indent"
+      "semi-spacing",
+      "comma-spacing"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -5020,38 +4263,20 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 4
       }
     ]
   },
@@ -5059,30 +4284,20 @@
     "internName": "Mohammadsiddiqueps",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-mixed-operators",
       "no-extra-parens",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
       "semi",
-      "id-length",
-      "indent"
+      "id-length"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -5140,38 +4355,20 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 4
       }
     ]
   },
@@ -5179,28 +4376,21 @@
     "internName": "malleswaribatta",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
       "space-infix-ops",
       "max-len",
-      "complexity",
-      "id-length"
+      "max-lines-per-function",
+      "indent",
+      "id-length",
+      "prefer-const"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -5240,18 +4430,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -5267,38 +4448,20 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 4
       }
     ]
   },
@@ -5308,7 +4471,9 @@
       "no-unused-vars",
       "no-multiple-empty-lines",
       "max-len",
-      "indent",
+      "max-lines-per-function",
+      "no-extra-parens",
+      "semi",
       "id-length"
     ],
     "tests": [
@@ -5342,39 +4507,21 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -5384,18 +4531,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -5411,19 +4549,9 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -5451,7 +4579,6 @@
     "lintIssues": [
       "no-unused-vars",
       "indent",
-      "complexity",
       "max-len",
       "no-multiple-empty-lines",
       "id-length"
@@ -5606,12 +4733,29 @@
   {
     "internName": "baby-anjali",
     "lintIssues": [
-      "indent",
       "no-shadow",
+      "indent",
+      "max-lines-per-function",
       "max-len",
-      "complexity",
+      "prefer-const",
+      "id-length"
+    ],
+    "tests": [],
+    "testError": "Potential infinite loop or broken code!"
+  },
+  {
+    "internName": "vanamalajayanth",
+    "lintIssues": [
+      "no-unused-vars",
+      "indent",
+      "max-len",
+      "max-lines-per-function",
+      "semi",
       "id-length",
-      "no-unused-vars"
+      "prefer-const",
+      "no-mixed-operators",
+      "no-shadow",
+      "yoda"
     ],
     "tests": [
       {
@@ -5646,9 +4790,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring in the middle"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -5670,49 +4814,42 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
           "Invalid from unit",
           "Invalid to unit",
+          "Same units",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 3
+        "failing": 4
       }
     ]
   },
   {
-    "internName": "vanamalajayanth",
+    "internName": "Adil8081",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
+      "prefer-const",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
+      "no-shadow",
       "semi",
       "id-length",
-      "prefer-const",
-      "no-mixed-operators",
-      "indent"
+      "space-infix-ops",
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -5751,9 +4888,13 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "Not a multiple of 3 or 5",
+          "Edge case: 1",
+          "Edge case: 2"
+        ],
         "total": 9,
-        "failing": 0
+        "failing": 3
       },
       {
         "name": "is_substring_test.js",
@@ -5815,155 +4956,27 @@
     ]
   },
   {
-    "internName": "Adil8081",
-    "lintIssues": [
-      "no-unused-vars",
-      "indent",
-      "no-shadow",
-      "semi",
-      "prefer-const",
-      "max-len",
-      "complexity",
-      "id-length"
-    ],
-    "tests": [
-      {
-        "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
-        "total": 9,
-        "failing": 9
-      },
-      {
-        "name": "factorial_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "find_index_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "first_prime_above_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Not a multiple of 3 or 5",
-          "Edge case: 1",
-          "Edge case: 2"
-        ],
-        "total": 9,
-        "failing": 3
-      },
-      {
-        "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
-        "total": 11,
-        "failing": 1
-      },
-      {
-        "name": "leap_year_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "nth_fibonacci_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_replace_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
-        "total": 12,
-        "failing": 1
-      },
-      {
-        "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
-        "total": 9,
-        "failing": 9
-      },
-      {
-        "name": "temperature_test.js",
-        "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
-          "Invalid from unit",
-          "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
-          "Non-numeric value"
-        ],
-        "total": 12,
-        "failing": 12
-      }
-    ]
-  },
-  {
     "internName": "karthikeya9900",
     "lintIssues": [
       "no-unused-vars",
-      "complexity",
       "indent",
       "max-len",
+      "max-lines-per-function",
+      "no-shadow",
       "no-extra-parens",
-      "id-length"
+      "no-multiple-empty-lines",
+      "id-length",
+      "no-mixed-operators",
+      "semi"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -5979,33 +4992,15 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -6021,18 +5016,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -6066,20 +5052,14 @@
         "name": "temperature_test.js",
         "failingTests": [
           "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
           "Same units",
           "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 6
       }
     ]
   },
@@ -6088,8 +5068,8 @@
     "lintIssues": [
       "no-unused-vars",
       "no-shadow",
-      "complexity",
       "no-mixed-operators",
+      "max-lines-per-function",
       "indent",
       "max-len",
       "id-length"
@@ -6119,19 +5099,9 @@
       },
       {
         "name": "find_index_test.js",
-        "failingTests": [
-          "Basic find",
-          "Character not found",
-          "Multiple occurrences",
-          "Empty string",
-          "Character at beginning",
-          "Character at end",
-          "Large string",
-          "Multiple occurrences with special characters",
-          "Character not found with special characters"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "first_prime_above_test.js",
@@ -6210,19 +5180,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'this is a statement' from 0 to 3",
-          "should slice 'from middle till the end' from 5 to 23",
-          "should slice 'take middle part of me' from 5 to 15",
-          "should slice 'print me fully' from 0 to 13",
-          "should slice 'end is out of range' from 14 to 100",
-          "should slice 'start and end are same' from 10 to 10",
-          "should slice 'start range is negative index' from -2 to 10",
-          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
-          "should slice 'end is equal to length' from 3 to 22"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -6263,7 +5223,13 @@
   },
   {
     "internName": "Dhanoj0810",
-    "lintIssues": ["no-unused-vars", "max-len", "indent", "id-length"],
+    "lintIssues": [
+      "no-unused-vars",
+      "indent",
+      "max-len",
+      "max-lines-per-function",
+      "id-length"
+    ],
     "tests": [
       {
         "name": "ends_with_test.js",
@@ -6415,31 +5381,22 @@
     "internName": "Mohamad-sakib",
     "lintIssues": [
       "indent",
-      "no-shadow",
       "max-len",
-      "no-multiple-empty-lines",
-      "complexity",
-      "prefer-const",
-      "semi",
-      "no-unused-vars",
-      "id-length"
+      "comma-spacing",
+      "max-lines-per-function",
+      "no-multi-spaces",
+      "id-length",
+      "no-mixed-operators",
+      "semi"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -6455,27 +5412,15 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Not a multiple of 3 or 5",
-          "Edge case: 1",
-          "Edge case: 2"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -6491,18 +5436,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -6512,44 +5448,27 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
         "failing": 1
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -6557,13 +5476,12 @@
     "internName": "rwtneeraj",
     "lintIssues": [
       "no-unused-vars",
-      "no-mixed-operators",
       "indent",
+      "no-mixed-operators",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
       "keyword-spacing",
       "prefer-const",
-      "no-extra-parens",
       "id-length",
       "semi-spacing"
     ],
@@ -6644,37 +5562,23 @@
       {
         "name": "substring_count_test.js",
         "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
           "for string 'count'",
           "for string ''"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 2
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
           "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 5
       }
     ]
   },
@@ -6682,16 +5586,17 @@
     "internName": "praneethandukuri",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-multi-spaces",
       "no-extra-parens",
-      "space-infix-ops",
       "no-multiple-empty-lines",
       "semi-spacing",
       "max-len",
       "prefer-const",
-      "complexity",
-      "indent",
-      "id-length"
+      "id-length",
+      "semi",
+      "max-lines-per-function",
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -6724,17 +5629,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -6756,18 +5653,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -6777,56 +5665,40 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
         "failingTests": [
           "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
           "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
           "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
+          "for string 'I contain case sensitive subString'"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 4
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
-          "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 2
       }
     ]
   },
   {
     "internName": "rajasurendrag",
     "lintIssues": [
-      "complexity",
+      "indent",
       "no-unused-vars",
       "no-mixed-operators",
+      "no-extra-parens",
       "max-len",
-      "no-multiple-empty-lines",
-      "indent",
       "id-length"
     ],
     "tests": [
@@ -6935,7 +5807,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
         "failing": 1
       },
@@ -6979,12 +5853,12 @@
   {
     "internName": "Maxsilver46",
     "lintIssues": [
-      "semi",
+      "indent",
       "no-multiple-empty-lines",
       "max-len",
-      "no-unused-vars",
-      "indent",
-      "id-length"
+      "max-lines-per-function",
+      "semi",
+      "no-unused-vars"
     ],
     "tests": [
       {
@@ -7018,16 +5892,13 @@
       {
         "name": "first_prime_above_test.js",
         "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
           "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
           "next prime after 13 should be 17",
           "next prime after 113 should be 127",
           "next prime after 4943 should be 4951"
         ],
         "total": 7,
-        "failing": 7
+        "failing": 4
       },
       {
         "name": "fizz_buzz_test.js",
@@ -7037,7 +5908,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [
+          "Substring is empty string"
+        ],
         "total": 11,
         "failing": 1
       },
@@ -7049,18 +5922,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -7136,14 +6000,13 @@
   {
     "internName": "hajramallika1176",
     "lintIssues": [
-      "indent",
-      "no-extra-parens",
+      "max-lines-per-function",
       "semi",
-      "max-len",
-      "complexity",
+      "indent",
       "prefer-const",
-      "no-unused-vars",
-      "id-length"
+      "no-extra-parens",
+      "id-length",
+      "no-unused-vars"
     ],
     "tests": [
       {
@@ -7176,17 +6039,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -7208,18 +6063,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -7235,19 +6081,9 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -7273,29 +6109,22 @@
   {
     "internName": "mounikakolliboyina",
     "lintIssues": [
+      "indent",
       "no-extra-parens",
       "max-len",
-      "complexity",
-      "no-unused-vars",
+      "max-lines-per-function",
+      "max-depth",
       "id-length",
-      "indent"
+      "no-mixed-operators",
+      "keyword-spacing",
+      "no-shadow"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -7317,19 +6146,15 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Not a multiple of 3 or 5",
-          "Edge case: 1",
-          "Edge case: 2"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -7339,18 +6164,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -7366,38 +6182,19 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -7406,11 +6203,12 @@
     "lintIssues": [
       "indent",
       "no-multi-spaces",
+      "max-lines-per-function",
       "keyword-spacing",
       "max-len",
-      "complexity",
-      "no-unused-vars",
-      "id-length"
+      "semi",
+      "id-length",
+      "no-unused-vars"
     ],
     "tests": [
       {
@@ -7443,33 +6241,21 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Not a multiple of 3 or 5",
-          "Edge case: 1",
-          "Edge case: 2"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -7479,18 +6265,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -7547,10 +6324,8 @@
       "no-unused-vars",
       "no-shadow",
       "semi",
-      "max-len",
-      "complexity",
-      "indent",
-      "id-length"
+      "max-lines-per-function",
+      "no-extra-parens"
     ],
     "tests": [
       {
@@ -7583,17 +6358,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -7603,7 +6370,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring in the middle"],
+        "failingTests": [
+          "Substring in the middle"
+        ],
         "total": 11,
         "failing": 1
       },
@@ -7615,18 +6384,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -7681,14 +6441,11 @@
     "internName": "sanikaP16",
     "lintIssues": [
       "no-unused-vars",
-      "max-len",
       "indent",
-      "space-infix-ops",
-      "complexity",
-      "semi",
+      "max-len",
+      "max-lines-per-function",
       "id-length",
-      "keyword-spacing",
-      "prefer-const",
+      "semi",
       "no-mixed-operators"
     ],
     "tests": [
@@ -7795,11 +6552,10 @@
         "failingTests": [
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 4
+        "failing": 3
       }
     ]
   },
@@ -7809,25 +6565,19 @@
       "no-unused-vars",
       "indent",
       "max-len",
-      "complexity",
-      "id-length"
+      "max-lines-per-function",
+      "id-length",
+      "semi-spacing",
+      "prefer-const"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -7849,15 +6599,20 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "Multiple of 3 and 5",
+          "Multiple of 3",
+          "Zero",
+          "Edge case: 3"
+        ],
         "total": 9,
-        "failing": 0
+        "failing": 4
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -7885,38 +6640,19 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -7924,30 +6660,24 @@
     "internName": "KrishnaDileepG",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-extra-parens",
       "prefer-const",
       "max-len",
-      "complexity",
-      "indent",
+      "max-lines-per-function",
       "semi",
-      "id-length"
+      "id-length",
+      "no-unused-expressions"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
           "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Case-sensitive ends with"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 2
       },
       {
         "name": "factorial_test.js",
@@ -7963,17 +6693,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -7983,9 +6705,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -7995,18 +6717,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -8024,17 +6737,13 @@
         "name": "substring_count_test.js",
         "failingTests": [
           "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
           "for string 'single occurence of substring'",
           "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
           "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
+          "for string 'count'"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 5
       },
       {
         "name": "temperature_test.js",
@@ -8061,12 +6770,12 @@
     "internName": "rohinipriyamvada",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "no-mixed-operators",
       "no-extra-parens",
+      "max-lines-per-function",
       "max-len",
-      "complexity",
-      "id-length",
-      "indent"
+      "id-length"
     ],
     "tests": [
       {
@@ -8114,7 +6823,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [
+          "Substring is empty string"
+        ],
         "total": 11,
         "failing": 1
       },
@@ -8126,18 +6837,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -8191,11 +6893,11 @@
   {
     "internName": "anushri23p",
     "lintIssues": [
+      "no-unused-vars",
       "indent",
       "no-multiple-empty-lines",
       "max-len",
-      "complexity",
-      "no-unused-vars",
+      "max-lines-per-function",
       "id-length"
     ],
     "tests": [
@@ -8250,11 +6952,10 @@
       {
         "name": "is_substring_test.js",
         "failingTests": [
-          "Substring in the middle",
-          "Substring is empty string"
+          "Substring in the middle"
         ],
         "total": 11,
-        "failing": 2
+        "failing": 1
       },
       {
         "name": "leap_year_test.js",
@@ -8329,8 +7030,9 @@
   {
     "internName": "sahajsinghal13",
     "lintIssues": [
-      "indent",
+      "no-extra-parens",
       "no-mixed-operators",
+      "indent",
       "prefer-const",
       "max-len",
       "no-unused-vars",
@@ -8382,36 +7084,26 @@
       {
         "name": "fizz_buzz_test.js",
         "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
           "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
           "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
+          "Edge case: 2"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 3
       },
       {
         "name": "is_substring_test.js",
         "failingTests": [
           "Basic substring",
-          "Substring not found",
           "Substring at beginning",
           "Substring at end",
           "Substring in the middle",
           "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
           "Substring is same as text",
-          "Case-insensitive substring",
           "Substring with special characters"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 7
       },
       {
         "name": "leap_year_test.js",
@@ -8442,9 +7134,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -8487,10 +7179,10 @@
     "internName": "AbhinavKaippa",
     "lintIssues": [
       "no-unused-vars",
-      "no-shadow",
       "indent",
+      "no-shadow",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
       "no-multi-spaces",
       "id-length"
     ],
@@ -8539,17 +7231,9 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -8634,10 +7318,12 @@
     "internName": "anonymousthinker",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "max-len",
-      "complexity",
+      "max-lines-per-function",
       "id-length",
-      "indent"
+      "prefer-const",
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -8682,9 +7368,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -8694,18 +7380,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -8738,21 +7415,13 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
           "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 4
       }
     ]
   },
@@ -8761,27 +7430,21 @@
     "lintIssues": [
       "indent",
       "no-shadow",
-      "keyword-spacing",
       "id-length",
-      "no-unused-vars",
-      "max-len"
+      "max-len",
+      "max-lines-per-function",
+      "prefer-const",
+      "eqeqeq",
+      "semi"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
         "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
+          "Empty substring"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 1
       },
       {
         "name": "factorial_test.js",
@@ -8791,67 +7454,27 @@
       },
       {
         "name": "find_index_test.js",
-        "failingTests": [
-          "Basic find",
-          "Character not found",
-          "Multiple occurrences",
-          "Empty string",
-          "Character at beginning",
-          "Character at end",
-          "Large string",
-          "Multiple occurrences with special characters",
-          "Character not found with special characters"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -8861,18 +7484,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -8882,57 +7496,25 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'this is a statement' from 0 to 3",
-          "should slice 'from middle till the end' from 5 to 23",
-          "should slice 'take middle part of me' from 5 to 15",
-          "should slice 'print me fully' from 0 to 13",
-          "should slice 'end is out of range' from 14 to 100",
-          "should slice 'start is out of range' from 50 to 100",
-          "should slice '' from 1 to 2",
-          "should slice 'start and end are same' from 10 to 10",
-          "should slice 'start range greater than end range' from 100 to 10",
-          "should slice 'start range is negative index' from -2 to 10",
-          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
-          "should slice 'end is equal to length' from 3 to 22"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 12
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'",
-          "for string 'count'",
-          "for string ''"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -8940,11 +7522,11 @@
     "internName": "usujoy",
     "lintIssues": [
       "no-unused-vars",
-      "id-length",
+      "indent",
       "max-len",
       "no-extra-parens",
-      "complexity",
-      "indent"
+      "max-lines-per-function",
+      "id-length"
     ],
     "tests": [
       {
@@ -8989,7 +7571,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [
+          "Substring is empty string"
+        ],
         "total": 11,
         "failing": 1
       },
@@ -9013,7 +7597,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
         "failing": 1
       },
@@ -9058,10 +7644,10 @@
     "internName": "sameerabhanu",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
       "no-shadow",
+      "max-lines-per-function",
       "max-len",
-      "complexity",
+      "indent",
       "id-length"
     ],
     "tests": [
@@ -9096,16 +7682,11 @@
       {
         "name": "first_prime_above_test.js",
         "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
           "next prime after 113 should be 127",
           "next prime after 4943 should be 4951"
         ],
         "total": 7,
-        "failing": 7
+        "failing": 2
       },
       {
         "name": "fizz_buzz_test.js",
@@ -9115,7 +7696,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring in the middle"],
+        "failingTests": [
+          "Substring in the middle"
+        ],
         "total": 11,
         "failing": 1
       },
@@ -9193,29 +7776,17 @@
     "internName": "Meghashyam12",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
-      "complexity",
+      "max-lines-per-function",
       "max-len",
-      "semi",
       "id-length",
       "no-shadow"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Empty substring",
-          "Empty text",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -9243,9 +7814,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -9273,7 +7844,10 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": ["for string 'count'", "for string ''"],
+        "failingTests": [
+          "for string 'count'",
+          "for string ''"
+        ],
         "total": 9,
         "failing": 2
       },
@@ -9293,12 +7867,11 @@
     "internName": "Aman-bhart",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
       "no-mixed-operators",
-      "max-len",
-      "complexity",
       "no-extra-parens",
-      "max-depth",
+      "max-len",
+      "max-lines-per-function",
+      "semi",
       "id-length"
     ],
     "tests": [
@@ -9332,25 +7905,18 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": ["next prime after 113 should be 127"],
+        "failingTests": [
+          "next prime after 2 should be 3",
+          "next prime after 113 should be 127"
+        ],
         "total": 7,
-        "failing": 1
+        "failing": 2
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -9366,18 +7932,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -9431,10 +7988,11 @@
   {
     "internName": "Bhanuteja74",
     "lintIssues": [
+      "no-multiple-empty-lines",
+      "max-len",
       "no-unused-vars",
       "indent",
-      "keyword-spacing",
-      "max-len",
+      "max-lines-per-function",
       "semi",
       "id-length"
     ],
@@ -9567,11 +8125,12 @@
     "internName": "atulrwt23",
     "lintIssues": [
       "no-unused-vars",
+      "indent",
       "max-len",
-      "complexity",
-      "prefer-const",
-      "id-length",
-      "indent"
+      "comma-spacing",
+      "max-lines-per-function",
+      "semi",
+      "id-length"
     ],
     "tests": [
       {
@@ -9598,27 +8157,15 @@
       },
       {
         "name": "find_index_test.js",
-        "failingTests": [
-          "Character not found",
-          "Empty string",
-          "Character not found with special characters"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -9628,9 +8175,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": ["Substring is empty string"],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -9640,18 +8187,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -9705,11 +8243,15 @@
   {
     "internName": "sireeshaudamala",
     "lintIssues": [
-      "indent",
       "no-multiple-empty-lines",
       "prefer-const",
       "comma-spacing",
+      "max-lines-per-function",
       "max-len",
+      "indent",
+      "keyword-spacing",
+      "semi",
+      "space-infix-ops",
       "no-unused-vars",
       "id-length"
     ],
@@ -9759,36 +8301,18 @@
       {
         "name": "fizz_buzz_test.js",
         "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
           "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
           "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
+          "Edge case: 2"
         ],
         "total": 9,
-        "failing": 9
+        "failing": 3
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -9864,10 +8388,12 @@
     "internName": "meenugamadhavi",
     "lintIssues": [
       "no-unused-vars",
-      "no-shadow",
-      "no-mixed-operators",
       "indent",
+      "no-mixed-operators",
+      "no-extra-parens",
       "max-len",
+      "max-lines-per-function",
+      "semi",
       "id-length"
     ],
     "tests": [
@@ -9889,14 +8415,9 @@
       },
       {
         "name": "factorial_test.js",
-        "failingTests": [
-          "factorial of 0 should be 1",
-          "factorial of 1 should be 1",
-          "factorial of 5 should be 120",
-          "factorial of 10 should be 3628800"
-        ],
+        "failingTests": [],
         "total": 4,
-        "failing": 4
+        "failing": 0
       },
       {
         "name": "find_index_test.js",
@@ -9906,51 +8427,23 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
         "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
+          "Substring in the middle"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 1
       },
       {
         "name": "leap_year_test.js",
@@ -9960,18 +8453,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -9981,9 +8465,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": ["should slice 'end is equal to length' from 3 to 22"],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -10025,12 +8509,11 @@
   {
     "internName": "Shubhabrata0811",
     "lintIssues": [
+      "indent",
       "max-len",
       "space-infix-ops",
       "no-unused-vars",
-      "indent",
       "brace-style",
-      "complexity",
       "prefer-const",
       "keyword-spacing",
       "id-length"
@@ -10067,32 +8550,18 @@
       {
         "name": "first_prime_above_test.js",
         "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
           "next prime after 13 should be 17",
           "next prime after 113 should be 127",
           "next prime after 4943 should be 4951"
         ],
         "total": 7,
-        "failing": 7
+        "failing": 3
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
@@ -10174,10 +8643,10 @@
     "internName": "deepanshutiwari16",
     "lintIssues": [
       "no-unused-vars",
-      "no-shadow",
+      "indent",
       "no-extra-parens",
       "max-len",
-      "indent",
+      "max-lines-per-function",
       "id-length"
     ],
     "tests": [
@@ -10225,37 +8694,15 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [
-          "Multiple of 3 and 5",
-          "Multiple of 3",
-          "Multiple of 5",
-          "Not a multiple of 3 or 5",
-          "Zero",
-          "Large number",
-          "Edge case: 1",
-          "Edge case: 2",
-          "Edge case: 3"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -10330,14 +8777,12 @@
   {
     "internName": "devdattadhage",
     "lintIssues": [
-      "no-unused-vars",
-      "no-extra-parens",
-      "no-mixed-operators",
       "indent",
+      "no-unused-vars",
+      "no-mixed-operators",
       "max-len",
-      "complexity",
-      "id-length",
-      "semi"
+      "max-lines-per-function",
+      "id-length"
     ],
     "tests": [
       {
