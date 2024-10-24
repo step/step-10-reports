@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Functions - Date Validation</title>
+    <base href="/step-10-reports/js-functions-2" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      const lintMessages = {
+        'id-length':
+          'Identifier/variable names must be long enough to be readable.',
+        'no-extra-parens': 'Avoid unnecessary parentheses.',
+        'max-len': 'Try not to write long lines exceeding 80 characters.',
+        eqeqeq: 'Use strict equality (===) instead of loose equality (==).',
+        'max-lines-per-function': 'Avoid writing long functions (max: 15)',
+        yoda: 'Avoid using literals on LHS of conditions/comparisons (e.g., `if (5 === x)`).',
+        'space-infix-ops': 'Add spaces around infix operators.',
+        'semi-spacing': 'Ensure proper spacing around semicolons.',
+        'keyword-spacing':
+          'Enforce consistent spacing before and after keywords like `if`, `for`, `while` etc.',
+        indent: 'Incorrect indentation: indent code with 4 spaces.',
+        'prefer-const': 'Use `const` for variables that are never reassigned.',
+        'no-mixed-operators':
+          'Avoid mixing different types of operators without parentheses.',
+        'no-multiple-empty-lines':
+          'Avoid multiple empty lines; allow only one.',
+        camelcase: 'Variable names should be in camelCase.',
+        'comma-spacing': 'Enforce consistent spacing before and after commas.',
+        'no-var': 'Use `let` or `const` instead of `var`.',
+        curly: 'Always use curly braces for control statements.',
+        'brace-style': 'Enforce consistent brace style for blocks.',
+        'no-eval': 'Avoid using `eval()`.',
+        'no-implicit-globals':
+          'Avoid creating global variables unintentionally.',
+        'no-process-exit':
+          'Avoid using `process.exit()` to terminate the process.',
+        'no-process-env':
+          'Avoid using `process.env` to access environment variables directly.',
+        'max-depth': 'Limit the depth of nested blocks to a maximum of 3.',
+        complexity: 'Limit the complexity of functions to a maximum of 4.',
+        'no-lone-blocks': 'Avoid unnecessary blocks.',
+        'no-shadow':
+          'Avoid variable declarations that shadow outer scope variables.',
+        'no-unused-expressions': 'Avoid unused expressions in your code.',
+        'one-var-declaration-per-line':
+          'Limit variable declarations to one per line.',
+        'no-undefined': 'Avoid using `undefined` literals.',
+        'no-lonely-if':
+          'Avoid `if` statements that are the only statement in a block.',
+        'no-unused-vars':
+          'Warn about variables that are declared but not used.',
+        'no-nested-ternary': 'Avoid using nested ternary operators.',
+        'no-multi-spaces': 'Avoid multiple spaces in your code.',
+        semi: 'Always end statements with semi-colons',
+      };
+
+      const fetchWithBase = (url) => {
+        return fetch(`${document.baseURI}${url}`, { cache: 'no-cache' });
+      };
+
+      const generateTestRow = (test) => {
+        const { failing, total, name } = test;
+        const passing = total - failing;
+
+        return `<tr>
+                  <td class="border border-gray-300 px-4 py-2">${name}</td>
+                  <td class="border border-gray-300 px-4 py-2 text-right">${passing}</td>
+                  <td class="border border-gray-300 px-4 py-2 text-right">${failing}</td>
+                </tr>`;
+      };
+
+      const generateTestReportHTML = (report) => {
+        const tests = report.tests;
+        const error = report.testError;
+
+        return `<h3 class="text-xl font-semibold mb-2">Test Results</h3>
+                ${error ? `<p>${error}</p>` : ''}
+                <table class="min-w-full border border-gray-300">
+                  <thead class="bg-gray-200">
+                    <tr>
+                      <th class="border border-gray-300 px-4 py-2">Assignment</th>
+                      <th class="border border-gray-300 px-4 py-2 text-right">
+                        Passing
+                      </th>
+                      <th class="border border-gray-300 px-4 py-2 text-right">
+                        Failing
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${tests.map(generateTestRow).join('\n')}
+                  </tbody>
+                </table>`;
+      };
+
+      const showResults = async () => {
+        const response = await fetchWithBase('/summary.json');
+        const reports = await response.json();
+
+        reports.forEach((report) => {
+          const internCard = document.createElement('div');
+          internCard.className = 'bg-white rounded-lg shadow-md p-6';
+          const reportsContainer = document.getElementById('reports-container');
+
+          internCard.innerHTML = `
+                <h2 class="text-2xl font-semibold mb-4">${
+                  report.internName
+                }</h2>
+                <h3 class="text-xl font-semibold mb-2">Code Hygiene</h3>
+                <ul class="list-disc list-inside mb-4">
+                    ${report.lintIssues
+                      .map((issue) => `<li>${lintMessages[issue]}</li>`)
+                      .join('')}
+                </ul>
+
+                ${generateTestReportHTML(report)}
+            `;
+
+          reportsContainer.appendChild(internCard);
+        });
+      };
+
+      window.onload = showResults;
+    </script>
+  </head>
+  <body class="bg-gray-100 font-sans">
+    <div class="container mx-auto px-4 py-8">
+      <div class="flex space-x-8 items-baseline">
+        <h1 class="text-3xl font-bold text-center mb-6">
+          JS Functions - Date Validation
+        </h1>
+        <p class="text-sm">
+          <!-- Change the below LAST_UPDATED_TIME before pushing -->
+          Last Updated:
+          <span id="last_updated">Wed 23 Oct 2024 10:45:01 IST</span>
+        </p>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-6"
+        id="reports-container"
+      ></div>
+    </div>
+  </body>
+</html>
