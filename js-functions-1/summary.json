@@ -2,10 +2,9 @@
   {
     "internName": "garimiddisuman",
     "lintIssues": [
-      "no-shadow",
+      "keyword-spacing",
       "max-lines-per-function",
-      "no-mixed-operators",
-      "semi"
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -76,11 +75,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "Non-numeric value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -88,8 +85,8 @@
     "internName": "PalPriyankush",
     "lintIssues": [
       "no-unused-vars",
-      "indent",
       "prefer-const",
+      "indent",
       "no-extra-parens",
       "no-multiple-empty-lines",
       "max-lines-per-function",
@@ -179,10 +176,8 @@
       "no-unused-vars",
       "id-length",
       "no-extra-parens",
-      "prefer-const",
-      "indent",
-      "max-lines-per-function",
-      "space-infix-ops"
+      "no-multiple-empty-lines",
+      "semi"
     ],
     "tests": [
       {
@@ -254,12 +249,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Invalid from unit",
-          "Invalid to unit",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 3
+        "failing": 1
       }
     ]
   },
@@ -273,8 +266,7 @@
       "id-length",
       "no-shadow",
       "keyword-spacing",
-      "prefer-const",
-      "no-multi-spaces"
+      "prefer-const"
     ],
     "tests": [
       {
@@ -345,12 +337,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -441,14 +430,15 @@
   {
     "internName": "fadedblack",
     "lintIssues": [
-      "max-len",
-      "no-shadow",
-      "max-lines-per-function",
       "semi",
-      "no-mixed-operators",
+      "no-shadow",
+      "prefer-const",
       "no-unused-vars",
+      "max-lines-per-function",
+      "max-len",
+      "no-mixed-operators",
       "no-multiple-empty-lines",
-      "prefer-const"
+      "comma-spacing"
     ],
     "tests": [
       {
@@ -501,9 +491,18 @@
       },
       {
         "name": "string_replace_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "Basic replacement",
+          "Multiple replacements",
+          "No matches",
+          "Empty string",
+          "Match character is replacement character",
+          "Match character is empty string",
+          "Replacement character is empty string",
+          "Large string"
+        ],
         "total": 8,
-        "failing": 0
+        "failing": 8
       },
       {
         "name": "string_slice_test.js",
@@ -535,10 +534,12 @@
       "no-multiple-empty-lines",
       "no-multi-spaces",
       "max-lines-per-function",
-      "prefer-const",
-      "id-length",
+      "brace-style",
       "semi",
-      "max-len"
+      "prefer-const",
+      "max-len",
+      "id-length",
+      "comma-spacing"
     ],
     "tests": [
       {
@@ -574,20 +575,10 @@
       {
         "name": "is_substring_test.js",
         "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
+          "Substring in the middle"
         ],
         "total": 11,
-        "failing": 11
+        "failing": 1
       },
       {
         "name": "leap_year_test.js",
@@ -615,17 +606,9 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -649,7 +632,9 @@
       "max-len",
       "no-multi-spaces",
       "prefer-const",
-      "semi"
+      "semi",
+      "max-lines-per-function",
+      "space-infix-ops"
     ],
     "tests": [
       {
@@ -704,18 +689,9 @@
       },
       {
         "name": "nth_fibonacci_test.js",
-        "failingTests": [
-          "1th fibonacci term should be 0",
-          "2th fibonacci term should be 1",
-          "3th fibonacci term should be 1",
-          "4th fibonacci term should be 2",
-          "5th fibonacci term should be 3",
-          "6th fibonacci term should be 5",
-          "11th fibonacci term should be 55",
-          "31th fibonacci term should be 832040"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_replace_test.js",
@@ -746,21 +722,12 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
           "Invalid from unit",
           "Invalid to unit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 12
+        "failing": 3
       }
     ]
   },
@@ -771,10 +738,8 @@
       "indent",
       "eqeqeq",
       "semi-spacing",
-      "max-lines-per-function",
-      "no-shadow",
-      "space-infix-ops",
       "no-mixed-operators",
+      "max-lines-per-function",
       "prefer-const",
       "max-len",
       "no-multi-spaces"
@@ -856,28 +821,27 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "Invalid from unit",
-          "Invalid to unit",
-          "Non-numeric value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 3
+        "failing": 0
       }
     ]
   },
   {
     "internName": "snehakarada",
     "lintIssues": [
-      "no-unused-vars",
+      "comma-spacing",
       "max-len",
       "semi",
+      "indent",
       "brace-style",
-      "comma-spacing",
+      "space-infix-ops",
+      "no-unused-vars",
+      "no-multi-spaces",
+      "curly",
       "prefer-const",
       "no-extra-parens",
       "max-lines-per-function",
-      "no-multi-spaces",
       "no-mixed-operators",
       "keyword-spacing"
     ],
@@ -1053,14 +1017,12 @@
     "lintIssues": [
       "max-len",
       "no-extra-parens",
-      "no-multiple-empty-lines",
-      "space-infix-ops",
       "comma-spacing",
+      "space-infix-ops",
       "no-multi-spaces",
-      "no-unused-vars",
+      "no-multiple-empty-lines",
       "no-mixed-operators",
-      "keyword-spacing",
-      "semi"
+      "keyword-spacing"
     ],
     "tests": [
       {
@@ -1083,17 +1045,9 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [
-          "next prime after 0 should be 2",
-          "next prime after 1 should be 2",
-          "next prime after 2 should be 3",
-          "next prime after 10 should be 11",
-          "next prime after 13 should be 17",
-          "next prime after 113 should be 127",
-          "next prime after 4943 should be 4951"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "fizz_buzz_test.js",
@@ -1153,8 +1107,9 @@
   {
     "internName": "favas-kp",
     "lintIssues": [
+      "no-mixed-operators",
       "no-extra-parens",
-      "no-mixed-operators"
+      "max-len"
     ],
     "tests": [
       {
@@ -1239,7 +1194,8 @@
       "max-len",
       "no-unused-vars",
       "indent",
-      "max-lines-per-function"
+      "max-lines-per-function",
+      "comma-spacing"
     ],
     "tests": [
       {
@@ -1333,7 +1289,6 @@
     "internName": "HimaSaiCharan",
     "lintIssues": [
       "no-unused-vars",
-      "id-length",
       "max-lines-per-function",
       "no-mixed-operators",
       "no-multiple-empty-lines"
@@ -1586,11 +1541,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Invalid from unit",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 2
+        "failing": 1
       }
     ]
   },
@@ -1670,21 +1624,21 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "Non-numeric value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
   {
     "internName": "divyaramsaran",
     "lintIssues": [
-      "no-unused-vars",
-      "max-lines-per-function",
       "prefer-const",
+      "no-unused-vars",
+      "no-multiple-empty-lines",
+      "max-lines-per-function",
       "no-unused-expressions",
+      "no-multi-spaces",
       "no-mixed-operators",
       "max-len"
     ],
@@ -1845,10 +1799,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Non-numeric value"
+          "Invalid from unit",
+          "Invalid to unit"
         ],
         "total": 12,
-        "failing": 1
+        "failing": 2
       }
     ]
   },
@@ -1939,9 +1894,10 @@
   {
     "internName": "Mr-Vineet",
     "lintIssues": [
-      "semi",
-      "max-lines-per-function",
+      "max-len",
       "no-unused-vars",
+      "no-multi-spaces",
+      "max-lines-per-function",
       "no-extra-parens",
       "no-mixed-operators"
     ],
@@ -2028,8 +1984,8 @@
       "no-unused-vars",
       "no-shadow",
       "max-len",
-      "prefer-const",
       "semi",
+      "prefer-const",
       "max-lines-per-function",
       "no-mixed-operators"
     ],
@@ -2054,9 +2010,17 @@
       },
       {
         "name": "first_prime_above_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "next prime after 0 should be 2",
+          "next prime after 1 should be 2",
+          "next prime after 2 should be 3",
+          "next prime after 10 should be 11",
+          "next prime after 13 should be 17",
+          "next prime after 113 should be 127",
+          "next prime after 4943 should be 4951"
+        ],
         "total": 7,
-        "failing": 0
+        "failing": 7
       },
       {
         "name": "fizz_buzz_test.js",
@@ -2303,36 +2267,28 @@
   {
     "internName": "siddhi-gargs",
     "lintIssues": [
-      "id-length",
       "comma-spacing",
+      "id-length",
       "no-shadow",
-      "space-infix-ops",
       "no-extra-parens",
       "semi",
-      "no-multiple-empty-lines",
+      "no-unused-vars",
       "max-len",
+      "no-multiple-empty-lines",
       "max-lines-per-function",
       "no-multi-spaces",
       "keyword-spacing",
       "prefer-const",
-      "no-unused-vars",
+      "space-infix-ops",
       "indent",
       "semi-spacing"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -2396,21 +2352,28 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should slice 'this is a statement' from 0 to 3",
+          "should slice 'from middle till the end' from 5 to 23",
+          "should slice 'take middle part of me' from 5 to 15",
+          "should slice 'print me fully' from 0 to 13",
+          "should slice 'end is out of range' from 14 to 100",
+          "should slice 'start is out of range' from 50 to 100",
+          "should slice '' from 1 to 2",
+          "should slice 'start and end are same' from 10 to 10",
+          "should slice 'start range greater than end range' from 100 to 10",
+          "should slice 'start range is negative index' from -2 to 10",
+          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
-        "failing": 0
+        "failing": 12
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -2431,6 +2394,7 @@
       "no-unused-vars",
       "id-length",
       "max-lines-per-function",
+      "semi",
       "prefer-const",
       "indent"
     ],
@@ -2467,21 +2431,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -2543,25 +2495,15 @@
       "max-len",
       "id-length",
       "curly",
-      "max-lines-per-function",
-      "indent",
       "prefer-const",
-      "space-infix-ops"
+      "max-lines-per-function"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -2621,27 +2563,17 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Invalid from unit",
-          "Invalid to unit",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 3
+        "failing": 1
       }
     ]
   },
@@ -2820,7 +2752,6 @@
     "internName": "sushanthj674",
     "lintIssues": [
       "no-unused-vars",
-      "semi",
       "max-lines-per-function"
     ],
     "tests": [
@@ -2892,11 +2823,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "Non-numeric value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -2909,7 +2838,7 @@
       "max-lines-per-function",
       "no-unused-vars",
       "max-len",
-      "prefer-const"
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -2997,11 +2926,12 @@
       "no-unused-vars",
       "id-length",
       "indent",
+      "no-extra-parens",
       "max-lines-per-function",
       "prefer-const",
       "space-infix-ops",
       "comma-spacing",
-      "no-extra-parens"
+      "no-multi-spaces"
     ],
     "tests": [
       {
@@ -3073,25 +3003,15 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'end is equal to length' from 3 to 22"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -3375,22 +3295,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'this is a statement' from 0 to 3",
-          "should slice 'from middle till the end' from 5 to 23",
-          "should slice 'take middle part of me' from 5 to 15",
-          "should slice 'print me fully' from 0 to 13",
-          "should slice 'end is out of range' from 14 to 100",
-          "should slice 'start is out of range' from 50 to 100",
-          "should slice '' from 1 to 2",
-          "should slice 'start and end are same' from 10 to 10",
-          "should slice 'start range greater than end range' from 100 to 10",
-          "should slice 'start range is negative index' from -2 to 10",
-          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
-          "should slice 'end is equal to length' from 3 to 22"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 12
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -3401,11 +3308,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Same units",
-          "Non-numeric value"
+          "Same units"
         ],
         "total": 12,
-        "failing": 2
+        "failing": 1
       }
     ]
   },
@@ -3413,8 +3319,9 @@
     "internName": "Akash-2006",
     "lintIssues": [
       "no-unused-vars",
+      "no-extra-parens",
       "prefer-const",
-      "no-extra-parens"
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -3485,12 +3392,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "Same units",
-          "Non-numeric value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -3704,17 +3608,9 @@
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -3780,11 +3676,10 @@
         "name": "temperature_test.js",
         "failingTests": [
           "Invalid to unit",
-          "Same units",
           "Non-numeric value"
         ],
         "total": 12,
-        "failing": 3
+        "failing": 2
       }
     ]
   },
@@ -3795,12 +3690,8 @@
       "no-unused-vars",
       "semi",
       "id-length",
-      "comma-spacing",
-      "space-infix-ops",
       "no-mixed-operators",
-      "semi-spacing",
-      "indent",
-      "no-multi-spaces"
+      "indent"
     ],
     "tests": [
       {
@@ -4084,13 +3975,9 @@
       },
       {
         "name": "find_index_test.js",
-        "failingTests": [
-          "Character not found",
-          "Empty string",
-          "Character not found with special characters"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 3
+        "failing": 0
       },
       {
         "name": "first_prime_above_test.js",
@@ -4168,11 +4055,11 @@
     "internName": "karthikeya9900",
     "lintIssues": [
       "indent",
-      "no-multiple-empty-lines",
-      "no-unused-vars",
       "no-extra-parens",
       "semi-spacing",
+      "no-unused-vars",
       "id-length",
+      "no-multiple-empty-lines",
       "max-lines-per-function",
       "prefer-const",
       "semi",
@@ -4265,7 +4152,8 @@
       "comma-spacing",
       "id-length",
       "max-lines-per-function",
-      "semi"
+      "semi",
+      "no-extra-parens"
     ],
     "tests": [],
     "testError": "Potential infinite loop or broken code!"
@@ -4363,8 +4251,7 @@
       "comma-spacing",
       "no-shadow",
       "max-lines-per-function",
-      "no-mixed-operators",
-      "no-undefined"
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -4633,14 +4520,13 @@
   {
     "internName": "rajasurendrag",
     "lintIssues": [
-      "no-mixed-operators",
       "no-unused-vars",
+      "no-mixed-operators",
       "id-length",
       "semi",
-      "no-multiple-empty-lines",
       "max-lines-per-function",
-      "prefer-const",
       "no-shadow",
+      "prefer-const",
       "max-len"
     ],
     "tests": [
@@ -4723,12 +4609,10 @@
   {
     "internName": "Maxsilver46",
     "lintIssues": [
-      "semi",
       "max-lines-per-function",
       "indent",
       "no-mixed-operators",
-      "no-multiple-empty-lines",
-      "prefer-const"
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -5054,9 +4938,19 @@
       },
       {
         "name": "fizz_buzz_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "Multiple of 3 and 5",
+          "Multiple of 3",
+          "Multiple of 5",
+          "Not a multiple of 3 or 5",
+          "Zero",
+          "Large number",
+          "Edge case: 1",
+          "Edge case: 2",
+          "Edge case: 3"
+        ],
         "total": 9,
-        "failing": 0
+        "failing": 9
       },
       {
         "name": "is_substring_test.js",
@@ -5193,17 +5087,12 @@
   {
     "internName": "sanikaP16",
     "lintIssues": [
-      "no-multiple-empty-lines",
-      "semi",
       "no-unused-vars",
-      "keyword-spacing",
-      "curly",
       "comma-spacing",
       "space-infix-ops",
-      "no-multi-spaces",
-      "semi-spacing",
       "indent",
       "max-lines-per-function",
+      "semi",
       "no-mixed-operators"
     ],
     "tests": [
@@ -5308,10 +5197,8 @@
   {
     "internName": "AnaghPaul",
     "lintIssues": [
-      "no-unused-vars",
       "max-lines-per-function",
-      "semi",
-      "comma-spacing"
+      "no-unused-vars"
     ],
     "tests": [
       {
@@ -5484,22 +5371,15 @@
       "prefer-const",
       "max-lines-per-function",
       "semi",
-      "no-mixed-operators"
+      "no-mixed-operators",
+      "no-shadow"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [
-          "Basic ends with",
-          "Does not end with",
-          "Substring longer than text",
-          "Case-sensitive ends with",
-          "Ends with special characters",
-          "Ends with multiple characters",
-          "Ends with single character"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "factorial_test.js",
@@ -5557,17 +5437,9 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -5815,8 +5687,7 @@
       "no-shadow",
       "max-lines-per-function",
       "indent",
-      "no-mixed-operators",
-      "semi"
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -6071,13 +5942,10 @@
   {
     "internName": "usujoy",
     "lintIssues": [
-      "id-length",
-      "max-len",
       "comma-spacing",
       "semi",
       "no-multi-spaces",
-      "no-mixed-operators",
-      "max-lines-per-function"
+      "no-extra-parens"
     ],
     "tests": [
       {
@@ -6247,8 +6115,7 @@
   {
     "internName": "Meghashyam12",
     "lintIssues": [
-      "max-lines-per-function",
-      "no-mixed-operators"
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -6328,13 +6195,10 @@
   {
     "internName": "Aman-bhart",
     "lintIssues": [
-      "no-multiple-empty-lines",
-      "no-shadow",
-      "no-mixed-operators",
       "id-length",
       "no-extra-parens",
-      "comma-spacing",
-      "no-unused-vars"
+      "no-unused-vars",
+      "comma-spacing"
     ],
     "tests": [
       {
@@ -6406,19 +6270,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero",
-          "Non-numeric value"
+          "Same units"
         ],
         "total": 12,
-        "failing": 10
+        "failing": 1
       }
     ]
   },
@@ -6518,7 +6373,6 @@
   {
     "internName": "atulrwt23",
     "lintIssues": [
-      "space-infix-ops",
       "no-unused-vars",
       "no-mixed-operators",
       "semi",
@@ -6609,6 +6463,8 @@
     "internName": "sireeshaudamala",
     "lintIssues": [
       "no-multiple-empty-lines",
+      "max-len",
+      "id-length",
       "max-lines-per-function",
       "prefer-const",
       "no-shadow",
@@ -6712,11 +6568,14 @@
   {
     "internName": "meenugamadhavi",
     "lintIssues": [
-      "no-unused-vars",
       "indent",
+      "space-infix-ops",
+      "no-multi-spaces",
+      "no-unused-vars",
       "no-multiple-empty-lines",
       "max-lines-per-function",
-      "no-multi-spaces"
+      "no-extra-parens",
+      "no-shadow"
     ],
     "tests": [
       {
@@ -6727,9 +6586,14 @@
       },
       {
         "name": "factorial_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "factorial of 0 should be 1",
+          "factorial of 1 should be 1",
+          "factorial of 5 should be 120",
+          "factorial of 10 should be 3628800"
+        ],
         "total": 4,
-        "failing": 0
+        "failing": 4
       },
       {
         "name": "find_index_test.js",
@@ -6781,25 +6645,25 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "Non-numeric value"
+          "Celsius to Kelvin",
+          "Celsius to Fahrenheit",
+          "Fahrenheit to Kelvin",
+          "Fahrenheit to Celsius for -40",
+          "Kelvin to Celsius",
+          "Kelvin to Fahrenheit",
+          "Same units",
+          "Negative temperature",
+          "Absolute zero"
         ],
         "total": 12,
-        "failing": 1
+        "failing": 9
       }
     ]
   },
@@ -6982,9 +6846,7 @@
   {
     "internName": "devdattadhage",
     "lintIssues": [
-      "no-unused-vars",
-      "max-len",
-      "prefer-const"
+      "no-unused-vars"
     ],
     "tests": [
       {
