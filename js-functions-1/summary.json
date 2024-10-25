@@ -83,13 +83,13 @@
   {
     "internName": "PalPriyankush",
     "lintIssues": [
-      "indent",
-      "no-extra-parens",
       "no-multiple-empty-lines",
+      "semi",
+      "no-extra-parens",
       "max-lines-per-function",
-      "no-unused-vars",
       "eqeqeq",
-      "no-undefined"
+      "no-undefined",
+      "no-unused-vars"
     ],
     "tests": [
       {
@@ -456,11 +456,11 @@
       "prefer-const",
       "no-multiple-empty-lines",
       "id-length",
+      "max-len",
       "no-unused-vars",
       "indent",
       "max-lines-per-function",
-      "semi",
-      "max-len"
+      "semi"
     ],
     "tests": [
       {
@@ -547,7 +547,6 @@
       "no-multi-spaces",
       "prefer-const",
       "semi",
-      "id-length",
       "keyword-spacing",
       "space-infix-ops"
     ],
@@ -629,9 +628,10 @@
   {
     "internName": "varrapavani",
     "lintIssues": [
+      "semi-spacing",
       "max-len",
-      "prefer-const",
       "no-mixed-operators",
+      "prefer-const",
       "no-multi-spaces"
     ],
     "tests": [
@@ -887,6 +887,7 @@
     "internName": "asmamulla786",
     "lintIssues": [
       "no-multi-spaces",
+      "keyword-spacing",
       "no-multiple-empty-lines",
       "no-mixed-operators"
     ],
@@ -1055,12 +1056,9 @@
     "lintIssues": [
       "no-shadow",
       "no-extra-parens",
-      "semi",
-      "indent",
-      "no-multiple-empty-lines",
+      "no-mixed-operators",
       "max-lines-per-function",
-      "comma-spacing",
-      "no-unused-vars"
+      "comma-spacing"
     ],
     "tests": [
       {
@@ -1099,21 +1097,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -1147,32 +1133,20 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "Celsius to Kelvin",
-          "Celsius to Fahrenheit",
-          "Fahrenheit to Kelvin",
-          "Fahrenheit to Celsius for -40",
-          "Kelvin to Celsius",
-          "Kelvin to Fahrenheit",
-          "Same units",
-          "Negative temperature",
-          "Absolute zero"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       }
     ]
   },
   {
     "internName": "HimaSaiCharan",
     "lintIssues": [
-      "indent",
       "space-infix-ops",
       "semi",
       "max-lines-per-function",
       "no-mixed-operators",
-      "no-multiple-empty-lines",
-      "no-unused-vars"
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -1254,11 +1228,12 @@
     "lintIssues": [
       "no-unused-vars",
       "id-length",
-      "no-multiple-empty-lines",
+      "no-mixed-operators",
       "prefer-const",
       "indent",
       "max-lines-per-function",
-      "no-mixed-operators"
+      "semi",
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -1426,9 +1401,8 @@
     "lintIssues": [
       "no-shadow",
       "no-multi-spaces",
-      "semi",
-      "max-lines-per-function",
-      "indent"
+      "indent",
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -1481,18 +1455,9 @@
       },
       {
         "name": "string_replace_test.js",
-        "failingTests": [
-          "Basic replacement",
-          "Multiple replacements",
-          "No matches",
-          "Empty string",
-          "Match character is replacement character",
-          "Match character is empty string",
-          "Replacement character is empty string",
-          "Large string"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_slice_test.js",
@@ -1523,8 +1488,7 @@
       "no-unused-expressions",
       "no-multiple-empty-lines",
       "no-multi-spaces",
-      "no-mixed-operators",
-      "max-len"
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -1777,11 +1741,10 @@
     "internName": "Mr-Vineet",
     "lintIssues": [
       "id-length",
-      "max-len",
-      "no-multi-spaces",
       "max-lines-per-function",
       "no-unused-vars",
-      "no-mixed-operators"
+      "no-mixed-operators",
+      "max-len"
     ],
     "tests": [
       {
@@ -1865,6 +1828,7 @@
       "comma-spacing",
       "no-multiple-empty-lines",
       "no-unused-vars",
+      "semi-spacing",
       "max-lines-per-function"
     ],
     "tests": [
@@ -1946,8 +1910,8 @@
     "internName": "Karnankita04",
     "lintIssues": [
       "indent",
-      "comma-spacing",
       "no-multiple-empty-lines",
+      "comma-spacing",
       "space-infix-ops",
       "max-lines-per-function",
       "keyword-spacing",
@@ -2119,11 +2083,11 @@
   {
     "internName": "siddhi-gargs",
     "lintIssues": [
-      "comma-spacing",
-      "id-length",
       "no-shadow",
+      "id-length",
       "no-multi-spaces",
       "max-len",
+      "comma-spacing",
       "no-multiple-empty-lines",
       "no-extra-parens",
       "semi-spacing",
@@ -2195,17 +2159,9 @@
       },
       {
         "name": "substring_count_test.js",
-        "failingTests": [
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'This is a rising issue in istanbul'",
-          "for string 'single occurence of substring'",
-          "for string 'I don't have expected substring'",
-          "for string 'hahahaha'",
-          "for string 'I contain case sensitive subString'",
-          "for string 'I don't have case sensitive substring'"
-        ],
+        "failingTests": [],
         "total": 7,
-        "failing": 7
+        "failing": 0
       },
       {
         "name": "temperature_test.js",
@@ -2574,8 +2530,7 @@
   {
     "internName": "sushanthj674",
     "lintIssues": [
-      "no-multiple-empty-lines",
-      "max-lines-per-function"
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -3017,8 +2972,6 @@
       "max-len",
       "semi",
       "max-lines-per-function",
-      "no-unused-vars",
-      "indent",
       "no-multiple-empty-lines",
       "no-extra-parens",
       "keyword-spacing"
@@ -3193,8 +3146,7 @@
       "max-lines-per-function",
       "no-multi-spaces",
       "no-multiple-empty-lines",
-      "semi",
-      "no-unused-vars"
+      "semi"
     ],
     "tests": [
       {
@@ -3274,18 +3226,16 @@
   {
     "internName": "malleswaribatta",
     "lintIssues": [
-      "semi",
       "indent",
       "no-multi-spaces",
-      "semi-spacing",
-      "comma-spacing",
-      "no-unused-vars",
+      "semi",
       "no-multiple-empty-lines",
       "no-shadow",
       "max-len",
       "prefer-const",
       "max-lines-per-function",
       "keyword-spacing",
+      "comma-spacing",
       "id-length"
     ],
     "tests": [
@@ -3367,7 +3317,7 @@
     "internName": "rajbhosale96",
     "lintIssues": [
       "max-lines-per-function",
-      "no-unused-vars",
+      "prefer-const",
       "no-mixed-operators",
       "semi"
     ],
@@ -3543,10 +3493,9 @@
       "no-unused-vars",
       "no-shadow",
       "no-multiple-empty-lines",
-      "indent",
-      "comma-spacing",
       "no-mixed-operators",
-      "max-lines-per-function"
+      "max-lines-per-function",
+      "comma-spacing"
     ],
     "tests": [
       {
@@ -3631,7 +3580,6 @@
       "max-len",
       "prefer-const",
       "max-lines-per-function",
-      "semi",
       "no-mixed-operators",
       "no-extra-parens"
     ],
@@ -3716,8 +3664,8 @@
       "comma-spacing",
       "no-unused-vars",
       "no-multiple-empty-lines",
-      "max-lines-per-function",
       "no-shadow",
+      "max-lines-per-function",
       "prefer-const",
       "no-mixed-operators"
     ],
@@ -3766,9 +3714,11 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "Substring is empty string"
+        ],
         "total": 11,
-        "failing": 0
+        "failing": 1
       },
       {
         "name": "leap_year_test.js",
@@ -3911,16 +3861,106 @@
       "comma-spacing",
       "id-length",
       "max-lines-per-function",
-      "semi"
+      "no-extra-parens"
     ],
-    "tests": [],
-    "testError": "Potential infinite loop or broken code!"
+    "tests": [
+      {
+        "name": "ends_with_test.js",
+        "failingTests": [
+          "Basic ends with",
+          "Does not end with",
+          "Substring longer than text",
+          "Case-sensitive ends with",
+          "Ends with special characters",
+          "Ends with multiple characters",
+          "Ends with single character"
+        ],
+        "total": 7,
+        "failing": 7
+      },
+      {
+        "name": "factorial_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "find_index_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "first_prime_above_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "fizz_buzz_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "is_substring_test.js",
+        "failingTests": [],
+        "total": 11,
+        "failing": 0
+      },
+      {
+        "name": "leap_year_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "nth_fibonacci_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_replace_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_slice_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      },
+      {
+        "name": "substring_count_test.js",
+        "failingTests": [
+          "for string 'This is a rising issue in istanbul'",
+          "for string 'This is a rising issue in istanbul'",
+          "for string 'single occurence of substring'",
+          "for string 'I don't have expected substring'",
+          "for string 'hahahaha'",
+          "for string 'I contain case sensitive subString'",
+          "for string 'I don't have case sensitive substring'"
+        ],
+        "total": 7,
+        "failing": 7
+      },
+      {
+        "name": "temperature_test.js",
+        "failingTests": [
+          "Celsius to Fahrenheit",
+          "Same units"
+        ],
+        "total": 9,
+        "failing": 2
+      }
+    ]
   },
   {
     "internName": "Dhanoj0810",
     "lintIssues": [
       "no-unused-vars",
-      "space-infix-ops",
       "max-lines-per-function",
       "no-mixed-operators"
     ],
@@ -4082,15 +4122,13 @@
   {
     "internName": "rwtneeraj",
     "lintIssues": [
-      "no-extra-parens",
       "no-unused-vars",
       "no-mixed-operators",
       "comma-spacing",
       "id-length",
       "prefer-const",
       "max-lines-per-function",
-      "no-multiple-empty-lines",
-      "semi",
+      "yoda",
       "indent"
     ],
     "tests": [
@@ -4260,9 +4298,7 @@
     "internName": "rajasurendrag",
     "lintIssues": [
       "no-mixed-operators",
-      "id-length",
-      "max-lines-per-function",
-      "prefer-const"
+      "id-length"
     ],
     "tests": [
       {
@@ -4680,7 +4716,6 @@
   {
     "internName": "Aman-shabbas",
     "lintIssues": [
-      "no-shadow",
       "no-multiple-empty-lines",
       "max-lines-per-function",
       "no-mixed-operators"
@@ -4764,13 +4799,11 @@
     "internName": "sanikaP16",
     "lintIssues": [
       "no-unused-vars",
-      "space-infix-ops",
-      "comma-spacing",
-      "keyword-spacing",
       "max-lines-per-function",
       "indent",
       "semi",
-      "no-mixed-operators"
+      "no-mixed-operators",
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -4940,10 +4973,8 @@
     "lintIssues": [
       "no-shadow",
       "no-unused-vars",
-      "semi",
       "no-multiple-empty-lines",
       "no-mixed-operators",
-      "max-lines-per-function",
       "space-infix-ops"
     ],
     "tests": [
@@ -5111,9 +5142,10 @@
   {
     "internName": "anushri23p",
     "lintIssues": [
+      "no-multi-spaces",
       "prefer-const",
-      "no-multiple-empty-lines",
       "space-infix-ops",
+      "no-multiple-empty-lines",
       "keyword-spacing",
       "semi-spacing",
       "max-len",
@@ -5319,10 +5351,11 @@
     "lintIssues": [
       "prefer-const",
       "no-unused-vars",
-      "max-len",
       "semi",
       "max-lines-per-function",
       "indent",
+      "max-len",
+      "no-multi-spaces",
       "no-mixed-operators",
       "no-shadow"
     ],
@@ -5410,8 +5443,7 @@
       "indent",
       "prefer-const",
       "no-mixed-operators",
-      "no-multiple-empty-lines",
-      "max-len"
+      "no-shadow"
     ],
     "tests": [
       {
@@ -5493,10 +5525,7 @@
     "lintIssues": [
       "no-shadow",
       "no-unused-vars",
-      "no-multiple-empty-lines",
-      "max-lines-per-function",
-      "id-length",
-      "prefer-const"
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -5575,13 +5604,7 @@
   },
   {
     "internName": "usujoy",
-    "lintIssues": [
-      "no-multiple-empty-lines",
-      "no-multi-spaces",
-      "comma-spacing",
-      "semi",
-      "no-extra-parens"
-    ],
+    "lintIssues": [],
     "tests": [
       {
         "name": "ends_with_test.js",
@@ -5661,7 +5684,6 @@
     "internName": "sameerabhanu",
     "lintIssues": [
       "no-extra-parens",
-      "prefer-const",
       "no-mixed-operators",
       "max-lines-per-function"
     ],
@@ -5744,7 +5766,7 @@
     "internName": "Meghashyam12",
     "lintIssues": [
       "max-lines-per-function",
-      "curly"
+      "semi"
     ],
     "tests": [
       {
@@ -5912,8 +5934,7 @@
       "no-shadow",
       "no-multiple-empty-lines",
       "no-mixed-operators",
-      "max-lines-per-function",
-      "keyword-spacing"
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -6002,13 +6023,7 @@
   },
   {
     "internName": "atulrwt23",
-    "lintIssues": [
-      "semi-spacing",
-      "max-lines-per-function",
-      "no-multiple-empty-lines",
-      "indent",
-      "comma-spacing"
-    ],
+    "lintIssues": [],
     "tests": [
       {
         "name": "ends_with_test.js",
@@ -6174,15 +6189,15 @@
   {
     "internName": "meenugamadhavi",
     "lintIssues": [
+      "no-mixed-operators",
+      "no-unused-vars",
       "indent",
       "no-multiple-empty-lines",
-      "space-infix-ops",
-      "no-multi-spaces",
-      "comma-spacing",
-      "no-unused-vars",
       "max-lines-per-function",
       "no-extra-parens",
-      "no-shadow"
+      "no-shadow",
+      "space-infix-ops",
+      "no-multi-spaces"
     ],
     "tests": [
       {
