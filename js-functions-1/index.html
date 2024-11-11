@@ -104,6 +104,9 @@
           const reportsContainer = document.getElementById('reports-container');
 
           internCard.innerHTML = `
+          <h2 class="text-2xl font-semibold mb-4">${
+                 report.internName
+          }</h2>
                 ${generateTestReportHTML(report)}
             `;
 
