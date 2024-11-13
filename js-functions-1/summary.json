@@ -75,11 +75,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
+          "C to K with string number"
         ],
         "total": 12,
-        "failing": 2
+        "failing": 1
       }
     ]
   },
@@ -91,7 +90,6 @@
       "no-unused-vars",
       "max-len",
       "max-lines-per-function",
-      "id-length",
       "no-undefined"
     ],
     "tests": [
@@ -260,6 +258,7 @@
       "no-shadow",
       "no-unused-vars",
       "id-length",
+      "no-extra-parens",
       "no-multiple-empty-lines"
     ],
     "tests": [
@@ -332,7 +331,7 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "same valid units with invalid value"
+          "C to K with string number"
         ],
         "total": 12,
         "failing": 1
@@ -345,6 +344,9 @@
       "no-unused-vars",
       "no-mixed-operators",
       "id-length",
+      "prefer-const",
+      "no-shadow",
+      "no-extra-parens",
       "indent",
       "max-len"
     ],
@@ -417,11 +419,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -431,7 +431,6 @@
       "no-shadow",
       "no-mixed-operators",
       "id-length",
-      "no-multiple-empty-lines",
       "max-lines-per-function"
     ],
     "tests": [
@@ -503,11 +502,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same units, but invalid"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -592,12 +589,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -697,10 +691,83 @@
     "lintIssues": [
       "no-multiple-empty-lines",
       "max-len",
-      "id-length"
+      "id-length",
+      "max-lines-per-function"
     ],
-    "tests": [],
-    "testError": "Potential infinite loop or broken code!"
+    "tests": [
+      {
+        "name": "ends_with_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "factorial_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "find_index_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "first_prime_above_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "fizz_buzz_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "is_substring_test.js",
+        "failingTests": [],
+        "total": 11,
+        "failing": 0
+      },
+      {
+        "name": "leap_year_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "nth_fibonacci_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_replace_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_slice_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      },
+      {
+        "name": "substring_count_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "temperature_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      }
+    ]
   },
   {
     "internName": "snehakarada",
@@ -782,12 +849,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -798,14 +862,23 @@
       "no-multiple-empty-lines",
       "max-len",
       "id-length",
-      "no-mixed-operators"
+      "no-mixed-operators",
+      "space-infix-ops"
     ],
     "tests": [
       {
         "name": "ends_with_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "Basic ends with",
+          "Does not end with",
+          "Substring longer than text",
+          "Case-sensitive ends with",
+          "Ends with special characters",
+          "Ends with multiple characters",
+          "Ends with single character"
+        ],
         "total": 7,
-        "failing": 0
+        "failing": 7
       },
       {
         "name": "factorial_test.js",
@@ -887,7 +960,8 @@
       "id-length",
       "space-infix-ops",
       "no-mixed-operators",
-      "keyword-spacing"
+      "keyword-spacing",
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -959,11 +1033,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
+          "same units, but invalid"
         ],
         "total": 12,
-        "failing": 2
+        "failing": 1
       }
     ]
   },
@@ -1043,11 +1116,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -1057,7 +1128,8 @@
       "max-len",
       "indent",
       "id-length",
-      "semi"
+      "semi",
+      "no-mixed-operators"
     ],
     "tests": [
       {
@@ -1128,12 +1200,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -1211,12 +1280,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -1226,7 +1292,8 @@
       "id-length",
       "max-len",
       "no-multiple-empty-lines",
-      "no-mixed-operators"
+      "no-mixed-operators",
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -1467,10 +1534,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "Fahrenheit to Celsius for -40",
+          "Negative temperature"
         ],
         "total": 12,
-        "failing": 1
+        "failing": 2
       }
     ]
   },
@@ -1563,175 +1631,7 @@
   {
     "internName": "RamVanumu",
     "lintIssues": [
-      "keyword-spacing"
-    ],
-    "tests": [
-      {
-        "name": "ends_with_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "factorial_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "find_index_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "first_prime_above_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "fizz_buzz_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "is_substring_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
-      },
-      {
-        "name": "leap_year_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "nth_fibonacci_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_replace_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_slice_test.js",
-        "failingTests": [],
-        "total": 12,
-        "failing": 0
-      },
-      {
-        "name": "substring_count_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number"
-        ],
-        "total": 12,
-        "failing": 1
-      }
-    ]
-  },
-  {
-    "internName": "PragnaMarisa",
-    "lintIssues": [
-      "no-unused-vars"
-    ],
-    "tests": [
-      {
-        "name": "ends_with_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "factorial_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "find_index_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "first_prime_above_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "fizz_buzz_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "is_substring_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
-      },
-      {
-        "name": "leap_year_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "nth_fibonacci_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_replace_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_slice_test.js",
-        "failingTests": [],
-        "total": 12,
-        "failing": 0
-      },
-      {
-        "name": "substring_count_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
-        "total": 12,
-        "failing": 1
-      }
-    ]
-  },
-  {
-    "internName": "Mr-Vineet",
-    "lintIssues": [
-      "max-len",
-      "prefer-const",
       "keyword-spacing",
-      "id-length",
-      "space-infix-ops",
       "max-lines-per-function"
     ],
     "tests": [
@@ -1810,10 +1710,9 @@
     ]
   },
   {
-    "internName": "dindeswarijagana",
+    "internName": "PragnaMarisa",
     "lintIssues": [
-      "semi",
-      "no-multiple-empty-lines"
+      "no-unused-vars"
     ],
     "tests": [
       {
@@ -1884,11 +1783,182 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
+      }
+    ]
+  },
+  {
+    "internName": "Mr-Vineet",
+    "lintIssues": [
+      "max-len",
+      "no-multiple-empty-lines",
+      "prefer-const",
+      "keyword-spacing"
+    ],
+    "tests": [
+      {
+        "name": "ends_with_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "factorial_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "find_index_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "first_prime_above_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "fizz_buzz_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "is_substring_test.js",
+        "failingTests": [],
+        "total": 11,
+        "failing": 0
+      },
+      {
+        "name": "leap_year_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "nth_fibonacci_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_replace_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_slice_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      },
+      {
+        "name": "substring_count_test.js",
+        "failingTests": [
+          "for string 'This is a rising issue in istanbul'",
+          "for string 'This is a rising issue in istanbul'",
+          "for string 'single occurence of substring'",
+          "for string 'I don't have expected substring'",
+          "for string 'hahahaha'",
+          "for string 'I contain case sensitive subString'",
+          "for string 'I don't have case sensitive substring'"
+        ],
+        "total": 7,
+        "failing": 7
+      },
+      {
+        "name": "temperature_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      }
+    ]
+  },
+  {
+    "internName": "dindeswarijagana",
+    "lintIssues": [
+      "semi",
+      "no-multiple-empty-lines",
+      "max-lines-per-function"
+    ],
+    "tests": [
+      {
+        "name": "ends_with_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "factorial_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "find_index_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "first_prime_above_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "fizz_buzz_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "is_substring_test.js",
+        "failingTests": [],
+        "total": 11,
+        "failing": 0
+      },
+      {
+        "name": "leap_year_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "nth_fibonacci_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_replace_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_slice_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      },
+      {
+        "name": "substring_count_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "temperature_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
       }
     ]
   },
@@ -1973,12 +2043,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -2076,8 +2143,6 @@
       "semi",
       "comma-spacing",
       "no-multi-spaces",
-      "prefer-const",
-      "space-infix-ops",
       "max-lines-per-function"
     ],
     "tests": [
@@ -2151,11 +2216,10 @@
         "name": "temperature_test.js",
         "failingTests": [
           "same units, but invalid",
-          "C to K with string number",
-          "same valid units with invalid value"
+          "C to K with string number"
         ],
         "total": 12,
-        "failing": 3
+        "failing": 2
       }
     ]
   },
@@ -2225,9 +2289,22 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should slice 'this is a statement' from 0 to 3",
+          "should slice 'from middle till the end' from 5 to 23",
+          "should slice 'take middle part of me' from 5 to 15",
+          "should slice 'print me fully' from 0 to 13",
+          "should slice 'end is out of range' from 14 to 100",
+          "should slice 'start is out of range' from 50 to 100",
+          "should slice '' from 1 to 2",
+          "should slice 'start and end are same' from 10 to 10",
+          "should slice 'start range greater than end range' from 100 to 10",
+          "should slice 'start range is negative index' from -2 to 10",
+          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
-        "failing": 0
+        "failing": 12
       },
       {
         "name": "substring_count_test.js",
@@ -2324,18 +2401,15 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
   {
     "internName": "dinesh-kuniyal",
     "lintIssues": [
-      "no-mixed-operators",
       "max-lines-per-function",
       "no-unused-expressions",
       "semi"
@@ -2409,12 +2483,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -2503,7 +2574,11 @@
   },
   {
     "internName": "sushanthj674",
-    "lintIssues": [],
+    "lintIssues": [
+      "no-multi-spaces",
+      "max-lines-per-function",
+      "indent"
+    ],
     "tests": [
       {
         "name": "ends_with_test.js",
@@ -2573,11 +2648,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -2664,12 +2737,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -2682,10 +2752,8 @@
       "prefer-const",
       "space-infix-ops",
       "comma-spacing",
-      "no-unused-vars",
       "no-extra-parens",
-      "max-lines-per-function",
-      "semi"
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -2930,12 +2998,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -2962,19 +3027,9 @@
       },
       {
         "name": "find_index_test.js",
-        "failingTests": [
-          "Basic find",
-          "Character not found",
-          "Multiple occurrences",
-          "Empty string",
-          "Character at beginning",
-          "Character at end",
-          "Large string",
-          "Multiple occurrences with special characters",
-          "Character not found with special characters"
-        ],
+        "failingTests": [],
         "total": 9,
-        "failing": 9
+        "failing": 0
       },
       {
         "name": "first_prime_above_test.js",
@@ -3008,18 +3063,9 @@
       },
       {
         "name": "string_replace_test.js",
-        "failingTests": [
-          "Basic replacement",
-          "Multiple replacements",
-          "No matches",
-          "Empty string",
-          "Match character is replacement character",
-          "Match character is empty string",
-          "Replacement character is empty string",
-          "Large string"
-        ],
+        "failingTests": [],
         "total": 8,
-        "failing": 8
+        "failing": 0
       },
       {
         "name": "string_slice_test.js",
@@ -3047,6 +3093,7 @@
     "internName": "Akash-2006",
     "lintIssues": [
       "no-shadow",
+      "max-lines-per-function",
       "prefer-const"
     ],
     "tests": [
@@ -3118,22 +3165,18 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
   {
     "internName": "Mohammadsiddiqueps",
     "lintIssues": [
-      "no-mixed-operators",
       "prefer-const",
       "max-lines-per-function",
-      "semi",
+      "no-extra-parens",
       "eqeqeq"
     ],
     "tests": [
@@ -3206,11 +3249,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
+          "C to K with string number"
         ],
         "total": 12,
-        "failing": 2
+        "failing": 1
       }
     ]
   },
@@ -3219,6 +3261,7 @@
     "lintIssues": [
       "max-len",
       "id-length",
+      "no-mixed-operators",
       "max-lines-per-function"
     ],
     "tests": [
@@ -3373,12 +3416,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -3457,12 +3497,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -3543,11 +3580,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -3626,11 +3661,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -3638,13 +3671,105 @@
     "internName": "Adil8081",
     "lintIssues": [
       "no-multi-spaces",
-      "semi-spacing",
       "comma-spacing",
-      "semi",
-      "no-multiple-empty-lines",
       "max-len",
       "id-length",
       "prefer-const",
+      "max-lines-per-function",
+      "no-multiple-empty-lines"
+    ],
+    "tests": [
+      {
+        "name": "ends_with_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "factorial_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "find_index_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "first_prime_above_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "fizz_buzz_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "is_substring_test.js",
+        "failingTests": [],
+        "total": 11,
+        "failing": 0
+      },
+      {
+        "name": "leap_year_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "nth_fibonacci_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_replace_test.js",
+        "failingTests": [
+          "Basic replacement",
+          "Multiple replacements",
+          "No matches",
+          "Empty string",
+          "Match character is replacement character",
+          "Match character is empty string",
+          "Replacement character is empty string",
+          "Large string"
+        ],
+        "total": 8,
+        "failing": 8
+      },
+      {
+        "name": "string_slice_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      },
+      {
+        "name": "substring_count_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "temperature_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      }
+    ]
+  },
+  {
+    "internName": "karthikeya9900",
+    "lintIssues": [
+      "no-extra-parens",
+      "semi",
+      "no-multiple-empty-lines",
+      "no-unused-vars",
+      "no-mixed-operators",
       "max-lines-per-function"
     ],
     "tests": [
@@ -3717,99 +3842,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "same units, but invalid"
-        ],
-        "total": 12,
-        "failing": 1
-      }
-    ]
-  },
-  {
-    "internName": "karthikeya9900",
-    "lintIssues": [
-      "no-extra-parens",
-      "semi",
-      "no-multiple-empty-lines",
-      "no-unused-vars",
-      "no-mixed-operators",
-      "max-lines-per-function",
-      "space-infix-ops"
-    ],
-    "tests": [
-      {
-        "name": "ends_with_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "factorial_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "find_index_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "first_prime_above_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "fizz_buzz_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "is_substring_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
-      },
-      {
-        "name": "leap_year_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "nth_fibonacci_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_replace_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_slice_test.js",
-        "failingTests": [],
-        "total": 12,
-        "failing": 0
-      },
-      {
-        "name": "substring_count_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
           "same valid units with invalid value"
         ],
         "total": 12,
-        "failing": 2
+        "failing": 1
       }
     ]
   },
@@ -3823,10 +3859,107 @@
       "keyword-spacing",
       "indent",
       "id-length",
+      "no-unused-expressions",
+      "semi",
       "no-unused-vars",
+      "max-lines-per-function"
+    ],
+    "tests": [
+      {
+        "name": "ends_with_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "factorial_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "find_index_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "first_prime_above_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "fizz_buzz_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "is_substring_test.js",
+        "failingTests": [],
+        "total": 11,
+        "failing": 0
+      },
+      {
+        "name": "leap_year_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "nth_fibonacci_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_replace_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_slice_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      },
+      {
+        "name": "substring_count_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "temperature_test.js",
+        "failingTests": [
+          "Celsius to Kelvin",
+          "Celsius to Fahrenheit",
+          "Fahrenheit to Kelvin",
+          "Fahrenheit to Celsius for -40",
+          "Kelvin to Celsius",
+          "Kelvin to Fahrenheit",
+          "Same units",
+          "Negative temperature",
+          "Absolute zero",
+          "same units, but invalid",
+          "C to K with string number",
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 12
+      }
+    ]
+  },
+  {
+    "internName": "Dhanoj0810",
+    "lintIssues": [
+      "space-infix-ops",
       "max-lines-per-function",
-      "no-extra-parens",
-      "semi"
+      "no-mixed-operators",
+      "no-unused-vars",
+      "comma-spacing"
     ],
     "tests": [
       {
@@ -3902,90 +4035,6 @@
         ],
         "total": 12,
         "failing": 1
-      }
-    ]
-  },
-  {
-    "internName": "Dhanoj0810",
-    "lintIssues": [
-      "space-infix-ops",
-      "max-lines-per-function"
-    ],
-    "tests": [
-      {
-        "name": "ends_with_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "factorial_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "find_index_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "first_prime_above_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "fizz_buzz_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "is_substring_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
-      },
-      {
-        "name": "leap_year_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "nth_fibonacci_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_replace_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_slice_test.js",
-        "failingTests": [],
-        "total": 12,
-        "failing": 0
-      },
-      {
-        "name": "substring_count_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
-        "total": 12,
-        "failing": 2
       }
     ]
   },
@@ -4163,6 +4212,7 @@
       "space-infix-ops",
       "indent",
       "max-len",
+      "max-lines-per-function",
       "no-multiple-empty-lines"
     ],
     "tests": [
@@ -4235,10 +4285,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
         "total": 12,
-        "failing": 1
+        "failing": 2
       }
     ]
   },
@@ -4319,12 +4370,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -4416,7 +4464,9 @@
     "lintIssues": [
       "no-undefined",
       "no-unused-vars",
-      "no-mixed-operators"
+      "no-mixed-operators",
+      "max-lines-per-function",
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -4500,7 +4550,9 @@
       "no-multiple-empty-lines",
       "id-length",
       "no-mixed-operators",
+      "space-infix-ops",
       "prefer-const",
+      "no-shadow",
       "max-lines-per-function",
       "no-multi-spaces"
     ],
@@ -4573,11 +4625,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -4758,7 +4808,7 @@
       "no-multi-spaces",
       "id-length",
       "no-mixed-operators",
-      "no-unused-vars",
+      "max-lines-per-function",
       "keyword-spacing"
     ],
     "tests": [
@@ -4830,105 +4880,16 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same units, but invalid",
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 3
+        "failing": 0
       }
     ]
   },
   {
     "internName": "AnaghPaul",
-    "lintIssues": [],
-    "tests": [
-      {
-        "name": "ends_with_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "factorial_test.js",
-        "failingTests": [],
-        "total": 4,
-        "failing": 0
-      },
-      {
-        "name": "find_index_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "first_prime_above_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "fizz_buzz_test.js",
-        "failingTests": [],
-        "total": 9,
-        "failing": 0
-      },
-      {
-        "name": "is_substring_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
-      },
-      {
-        "name": "leap_year_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "nth_fibonacci_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_replace_test.js",
-        "failingTests": [],
-        "total": 8,
-        "failing": 0
-      },
-      {
-        "name": "string_slice_test.js",
-        "failingTests": [],
-        "total": 12,
-        "failing": 0
-      },
-      {
-        "name": "substring_count_test.js",
-        "failingTests": [],
-        "total": 7,
-        "failing": 0
-      },
-      {
-        "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
-        "total": 12,
-        "failing": 1
-      }
-    ]
-  },
-  {
-    "internName": "KrishnaDileepG",
     "lintIssues": [
-      "no-shadow",
-      "no-unused-vars",
-      "prefer-const",
-      "max-lines-per-function",
-      "max-len",
-      "no-mixed-operators"
+      "eqeqeq"
     ],
     "tests": [
       {
@@ -4999,11 +4960,95 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
+      }
+    ]
+  },
+  {
+    "internName": "KrishnaDileepG",
+    "lintIssues": [
+      "no-shadow",
+      "no-unused-vars",
+      "prefer-const",
+      "max-lines-per-function",
+      "max-len",
+      "no-mixed-operators",
+      "comma-spacing"
+    ],
+    "tests": [
+      {
+        "name": "ends_with_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "factorial_test.js",
+        "failingTests": [],
+        "total": 4,
+        "failing": 0
+      },
+      {
+        "name": "find_index_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "first_prime_above_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "fizz_buzz_test.js",
+        "failingTests": [],
+        "total": 9,
+        "failing": 0
+      },
+      {
+        "name": "is_substring_test.js",
+        "failingTests": [],
+        "total": 11,
+        "failing": 0
+      },
+      {
+        "name": "leap_year_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "nth_fibonacci_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_replace_test.js",
+        "failingTests": [],
+        "total": 8,
+        "failing": 0
+      },
+      {
+        "name": "string_slice_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
+      },
+      {
+        "name": "substring_count_test.js",
+        "failingTests": [],
+        "total": 7,
+        "failing": 0
+      },
+      {
+        "name": "temperature_test.js",
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
       }
     ]
   },
@@ -5082,11 +5127,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -5165,25 +5208,22 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
   {
     "internName": "sahajsinghal13",
     "lintIssues": [
-      "no-extra-parens",
       "no-multi-spaces",
-      "no-unused-vars",
       "no-mixed-operators",
+      "no-extra-parens",
+      "no-unused-vars",
       "max-len",
+      "indent",
       "max-lines-per-function",
-      "prefer-const",
       "id-length",
       "comma-spacing",
       "semi-spacing"
@@ -5221,15 +5261,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring is same as text",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 5
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -5251,22 +5285,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'this is a statement' from 0 to 3",
-          "should slice 'from middle till the end' from 5 to 23",
-          "should slice 'take middle part of me' from 5 to 15",
-          "should slice 'print me fully' from 0 to 13",
-          "should slice 'end is out of range' from 14 to 100",
-          "should slice 'start is out of range' from 50 to 100",
-          "should slice '' from 1 to 2",
-          "should slice 'start and end are same' from 10 to 10",
-          "should slice 'start range greater than end range' from 100 to 10",
-          "should slice 'start range is negative index' from -2 to 10",
-          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
-          "should slice 'end is equal to length' from 3 to 22"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 12
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -5443,11 +5464,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -5455,7 +5474,11 @@
     "internName": "CharankumarSarlani",
     "lintIssues": [
       "no-multiple-empty-lines",
-      "id-length"
+      "id-length",
+      "no-extra-parens",
+      "no-mixed-operators",
+      "no-unused-vars",
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -5527,11 +5550,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
+          "Same units"
         ],
         "total": 12,
-        "failing": 2
+        "failing": 1
       }
     ]
   },
@@ -5619,6 +5641,7 @@
     "internName": "sameerabhanu",
     "lintIssues": [
       "max-len",
+      "max-lines-per-function",
       "indent"
     ],
     "tests": [
@@ -5691,16 +5714,19 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "Fahrenheit to Celsius for -40",
+          "Negative temperature"
         ],
         "total": 12,
-        "failing": 1
+        "failing": 2
       }
     ]
   },
   {
     "internName": "Meghashyam12",
-    "lintIssues": [],
+    "lintIssues": [
+      "no-mixed-operators"
+    ],
     "tests": [
       {
         "name": "ends_with_test.js",
@@ -5770,11 +5796,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -5866,7 +5890,8 @@
     "internName": "Bhanuteja74",
     "lintIssues": [
       "semi",
-      "no-shadow"
+      "no-shadow",
+      "eqeqeq"
     ],
     "tests": [
       {
@@ -5937,18 +5962,17 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
   {
     "internName": "atulrwt23",
     "lintIssues": [
-      "semi"
+      "semi",
+      "no-multiple-empty-lines"
     ],
     "tests": [
       {
@@ -6019,11 +6043,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same units, but invalid"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   },
@@ -6031,8 +6053,8 @@
     "internName": "sireeshaudamala",
     "lintIssues": [
       "no-multiple-empty-lines",
-      "semi",
-      "max-lines-per-function"
+      "max-lines-per-function",
+      "semi"
     ],
     "tests": [
       {
@@ -6119,7 +6141,6 @@
       "no-multiple-empty-lines",
       "semi",
       "comma-spacing",
-      "no-unused-vars",
       "max-lines-per-function",
       "keyword-spacing",
       "id-length",
@@ -6184,22 +6205,9 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [
-          "should slice 'this is a statement' from 0 to 3",
-          "should slice 'from middle till the end' from 5 to 23",
-          "should slice 'take middle part of me' from 5 to 15",
-          "should slice 'print me fully' from 0 to 13",
-          "should slice 'end is out of range' from 14 to 100",
-          "should slice 'start is out of range' from 50 to 100",
-          "should slice '' from 1 to 2",
-          "should slice 'start and end are same' from 10 to 10",
-          "should slice 'start range greater than end range' from 100 to 10",
-          "should slice 'start range is negative index' from -2 to 10",
-          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
-          "should slice 'end is equal to length' from 3 to 22"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 12
+        "failing": 0
       },
       {
         "name": "substring_count_test.js",
@@ -6209,12 +6217,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -6222,7 +6227,6 @@
     "internName": "Shubhabrata0811",
     "lintIssues": [
       "curly",
-      "no-unused-vars",
       "max-len",
       "max-lines-per-function",
       "id-length",
@@ -6309,7 +6313,8 @@
     "lintIssues": [
       "semi-spacing",
       "semi",
-      "max-lines-per-function"
+      "max-lines-per-function",
+      "indent"
     ],
     "tests": [
       {
@@ -6380,12 +6385,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number",
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 2
+        "failing": 0
       }
     ]
   },
@@ -6461,11 +6463,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "same valid units with invalid value"
-        ],
+        "failingTests": [],
         "total": 12,
-        "failing": 1
+        "failing": 0
       }
     ]
   }
