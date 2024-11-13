@@ -75,10 +75,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -162,9 +163,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -243,10 +246,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -327,9 +331,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -411,9 +417,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -423,6 +431,7 @@
       "no-shadow",
       "no-mixed-operators",
       "id-length",
+      "no-multiple-empty-lines",
       "max-lines-per-function"
     ],
     "tests": [
@@ -497,7 +506,7 @@
         "failingTests": [
           "same units, but invalid"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -506,6 +515,9 @@
     "internName": "haripriyagullipalli",
     "lintIssues": [
       "prefer-const",
+      "brace-style",
+      "space-infix-ops",
+      "no-multi-spaces",
       "max-len",
       "no-multiple-empty-lines",
       "id-length",
@@ -581,10 +593,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -671,10 +684,11 @@
         "name": "temperature_test.js",
         "failingTests": [
           "same units, but invalid",
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 2
+        "total": 12,
+        "failing": 3
       }
     ]
   },
@@ -769,10 +783,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -857,7 +872,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -944,10 +959,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -1027,9 +1043,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -1111,17 +1129,17 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
   {
     "internName": "HimaSaiCharan",
     "lintIssues": [
-      "no-multiple-empty-lines",
       "max-lines-per-function"
     ],
     "tests": [
@@ -1194,10 +1212,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -1279,10 +1298,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -1364,10 +1384,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -1448,7 +1469,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -1531,10 +1552,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -1615,7 +1637,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -1694,20 +1716,22 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
   {
     "internName": "Mr-Vineet",
     "lintIssues": [
-      "space-infix-ops",
       "max-len",
       "prefer-const",
       "keyword-spacing",
       "id-length",
+      "space-infix-ops",
       "max-lines-per-function"
     ],
     "tests": [
@@ -1780,7 +1804,7 @@
       {
         "name": "temperature_test.js",
         "failingTests": [],
-        "total": 11,
+        "total": 12,
         "failing": 0
       }
     ]
@@ -1860,9 +1884,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -1875,7 +1901,6 @@
       "no-mixed-operators",
       "max-lines-per-function",
       "semi",
-      "prefer-const",
       "no-multi-spaces",
       "semi-spacing"
     ],
@@ -1949,10 +1974,10 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "same units, but invalid",
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 2
       }
     ]
@@ -2039,7 +2064,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -2126,10 +2151,11 @@
         "name": "temperature_test.js",
         "failingTests": [
           "same units, but invalid",
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 2
+        "total": 12,
+        "failing": 3
       }
     ]
   },
@@ -2140,8 +2166,7 @@
       "max-len",
       "no-multiple-empty-lines",
       "id-length",
-      "prefer-const",
-      "no-unused-vars"
+      "prefer-const"
     ],
     "tests": [
       {
@@ -2212,9 +2237,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -2300,7 +2327,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -2308,9 +2335,10 @@
   {
     "internName": "dinesh-kuniyal",
     "lintIssues": [
-      "max-len",
+      "no-mixed-operators",
       "max-lines-per-function",
-      "no-mixed-operators"
+      "no-unused-expressions",
+      "semi"
     ],
     "tests": [
       {
@@ -2382,10 +2410,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -2467,7 +2496,7 @@
       {
         "name": "temperature_test.js",
         "failingTests": [],
-        "total": 11,
+        "total": 12,
         "failing": 0
       }
     ]
@@ -2547,7 +2576,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -2636,10 +2665,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -2649,10 +2679,10 @@
       "indent",
       "max-len",
       "no-multi-spaces",
-      "no-unused-vars",
       "prefer-const",
       "space-infix-ops",
       "comma-spacing",
+      "no-unused-vars",
       "no-extra-parens",
       "max-lines-per-function",
       "semi"
@@ -2726,9 +2756,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -2813,10 +2845,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -2898,20 +2931,21 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
   {
     "internName": "kamisettysudheer",
     "lintIssues": [
-      "max-len",
       "no-multiple-empty-lines",
       "no-extra-parens",
-      "max-lines-per-function"
+      "max-lines-per-function",
+      "max-len"
     ],
     "tests": [
       {
@@ -3004,7 +3038,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -3085,10 +3119,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -3171,10 +3206,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -3255,16 +3291,19 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
   {
     "internName": "rajbhosale96",
-    "lintIssues": [],
+    "lintIssues": [
+      "keyword-spacing"
+    ],
     "tests": [
       {
         "name": "ends_with_test.js",
@@ -3298,11 +3337,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Substring is empty string"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 1
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -3337,10 +3374,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -3420,10 +3458,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -3504,9 +3543,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -3514,9 +3555,7 @@
     "internName": "vanamalajayanth",
     "lintIssues": [
       "max-len",
-      "max-lines-per-function",
-      "prefer-const",
-      "no-unused-vars"
+      "max-lines-per-function"
     ],
     "tests": [
       {
@@ -3590,7 +3629,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -3680,7 +3719,7 @@
         "failingTests": [
           "same units, but invalid"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -3693,7 +3732,8 @@
       "no-multiple-empty-lines",
       "no-unused-vars",
       "no-mixed-operators",
-      "max-lines-per-function"
+      "max-lines-per-function",
+      "space-infix-ops"
     ],
     "tests": [
       {
@@ -3765,10 +3805,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -3859,7 +3900,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -3940,10 +3981,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -4022,11 +4064,9 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [
-          "C to K with string number"
-        ],
-        "total": 11,
-        "failing": 1
+        "failingTests": [],
+        "total": 12,
+        "failing": 0
       }
     ]
   },
@@ -4108,9 +4148,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -4195,7 +4237,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -4278,10 +4320,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -4360,17 +4403,17 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
   {
     "internName": "hajramallika1176",
     "lintIssues": [
-      "max-len",
       "no-undefined",
       "no-unused-vars",
       "no-mixed-operators"
@@ -4445,7 +4488,7 @@
       {
         "name": "temperature_test.js",
         "failingTests": [],
-        "total": 11,
+        "total": 12,
         "failing": 0
       }
     ]
@@ -4530,9 +4573,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -4614,10 +4659,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -4697,9 +4743,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -4784,10 +4832,11 @@
         "name": "temperature_test.js",
         "failingTests": [
           "same units, but invalid",
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 2
+        "total": 12,
+        "failing": 3
       }
     ]
   },
@@ -4863,9 +4912,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -4948,9 +4999,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -5029,9 +5082,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -5111,10 +5166,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -5221,10 +5277,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -5307,7 +5364,7 @@
       {
         "name": "temperature_test.js",
         "failingTests": [],
-        "total": 11,
+        "total": 12,
         "failing": 0
       }
     ]
@@ -5315,7 +5372,6 @@
   {
     "internName": "anonymousthinker",
     "lintIssues": [
-      "max-len",
       "keyword-spacing"
     ],
     "tests": [
@@ -5387,9 +5443,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   },
@@ -5469,10 +5527,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -5551,7 +5610,7 @@
         "failingTests": [
           "same units, but invalid"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -5634,7 +5693,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -5714,7 +5773,7 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -5798,7 +5857,7 @@
       {
         "name": "temperature_test.js",
         "failingTests": [],
-        "total": 11,
+        "total": 12,
         "failing": 0
       }
     ]
@@ -5881,14 +5940,16 @@
         "failingTests": [
           "C to K with string number"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
   },
   {
     "internName": "atulrwt23",
-    "lintIssues": [],
+    "lintIssues": [
+      "semi"
+    ],
     "tests": [
       {
         "name": "ends_with_test.js",
@@ -5922,21 +5983,9 @@
       },
       {
         "name": "is_substring_test.js",
-        "failingTests": [
-          "Basic substring",
-          "Substring not found",
-          "Substring at beginning",
-          "Substring at end",
-          "Substring in the middle",
-          "Substring is empty string",
-          "Text is empty string",
-          "Substring is longer than text",
-          "Substring is same as text",
-          "Case-insensitive substring",
-          "Substring with special characters"
-        ],
+        "failingTests": [],
         "total": 11,
-        "failing": 11
+        "failing": 0
       },
       {
         "name": "leap_year_test.js",
@@ -5973,7 +6022,7 @@
         "failingTests": [
           "same units, but invalid"
         ],
-        "total": 11,
+        "total": 12,
         "failing": 1
       }
     ]
@@ -6055,10 +6104,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -6069,9 +6119,9 @@
       "no-multiple-empty-lines",
       "semi",
       "comma-spacing",
-      "no-extra-parens",
-      "keyword-spacing",
+      "no-unused-vars",
       "max-lines-per-function",
+      "keyword-spacing",
       "id-length",
       "indent",
       "no-shadow",
@@ -6134,9 +6184,22 @@
       },
       {
         "name": "string_slice_test.js",
-        "failingTests": [],
+        "failingTests": [
+          "should slice 'this is a statement' from 0 to 3",
+          "should slice 'from middle till the end' from 5 to 23",
+          "should slice 'take middle part of me' from 5 to 15",
+          "should slice 'print me fully' from 0 to 13",
+          "should slice 'end is out of range' from 14 to 100",
+          "should slice 'start is out of range' from 50 to 100",
+          "should slice '' from 1 to 2",
+          "should slice 'start and end are same' from 10 to 10",
+          "should slice 'start range greater than end range' from 100 to 10",
+          "should slice 'start range is negative index' from -2 to 10",
+          "should slice 'start range is negative index and end is greater than length' from -2 to 100",
+          "should slice 'end is equal to length' from 3 to 22"
+        ],
         "total": 12,
-        "failing": 0
+        "failing": 12
       },
       {
         "name": "substring_count_test.js",
@@ -6147,10 +6210,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -6235,7 +6299,7 @@
       {
         "name": "temperature_test.js",
         "failingTests": [],
-        "total": 11,
+        "total": 12,
         "failing": 0
       }
     ]
@@ -6244,7 +6308,6 @@
     "internName": "deepanshutiwari16",
     "lintIssues": [
       "semi-spacing",
-      "max-len",
       "semi",
       "max-lines-per-function"
     ],
@@ -6318,10 +6381,11 @@
       {
         "name": "temperature_test.js",
         "failingTests": [
-          "C to K with string number"
+          "C to K with string number",
+          "same valid units with invalid value"
         ],
-        "total": 11,
-        "failing": 1
+        "total": 12,
+        "failing": 2
       }
     ]
   },
@@ -6397,9 +6461,11 @@
       },
       {
         "name": "temperature_test.js",
-        "failingTests": [],
-        "total": 11,
-        "failing": 0
+        "failingTests": [
+          "same valid units with invalid value"
+        ],
+        "total": 12,
+        "failing": 1
       }
     ]
   }
